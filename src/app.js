@@ -70,7 +70,11 @@ try {
         if (config.kind === 'genealogy') article.append(genealogy(data, config));
         else if (config.kind === 'event-map') article.append(eventMap(data, config, content.eventId));
         else if (config.kind === 'object-dimensions') article.append(objectDimensions(data, config));
-        else if (config.kind === 'illustrated-sequence') article.append(illustratedSequence(data, config));
+        else if (config.kind === 'illustrated-sequence') {
+          const sequenceView = illustratedSequence(data, config);
+          article.append(sequenceView);
+          if (sequenceView.versionControls) article.append(sequenceView.versionControls);
+        }
         else throw new Error(`未知图表类型：${config.kind}`);
       }
       if (content.sections?.length) {

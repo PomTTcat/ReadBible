@@ -24,7 +24,7 @@
     ],
     "notes": [
       "第七日不在第1章，出处单独标为创2:1–3，不计作第2章已经处理完成。",
-      "配图来自约克大教堂东大窗的中世纪艺术系列。画面中的人物形象、姿态与细节属于艺术表达，不全部等同于经文直接描述。",
+      "配图可选择Sweet Publishing故事插画或约克大教堂彩绘玻璃。人物形象、姿态与细节属于艺术表达；图片不全部等同于经文直接描述。",
       "文字为本项目整理的内容摘要，不是整段经文转载；经文阅读入口统一使用Bible.com。"
     ],
     "sources": [
@@ -39,6 +39,10 @@
       {
         "title": "艺术系列背景 · York Minster",
         "url": "https://yorkminster.org/discover/behind-the-scenes/restoring-an-international-work-of-art/"
+      },
+      {
+        "title": "版本1 · Sweet Publishing / FreeBibleimages · 配图与许可",
+        "url": "https://www.freebibleimages.org/illustrations/creation/"
       }
     ],
     "processing": {

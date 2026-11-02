@@ -50,3 +50,12 @@ assert.deepEqual(creation.steps.map(s=>s.number),[1,2,3,4,5,6,7]);
 for(const step of creation.steps){assert.ok(assets.some(a=>a.id===step.assetId));assert.equal(step.reference.bookId,'genesis');assert.equal(step.reference.chapter,step.number===7?2:1);assert.ok(step.reference.verseStart<=step.reference.verseEnd);}
 assert.deepEqual(creation.steps[6].reference,{bookId:'genesis',chapter:2,verseStart:1,verseEnd:3});
 assert.ok(!chapters.some(c=>c.bookId==='genesis'&&c.number===2),'Context excerpt must not mark chapter 2 as processed');
+assert.equal(creation.defaultVariant,'sweet');
+assert.deepEqual(creation.variants.map(v=>v.id),['sweet','york']);
+for(const variant of creation.variants){
+  assert.deepEqual(Object.keys(variant.assetsByStep),creation.steps.map(step=>step.id));
+  for(const ids of Object.values(variant.assetsByStep)){
+    assert.ok(ids.length>0);
+    for(const id of ids)assert.ok(assets.some(asset=>asset.id===id));
+  }
+}

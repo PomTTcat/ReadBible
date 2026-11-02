@@ -73,3 +73,5 @@ tests/                      资料引用、谱系循环与地图状态一致性�
 创世记 6章使用器物尺寸图，数据保存在 `data/objects.json`，图像来源与许可在 `data/assets.json`。长宽高采用经文中的肘数；1690年版画作为独立艺术参考，来源见图片署名。
 
 创世记 1章新增七日配图，叙事数据在 `data/sequences.json`。第七日单独标明来自创2:1–3；七张图片的作者、来源及公共领域标记记录在 `data/assets.json`。
+
+创世七日支持双配图版本：默认Sweet Publishing，版本2为约克大教堂彩绘玻璃。切换按钮位于“本章结构”上方，版本对应关系在 `data/sequences.json`，原图与署名许可在 `data/assets.json`；Sweet Publishing原图保留CC BY-SA 3.0许可及来源信息。
