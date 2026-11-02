@@ -1,2 +1,2 @@
 # ReadBible
-easy to read bible.
+Easy to read bible.
