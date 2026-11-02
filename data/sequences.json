@@ -305,5 +305,133 @@
         ]
       }
     ]
+  },
+  {
+    "id": "eden-chapter-three",
+    "name": "对话、违命与离园",
+    "stepType": "scene",
+    "referenceLabel": "创 3:1–24",
+    "note": "沿经文顺序阅读六组场景。文字为内容摘要，插画为艺术表现；第14–19节另按说话对象整理。",
+    "steps": [
+      {
+        "id": "fall-dialogue",
+        "number": 1,
+        "title": "蛇与女人对话",
+        "summary": "蛇提出有关园中果子的问题，女人回应，蛇随后谈到死亡与知道善恶。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 3,
+          "verseStart": 1,
+          "verseEnd": 5
+        },
+        "referenceLabel": "创 3:1–5",
+        "assetIds": [
+          "sweet-fall-02"
+        ]
+      },
+      {
+        "id": "fall-fruit",
+        "number": 2,
+        "title": "吃果子与遮身",
+        "summary": "女人摘果子吃，也给丈夫吃。二人发现自己赤身露体，用无花果叶编成遮身之物。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 3,
+          "verseStart": 6,
+          "verseEnd": 7
+        },
+        "referenceLabel": "创 3:6–7",
+        "assetIds": [
+          "sweet-fall-05",
+          "sweet-fall-06"
+        ]
+      },
+      {
+        "id": "fall-questions",
+        "number": 3,
+        "title": "躲藏与询问",
+        "summary": "二人听见声音而躲藏。神询问那人所在及是否吃了果子；那人提到女人，女人提到蛇。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 3,
+          "verseStart": 8,
+          "verseEnd": 13
+        },
+        "referenceLabel": "创 3:8–13",
+        "assetIds": [
+          "sweet-fall-07",
+          "sweet-fall-08"
+        ],
+        "wide": true
+      },
+      {
+        "id": "fall-addresses",
+        "number": 4,
+        "title": "分别对三个对象说话",
+        "summary": "这段依次以蛇、女人、男人为说话对象。下方按对象整理经文主题，帮助辨认各段内容。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 3,
+          "verseStart": 14,
+          "verseEnd": 19
+        },
+        "referenceLabel": "创 3:14–19",
+        "assetIds": [
+          "sweet-fall-09",
+          "sweet-fall-10",
+          "sweet-fall-11"
+        ],
+        "wide": true,
+        "groups": [
+          {
+            "title": "对蛇",
+            "referenceLabel": "创 3:14–15",
+            "summary": "涉及受咒诅、用腹行走，以及蛇与女人、双方后裔之间的敌对和伤害。"
+          },
+          {
+            "title": "对女人",
+            "referenceLabel": "创 3:16",
+            "summary": "涉及怀胎与生产的苦楚，以及与丈夫的关系。"
+          },
+          {
+            "title": "对男人",
+            "referenceLabel": "创 3:17–19",
+            "summary": "涉及地受咒诅、劳苦得食、荆棘蒺藜，以及最终归回尘土。"
+          }
+        ]
+      },
+      {
+        "id": "fall-clothing",
+        "number": 5,
+        "title": "命名与皮衣",
+        "summary": "亚当给妻子起名叫夏娃。经文随后记载神用皮子做衣服给二人穿。配图是同时涉及皮衣与离园的综合场景，不能将两段经文当作同一瞬间。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 3,
+          "verseStart": 20,
+          "verseEnd": 21
+        },
+        "referenceLabel": "创 3:20–21",
+        "assetIds": [
+          "sweet-fall-12"
+        ]
+      },
+      {
+        "id": "fall-departure",
+        "number": 6,
+        "title": "离开伊甸园",
+        "summary": "二人被打发离开伊甸园，耕种土地。园的东边设有基路伯及转动发火焰的剑，把守通往生命树的道路。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 3,
+          "verseStart": 22,
+          "verseEnd": 24
+        },
+        "referenceLabel": "创 3:22–24",
+        "assetIds": [
+          "sweet-fall-12"
+        ]
+      }
+    ]
   }
 ]

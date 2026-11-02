@@ -116,5 +116,11 @@
     "kind": "illustrated-sequence",
     "title": "伊甸园 · 场景图解",
     "sequenceId": "eden-chapter-two"
+  },
+  {
+    "id": "eden-chapter-three",
+    "kind": "illustrated-sequence",
+    "title": "从园中对话到离园",
+    "sequenceId": "eden-chapter-three"
   }
 ]

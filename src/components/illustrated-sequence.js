@@ -25,8 +25,10 @@ export function illustratedSequence(data,config){
       const assetIds=variant?.assetsByStep[step.id]||step.assetIds||[step.assetId];
       const assets=assetIds.map(id=>data.assetsById.get(id));
       const card=el('article','creation-day');
+      if(step.wide)card.classList.add('wide-scene');
       const art=el('figure','creation-art');
       if(assets.length>1)art.classList.add('multiple-images');
+      if(assets.length>2)art.classList.add('three-images');
       for(const asset of assets){
         const image=el('img');image.src=new URL(`../../${asset.path}`,import.meta.url).href;image.alt=asset.alt;image.loading=step.number<3?'eager':'lazy';
         art.append(image);
@@ -37,6 +39,15 @@ export function illustratedSequence(data,config){
       const ref=step.reference;
       const href=`https://www.bible.com/bible/48/GEN.${ref.chapter}.${ref.verseStart}-${ref.verseEnd}`;
       info.append(day,el('h3','',sequence.stepType==='scene'?step.title:`第${step.number}日 · ${step.title}`),el('p','',step.summary),link(step.referenceLabel+' · 阅读经文 ↗',href,'text-link'));
+      if(step.groups?.length){
+        const groups=el('div','address-groups');
+        for(const group of step.groups){
+          const block=el('section','address-group');
+          block.append(el('h4','',group.title),el('span','muted small',group.referenceLabel),el('p','',group.summary));
+          groups.append(block);
+        }
+        info.append(groups);
+      }
       const asset=assets[0];
       const credit=el('div','creation-credit');
       credit.append(link(asset.sourceUrl.includes('freebibleimages.org')?'图片来源 · Sweet Publishing / FreeBibleimages':'图片来源 · Commons',asset.sourceUrl,'text-link'),el('span','muted small',asset.creator),link(asset.license,asset.licenseUrl,'text-link'));

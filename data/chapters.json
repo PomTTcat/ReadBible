@@ -100,6 +100,58 @@
   },
   {
     "bookId": "genesis",
+    "number": 3,
+    "title": "园中的对话、违命与离园",
+    "summary": "按经文顺序观察对话、吃果子、躲藏、分别说话、命名与皮衣，直到离开伊甸园。配图沿用Sweet Publishing。",
+    "personIds": [
+      "adam",
+      "eve"
+    ],
+    "figureIds": [
+      "eden-chapter-three"
+    ],
+    "sections": [
+      {
+        "title": "1–7节 · 对话与吃果子",
+        "text": "叙事先呈现蛇与女人的对话，随后记载女人和丈夫吃果子，以及用无花果叶遮身。"
+      },
+      {
+        "title": "8–13节 · 躲藏与问答",
+        "text": "经文以神与人的问答展开，依次提到那人、女人与蛇。"
+      },
+      {
+        "title": "14–19节 · 分别说话",
+        "text": "经文分别对蛇、女人、男人说话；图解按对象列出主题及其经文范围。"
+      },
+      {
+        "title": "20–24节 · 命名、皮衣与离园",
+        "text": "经文记载夏娃之名和皮衣，随后转向离开伊甸园及生命树道路被把守。"
+      }
+    ],
+    "notes": [
+      "经文没有指明果子的具体品种；插画中的果实形状不等于经文确认其为苹果。",
+      "本章按经文称其为蛇，不把其他经文或后世解释直接补入本章叙述。",
+      "皮衣与离园共用原图集最后一张综合场景，文字仍分别标注创3:20–21和3:22–24。基路伯、剑及人物外貌的具体画法属于艺术表现。",
+      "插画原图未裁切或修改，保留Jim Padgett / Sweet Publishing / FreeBibleimages.org署名、来源及CC BY-SA 3.0许可链接。"
+    ],
+    "sources": [
+      {
+        "title": "创世记 3章 · 新标点和合本（神版）· Bible.com",
+        "url": "https://www.bible.com/bible/48/GEN.3.CUNPSS-%E7%A5%9E"
+      },
+      {
+        "title": "Sweet Publishing / FreeBibleimages · 原图与许可",
+        "url": "https://www.freebibleimages.org/illustrations/adam-eve-fall/"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-02",
+      "review": "经文范围、配图对应及许可已初核；待内容审核"
+    }
+  },
+  {
+    "bookId": "genesis",
     "number": 4,
     "title": "两条家族线索",
     "summary": "从该隐、亚伯到塞特，沿人物关系阅读本章。图中保留经文引用，并将拉麦的两个家庭分支分开显示。",

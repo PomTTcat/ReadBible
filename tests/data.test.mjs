@@ -63,3 +63,8 @@ for(const variant of creation.variants){
 const eden=sequences.find(s=>s.id==='eden-chapter-two');
 assert.equal(eden.steps.length,8);
 for(const step of eden.steps){assert.equal(step.reference.chapter,2);for(const id of step.assetIds){const asset=assets.find(a=>a.id===id);assert.ok(asset);assert.equal(asset.license,'CC BY-SA 3.0');}}
+const fall=sequences.find(s=>s.id==='eden-chapter-three');
+assert.equal(fall.steps.length,6);
+assert.deepEqual(fall.steps.map(s=>[s.reference.verseStart,s.reference.verseEnd]),[[1,5],[6,7],[8,13],[14,19],[20,21],[22,24]]);
+assert.equal(fall.steps[3].groups.length,3);
+for(const step of fall.steps){assert.equal(step.reference.chapter,3);for(const id of step.assetIds){const asset=assets.find(a=>a.id===id);assert.ok(asset);assert.equal(asset.license,'CC BY-SA 3.0');}}
