@@ -49,7 +49,7 @@ const creation=sequences.find(s=>s.id==='creation-seven-days');
 assert.deepEqual(creation.steps.map(s=>s.number),[1,2,3,4,5,6,7]);
 for(const step of creation.steps){assert.ok(assets.some(a=>a.id===step.assetId));assert.equal(step.reference.bookId,'genesis');assert.equal(step.reference.chapter,step.number===7?2:1);assert.ok(step.reference.verseStart<=step.reference.verseEnd);}
 assert.deepEqual(creation.steps[6].reference,{bookId:'genesis',chapter:2,verseStart:1,verseEnd:3});
-assert.ok(!chapters.some(c=>c.bookId==='genesis'&&c.number===2),'Context excerpt must not mark chapter 2 as processed');
+assert.ok(chapters.some(c=>c.bookId==='genesis'&&c.number===2&&c.figureIds.includes('eden-chapter-two')));
 assert.equal(creation.defaultVariant,'sweet');
 assert.deepEqual(creation.variants.map(v=>v.id),['sweet','york']);
 for(const variant of creation.variants){
@@ -59,3 +59,7 @@ for(const variant of creation.variants){
     for(const id of ids)assert.ok(assets.some(asset=>asset.id===id));
   }
 }
+
+const eden=sequences.find(s=>s.id==='eden-chapter-two');
+assert.equal(eden.steps.length,8);
+for(const step of eden.steps){assert.equal(step.reference.chapter,2);for(const id of step.assetIds){const asset=assets.find(a=>a.id===id);assert.ok(asset);assert.equal(asset.license,'CC BY-SA 3.0');}}

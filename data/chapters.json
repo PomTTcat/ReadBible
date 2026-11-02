@@ -23,7 +23,7 @@
       }
     ],
     "notes": [
-      "第七日不在第1章，出处单独标为创2:1–3，不计作第2章已经处理完成。",
+      "第七日不在第1章，出处单独标为创2:1–3；第2章另有完整章节图解。",
       "配图可选择Sweet Publishing故事插画或约克大教堂彩绘玻璃。人物形象、姿态与细节属于艺术表达；图片不全部等同于经文直接描述。",
       "文字为本项目整理的内容摘要，不是整段经文转载；经文阅读入口统一使用Bible.com。"
     ],
@@ -49,6 +49,53 @@
       "status": "prototype",
       "updated": "2026-11-02",
       "review": "七日经文范围及图片许可已初核；待内容审核"
+    }
+  },
+  {
+    "bookId": "genesis",
+    "number": 2,
+    "title": "伊甸园、人与相配的帮助者",
+    "summary": "从第七日的安息，到造人、伊甸园、园中的吩咐、动物命名与夫妻连合，沿八组插画阅读本章。",
+    "personIds": [
+      "adam",
+      "eve"
+    ],
+    "figureIds": [
+      "eden-chapter-two"
+    ],
+    "sections": [
+      {
+        "title": "1–3节 · 七日叙事的结束",
+        "text": "本章开头承接前章，记载第七日的安息与赐福。"
+      },
+      {
+        "title": "4–17节 · 人与园子",
+        "text": "叙事介绍造人、园中的树木与河流、修理看守的职责，以及对树上果子的吩咐。四道河名为比逊、基训、底格里斯、幼发拉底；本页不据此推定伊甸园的确切位置。"
+      },
+      {
+        "title": "18–25节 · 帮助者与夫妻连合",
+        "text": "叙事围绕独居、动物命名、造女人与夫妻连合展开。"
+      }
+    ],
+    "notes": [
+      "配图为Jim Padgett / Sweet Publishing的原作，经FreeBibleimages提供数字版本；每组保留来源、作者与CC BY-SA 3.0许可链接，原图未裁切或修改。",
+      "画中的景色、人物外貌与树木形状均是艺术表达；本页不把画面当作伊甸园的真实位置或外观。",
+      "本章图解不加入第3章的蛇、吃禁果和离园事件。本章称其为女人；夏娃之名见创3:20。"
+    ],
+    "sources": [
+      {
+        "title": "创世记 2章 · 新标点和合本（神版）· Bible.com",
+        "url": "https://www.bible.com/bible/48/GEN.2.CUNPSS-%E7%A5%9E"
+      },
+      {
+        "title": "Sweet Publishing / FreeBibleimages · 原图与使用许可",
+        "url": "https://www.freebibleimages.org/illustrations/creation/"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-02",
+      "review": "章节范围、配图对应及署名许可已初核；待内容审核"
     }
   },
   {

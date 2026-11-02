@@ -165,5 +165,145 @@
       }
     ],
     "defaultVariant": "sweet"
+  },
+  {
+    "id": "eden-chapter-two",
+    "name": "伊甸园与人的生活",
+    "stepType": "scene",
+    "referenceLabel": "创 2:1–25",
+    "note": "按本章主题分为八个场景，使用Sweet Publishing插画。图像是对叙事的艺术表现；相邻场景的经文范围可能交叠。",
+    "steps": [
+      {
+        "id": "eden-rest",
+        "number": 1,
+        "title": "第七日的安息",
+        "summary": "天地万物完成，经文记载神歇了创造的工，并赐福给第七日。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 2,
+          "verseStart": 1,
+          "verseEnd": 3
+        },
+        "referenceLabel": "创 2:1–3",
+        "assetIds": [
+          "sweet-creation-22"
+        ]
+      },
+      {
+        "id": "eden-formed",
+        "number": 2,
+        "title": "用尘土造人",
+        "summary": "经文转向地与人的叙述，记载用尘土造人，并将生气吹在他鼻孔里。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 2,
+          "verseStart": 4,
+          "verseEnd": 7
+        },
+        "referenceLabel": "创 2:4–7",
+        "assetIds": [
+          "sweet-creation-12"
+        ]
+      },
+      {
+        "id": "eden-garden",
+        "number": 3,
+        "title": "安置在伊甸园",
+        "summary": "人在园中被安置，园中有各样树木。经文也提到滋润园子的河及其四道分流，并记载修理、看守的职责。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 2,
+          "verseStart": 8,
+          "verseEnd": 15
+        },
+        "referenceLabel": "创 2:8–15",
+        "assetIds": [
+          "sweet-creation-13",
+          "sweet-creation-14"
+        ]
+      },
+      {
+        "id": "eden-trees",
+        "number": 4,
+        "title": "树木与吩咐",
+        "summary": "经文区分园中可以吃的果子与不可吃的分别善恶树果子；图中的树形和果实外观属于艺术表现。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 2,
+          "verseStart": 16,
+          "verseEnd": 17
+        },
+        "referenceLabel": "创 2:16–17",
+        "assetIds": [
+          "sweet-creation-15"
+        ]
+      },
+      {
+        "id": "eden-naming",
+        "number": 5,
+        "title": "为动物命名",
+        "summary": "各样走兽与飞鸟被带到那人面前，由他为它们起名；经文仍指出他未遇见相配的帮助者。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 2,
+          "verseStart": 19,
+          "verseEnd": 20
+        },
+        "referenceLabel": "创 2:19–20",
+        "assetIds": [
+          "sweet-creation-16",
+          "sweet-creation-17"
+        ]
+      },
+      {
+        "id": "eden-companion",
+        "number": 6,
+        "title": "相配的帮助者",
+        "summary": "经文提出独居不好，并记载为那人预备相配帮助者的叙事。这里按主题单列，与前一场景的经文范围有交叠。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 2,
+          "verseStart": 18,
+          "verseEnd": 20
+        },
+        "referenceLabel": "创 2:18–20",
+        "assetIds": [
+          "sweet-creation-18"
+        ]
+      },
+      {
+        "id": "eden-sleep",
+        "number": 7,
+        "title": "沉睡与取出肋骨",
+        "summary": "经文记载那人沉睡，神取下他的一条肋骨，造成一个女人。图中的具体过程为插画表达。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 2,
+          "verseStart": 21,
+          "verseEnd": 22
+        },
+        "referenceLabel": "创 2:21–22",
+        "assetIds": [
+          "sweet-creation-19"
+        ]
+      },
+      {
+        "id": "eden-union",
+        "number": 8,
+        "title": "女人与男人相遇",
+        "summary": "女人被带到那人面前，叙事接着描述夫妻连合，以及二人赤身而不羞耻。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 2,
+          "verseStart": 22,
+          "verseEnd": 25
+        },
+        "referenceLabel": "创 2:22–25",
+        "assetIds": [
+          "sweet-creation-20",
+          "sweet-creation-21"
+        ]
+      }
+    ]
   }
 ]

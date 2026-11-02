@@ -5,8 +5,9 @@ export function illustratedSequence(data,config){
   const variants=sequence.variants||[];
   let selected=sequence.defaultVariant||variants[0]?.id;
   const host=el('section','illustrated-sequence');
+  if(sequence.stepType==='scene')host.classList.add('scene-sequence');
   const title=el('div','figure-heading');
-  title.append(el('h2','',config.title),el('span','tag','创 1:3–2:3'));
+  title.append(el('h2','',config.title),el('span','tag',sequence.referenceLabel||'创 1:3–2:3'));
   const grid=el('div','creation-grid');
   const controls=el('div','image-version-controls');
   controls.setAttribute('role','group');controls.setAttribute('aria-label','配图版本');
@@ -21,7 +22,7 @@ export function illustratedSequence(data,config){
     buttons.forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.version===selected)));
     status.textContent=variant?.description||'';
     for(const step of sequence.steps){
-      const assetIds=variant?.assetsByStep[step.id]||[step.assetId];
+      const assetIds=variant?.assetsByStep[step.id]||step.assetIds||[step.assetId];
       const assets=assetIds.map(id=>data.assetsById.get(id));
       const card=el('article','creation-day');
       const art=el('figure','creation-art');
@@ -31,14 +32,14 @@ export function illustratedSequence(data,config){
         art.append(image);
       }
       const info=el('div','creation-info');
-      const day=el('div','creation-day-label');day.append(el('span','eyebrow',`DAY ${String(step.number).padStart(2,'0')}`));
+      const day=el('div','creation-day-label');day.append(el('span','eyebrow',`${sequence.stepType==='scene'?'SCENE':'DAY'} ${String(step.number).padStart(2,'0')}`));
       if(step.context)day.append(el('span','tag',step.context));
       const ref=step.reference;
       const href=`https://www.bible.com/bible/48/GEN.${ref.chapter}.${ref.verseStart}-${ref.verseEnd}`;
-      info.append(day,el('h3','',`第${step.number}日 · ${step.title}`),el('p','',step.summary),link(step.referenceLabel+' · 阅读经文 ↗',href,'text-link'));
+      info.append(day,el('h3','',sequence.stepType==='scene'?step.title:`第${step.number}日 · ${step.title}`),el('p','',step.summary),link(step.referenceLabel+' · 阅读经文 ↗',href,'text-link'));
       const asset=assets[0];
       const credit=el('div','creation-credit');
-      credit.append(link(selected==='sweet'?'图片来源 · Sweet Publishing / FreeBibleimages':'图片来源 · Commons',asset.sourceUrl,'text-link'),el('span','muted small',asset.creator),link(asset.license,asset.licenseUrl,'text-link'));
+      credit.append(link(asset.sourceUrl.includes('freebibleimages.org')?'图片来源 · Sweet Publishing / FreeBibleimages':'图片来源 · Commons',asset.sourceUrl,'text-link'),el('span','muted small',asset.creator),link(asset.license,asset.licenseUrl,'text-link'));
       info.append(credit);card.append(art,info);grid.append(card);
     }
   }

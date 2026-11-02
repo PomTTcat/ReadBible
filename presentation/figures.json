@@ -110,5 +110,11 @@
     "kind": "illustrated-sequence",
     "title": "创造的七日",
     "sequenceId": "creation-seven-days"
+  },
+  {
+    "id": "eden-chapter-two",
+    "kind": "illustrated-sequence",
+    "title": "伊甸园 · 场景图解",
+    "sequenceId": "eden-chapter-two"
   }
 ]
