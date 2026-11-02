@@ -1,0 +1,8 @@
+{
+  "name": "readbible-experiments",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "node scripts/serve.mjs", "build": "node scripts/update-progress.mjs && node scripts/build.mjs", "test": "node tests/data.test.mjs", "progress": "node scripts/update-progress.mjs" },
+  "engines": { "node": ">=16" }
+}

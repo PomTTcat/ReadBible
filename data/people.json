@@ -1,0 +1,223 @@
+[
+  {
+    "id": "adam",
+    "name": "亚当",
+    "references": [
+      "创 4:1、25",
+      "创 5:1–5"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "eve",
+    "name": "夏娃",
+    "references": [
+      "创 4:1"
+    ],
+    "gender": "female"
+  },
+  {
+    "id": "cain",
+    "name": "该隐",
+    "references": [
+      "创 4:1"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "abel",
+    "name": "亚伯",
+    "references": [
+      "创 4:2"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "seth",
+    "name": "塞特",
+    "references": [
+      "创 4:25",
+      "创 5:3、6–8"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "enosh",
+    "name": "以挪士",
+    "references": [
+      "创 4:26",
+      "创 5:6、9–11"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "enoch-cain",
+    "name": "以诺",
+    "references": [
+      "创 4:17"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "irad",
+    "name": "以拿",
+    "references": [
+      "创 4:18"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "mehujael",
+    "name": "米户雅利",
+    "references": [
+      "创 4:18"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "methushael",
+    "name": "玛土撒利",
+    "references": [
+      "创 4:18"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "lamech-cain",
+    "name": "拉麦",
+    "references": [
+      "创 4:18–19"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "adah",
+    "name": "亚大",
+    "references": [
+      "创 4:19–21"
+    ],
+    "gender": "female"
+  },
+  {
+    "id": "zillah",
+    "name": "洗拉",
+    "references": [
+      "创 4:19、22"
+    ],
+    "gender": "female"
+  },
+  {
+    "id": "jabal",
+    "name": "雅八",
+    "references": [
+      "创 4:20"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "jubal",
+    "name": "犹八",
+    "references": [
+      "创 4:21"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "tubal-cain",
+    "name": "土八·该隐",
+    "references": [
+      "创 4:22"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "naamah",
+    "name": "拿玛",
+    "references": [
+      "创 4:22"
+    ],
+    "gender": "female"
+  },
+  {
+    "id": "kenan",
+    "name": "该南",
+    "references": [
+      "创 5:9、12–14"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "mahalalel",
+    "name": "玛勒列",
+    "references": [
+      "创 5:12、15–17"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "jared",
+    "name": "雅列",
+    "references": [
+      "创 5:15、18–20"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "enoch-seth",
+    "name": "以诺",
+    "references": [
+      "创 5:18、21–24"
+    ],
+    "note": "塞特后裔中的以诺，与创世记4章该隐后裔中的同名人物分开记录。创5:24记载神将他取去，不按死亡记录处理。",
+    "gender": "male"
+  },
+  {
+    "id": "methuselah",
+    "name": "玛土撒拉",
+    "references": [
+      "创 5:21、25–27"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "lamech-seth",
+    "name": "拉麦",
+    "references": [
+      "创 5:25、28–31"
+    ],
+    "note": "挪亚的父亲，与创世记4章该隐后裔中的拉麦分开记录。",
+    "gender": "male"
+  },
+  {
+    "id": "noah",
+    "name": "挪亚",
+    "references": [
+      "创 5:28–32"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "shem",
+    "name": "闪",
+    "references": [
+      "创 5:32"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "ham",
+    "name": "含",
+    "references": [
+      "创 5:32"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "japheth",
+    "name": "雅弗",
+    "references": [
+      "创 5:32"
+    ],
+    "gender": "male"
+  }
+]

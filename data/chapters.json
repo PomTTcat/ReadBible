@@ -1,0 +1,153 @@
+[
+  {
+    "bookId": "genesis",
+    "number": 4,
+    "title": "两条家族线索",
+    "summary": "从该隐、亚伯到塞特，沿人物关系阅读本章。图中保留经文引用，并将拉麦的两个家庭分支分开显示。",
+    "personIds": [
+      "adam",
+      "eve",
+      "cain",
+      "abel",
+      "seth",
+      "enosh",
+      "enoch-cain",
+      "irad",
+      "mehujael",
+      "methushael",
+      "lamech-cain",
+      "adah",
+      "zillah",
+      "jabal",
+      "jubal",
+      "tubal-cain",
+      "naamah"
+    ],
+    "figureIds": [
+      "genesis-4-family"
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-02",
+      "review": "待内容审核"
+    }
+  },
+  {
+    "bookId": "genesis",
+    "number": 5,
+    "title": "从亚当到挪亚的世代",
+    "summary": "沿塞特一系阅读亚当到挪亚的谱系，并在末尾查看闪、含、雅弗。点击人物查看经文出处，连接处可以收起或展开后代。",
+    "personIds": [
+      "adam",
+      "seth",
+      "enosh",
+      "kenan",
+      "mahalalel",
+      "jared",
+      "enoch-seth",
+      "methuselah",
+      "lamech-seth",
+      "noah",
+      "shem",
+      "ham",
+      "japheth"
+    ],
+    "figureIds": [
+      "genesis-5-family"
+    ],
+    "sections": [
+      {
+        "title": "1–2节 · 谱系的引言",
+        "text": "本章以创造人及赐福的叙述引入亚当的后代。"
+      },
+      {
+        "title": "3–31节 · 按世代展开",
+        "text": "经文依次记载各代人物、生育及年数。图中只列具名的主线人物；经文还多次提及其他儿女，并非每代只有一个孩子。"
+      },
+      {
+        "title": "32节 · 挪亚的三个儿子",
+        "text": "本章列出闪、含、雅弗。图中的左右排列沿用列名次序，不据此断定出生顺序或三人同年出生。"
+      }
+    ],
+    "notes": [
+      "本章中的以诺、拉麦与第4章同名人物使用不同 ID，不合并。",
+      "本章图只显示本章列出的谱系；其他亲属关系可在全局图中查看。",
+      "不据本章年数直接换算公元纪年；不同文本传统的数字差异留待另行整理。"
+    ],
+    "sources": [
+      {
+        "title": "创世记 5章 · 新标点和合本（神版）· Bible.com",
+        "url": "https://www.bible.com/bible/48/GEN.5"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-02",
+      "review": "已对照所列经文初核；待进一步内容审核"
+    }
+  },
+  {
+    "bookId": "1-kings",
+    "number": 12,
+    "title": "分裂后的南与北",
+    "summary": "跟随地点与事件，观察王国分裂的叙事脉络。下方图表可以继续浏览后面的关键节点。",
+    "personIds": [],
+    "figureIds": [
+      "kingdoms-map"
+    ],
+    "eventId": "division",
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-02",
+      "review": "待内容审核"
+    }
+  },
+  {
+    "bookId": "1-kings",
+    "number": 16,
+    "title": "撒马利亚的建立",
+    "summary": "在同一张地图上查看新的城市节点。",
+    "personIds": [],
+    "figureIds": [
+      "kingdoms-map"
+    ],
+    "eventId": "samaria-capital",
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-02",
+      "review": "待内容审核"
+    }
+  },
+  {
+    "bookId": "2-kings",
+    "number": 17,
+    "title": "北方王国的转折",
+    "summary": "查看撒马利亚陷落这一叙事节点及相关经文。",
+    "personIds": [],
+    "figureIds": [
+      "kingdoms-map"
+    ],
+    "eventId": "samaria-fall",
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-02",
+      "review": "待内容审核"
+    }
+  },
+  {
+    "bookId": "2-kings",
+    "number": 25,
+    "title": "耶路撒冷的转折",
+    "summary": "查看耶路撒冷被毁这一叙事节点及相关经文。",
+    "personIds": [],
+    "figureIds": [
+      "kingdoms-map"
+    ],
+    "eventId": "jerusalem-fall",
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-02",
+      "review": "待内容审核"
+    }
+  }
+]

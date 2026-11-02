@@ -1,0 +1,6 @@
+[
+ {"id":"division","label":"王国分裂","period":"列王纪上 12章","summary":"以色列与犹大形成南北两个王国；图上标出示剑与耶路撒冷，帮助跟随本章叙事。","references":["王上 12章"],"placeIds":["shechem","jerusalem"],"chapter":{"bookId":"1-kings","number":12}},
+ {"id":"samaria-capital","label":"撒马利亚建城","period":"列王纪上 16章","summary":"暗利购买撒马利亚山并建城。北方的城市标记随叙事推进发生变化。","references":["王上 16:23–24"],"placeIds":["samaria","jerusalem"],"chapter":{"bookId":"1-kings","number":16}},
+ {"id":"samaria-fall","label":"撒马利亚陷落","period":"列王纪下 17章","summary":"经文记载亚述攻取撒马利亚。北方区域以斜线和事件标记表示状态改变。","references":["王下 17:5–6"],"placeIds":["samaria","jerusalem"],"chapter":{"bookId":"2-kings","number":17}},
+ {"id":"jerusalem-fall","label":"耶路撒冷被毁","period":"列王纪下 25章","summary":"经文记载巴比伦军队焚烧耶路撒冷的殿宇、房屋并拆毁城墙。南方区域同步改变。","references":["王下 25:8–10"],"placeIds":["samaria","jerusalem"],"chapter":{"bookId":"2-kings","number":25}}
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "genesis-4-family",
+    "kind": "genealogy",
+    "title": "创世记 4 · 人物关系",
+    "rootId": "adam",
+    "initialExpanded": [
+      "adam-eve",
+      "seth-children"
+    ],
+    "familyIds": [
+      "adam-eve",
+      "cain-children",
+      "enoch-children",
+      "irad-children",
+      "mehujael-children",
+      "methushael-children",
+      "lamech-adah",
+      "lamech-zillah",
+      "seth-children"
+    ],
+    "personIds": [
+      "adam",
+      "eve",
+      "cain",
+      "abel",
+      "seth",
+      "enosh",
+      "enoch-cain",
+      "irad",
+      "mehujael",
+      "methushael",
+      "lamech-cain",
+      "adah",
+      "zillah",
+      "jabal",
+      "jubal",
+      "tubal-cain",
+      "naamah"
+    ],
+    "scopeNote": "仅显示创世记第4章收录的人物与关系；未显示的关系不表示不存在。"
+  },
+  {
+    "id": "genesis-5-family",
+    "kind": "genealogy",
+    "title": "创世记 5 · 亚当至挪亚",
+    "rootId": "adam",
+    "familyIds": [
+      "adam-eve",
+      "seth-children",
+      "enosh-children",
+      "kenan-children",
+      "mahalalel-children",
+      "jared-children",
+      "enoch-seth-children",
+      "methuselah-children",
+      "lamech-seth-children",
+      "noah-children"
+    ],
+    "personIds": [
+      "adam",
+      "seth",
+      "enosh",
+      "kenan",
+      "mahalalel",
+      "jared",
+      "enoch-seth",
+      "methuselah",
+      "lamech-seth",
+      "noah",
+      "shem",
+      "ham",
+      "japheth"
+    ],
+    "initialExpanded": [
+      "adam-eve",
+      "seth-children",
+      "enosh-children",
+      "kenan-children",
+      "mahalalel-children",
+      "jared-children",
+      "enoch-seth-children",
+      "methuselah-children",
+      "lamech-seth-children",
+      "noah-children"
+    ],
+    "scopeNote": "仅显示本章具名谱系；其他儿女及未具名亲本不在此图列出。末代左右位置不代表出生顺序。"
+  },
+  {
+    "id": "kingdoms-map",
+    "kind": "event-map",
+    "title": "南北王国 · 叙事地图",
+    "eventIds": [
+      "division",
+      "samaria-capital",
+      "samaria-fall",
+      "jerusalem-fall"
+    ],
+    "sceneId": "kingdoms-schematic"
+  }
+]

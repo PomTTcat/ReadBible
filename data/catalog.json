@@ -1,0 +1,6 @@
+[
+  {"id":"genesis","name":"创世记","section":"摩西五经","chapters":50},
+  {"id":"judges","name":"士师记","section":"历史书","chapters":21},
+  {"id":"1-kings","name":"列王纪上","section":"历史书","chapters":22},
+  {"id":"2-kings","name":"列王纪下","section":"历史书","chapters":25}
+]
