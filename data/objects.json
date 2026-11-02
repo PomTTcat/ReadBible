@@ -1,0 +1,26 @@
+[
+  {
+    "id": "noah-ark",
+    "name": "挪亚方舟",
+    "dimensions": {
+      "length": 300,
+      "width": 50,
+      "height": 30,
+      "unit": "cubit"
+    },
+    "decks": 3,
+    "references": [
+      "创 6:14–16"
+    ],
+    "notes": [
+      "长、宽、高采用创世记6:15所列的肘数，不换算为唯一确定的米数。",
+      "三层依据创世记6:16；图中的层高均分和长方体外形仅用于示意，不是经文明定的结构或考古复原。"
+    ],
+    "conversion": {
+      "metersPerCubit": 0.45,
+      "label": "按1肘约0.45米（45厘米）估算",
+      "note": "肘是古代长度单位，通常按前臂从肘到指尖的长度理解，不同时期、地区的标准有差异。这里只用0.45米作直观参考，不断定方舟采用的肘长。",
+      "sourceUrl": "https://tips.translation.bible/story/translation-commentary-on-genesis-615/"
+    }
+  }
+]

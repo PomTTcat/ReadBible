@@ -1,6 +1,54 @@
 [
   {
     "bookId": "genesis",
+    "number": 1,
+    "title": "从光开始，读创造的七日",
+    "summary": "按叙事顺序观看第一至第六日的创造，并延伸到第2章开头的第七日。每幅图配有内容摘要、经文出处及图片来源。",
+    "personIds": [],
+    "figureIds": [
+      "creation-seven-days"
+    ],
+    "sections": [
+      {
+        "title": "1–2节 · 叙事的开篇",
+        "text": "经文以神创造天地开始，描述地起初的状态。"
+      },
+      {
+        "title": "3–31节 · 六日的创造",
+        "text": "叙事按日展开，从光与暗的区分，到天地间各类生命及人的出现。"
+      },
+      {
+        "title": "第2章1–3节 · 第七日",
+        "text": "第七日的记载在下一章。这里为保持七日叙事的完整性，将其作为延伸内容列出。"
+      }
+    ],
+    "notes": [
+      "第七日不在第1章，出处单独标为创2:1–3，不计作第2章已经处理完成。",
+      "配图来自约克大教堂东大窗的中世纪艺术系列。画面中的人物形象、姿态与细节属于艺术表达，不全部等同于经文直接描述。",
+      "文字为本项目整理的内容摘要，不是整段经文转载；经文阅读入口统一使用Bible.com。"
+    ],
+    "sources": [
+      {
+        "title": "创世记 1章 · 新标点和合本（神版）· Bible.com",
+        "url": "https://www.bible.com/bible/48/GEN.1.CUNPSS-%E7%A5%9E"
+      },
+      {
+        "title": "第七日 · 创世记 2:1–3 · Bible.com",
+        "url": "https://www.bible.com/bible/48/GEN.2.1-3"
+      },
+      {
+        "title": "艺术系列背景 · York Minster",
+        "url": "https://yorkminster.org/discover/behind-the-scenes/restoring-an-international-work-of-art/"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-02",
+      "review": "七日经文范围及图片许可已初核；待内容审核"
+    }
+  },
+  {
+    "bookId": "genesis",
     "number": 4,
     "title": "两条家族线索",
     "summary": "从该隐、亚伯到塞特，沿人物关系阅读本章。图中保留经文引用，并将拉麦的两个家庭分支分开显示。",
@@ -84,6 +132,51 @@
       "status": "prototype",
       "updated": "2026-11-02",
       "review": "已对照所列经文初核；待进一步内容审核"
+    }
+  },
+  {
+    "bookId": "genesis",
+    "number": 6,
+    "title": "挪亚与方舟的建造",
+    "summary": "本章从人类的败坏转向挪亚，并记载建造方舟的吩咐。用尺寸图观察经文列出的长、宽、高与三层结构。",
+    "personIds": [
+      "noah",
+      "shem",
+      "ham",
+      "japheth"
+    ],
+    "figureIds": [
+      "noah-ark-dimensions"
+    ],
+    "sections": [
+      {
+        "title": "1–8节 · 人类的处境",
+        "text": "叙事描述人类的败坏，并转向挪亚。"
+      },
+      {
+        "title": "9–12节 · 挪亚与他的时代",
+        "text": "经文介绍挪亚，列出闪、含、雅弗三个儿子，同时描述当时地上的强暴。"
+      },
+      {
+        "title": "13–22节 · 建造与预备",
+        "text": "经文列出方舟的材料、尺寸、三层、门与透光处，以及家人、动物和食物的预备；本章结束于挪亚照着吩咐去行。"
+      }
+    ],
+    "notes": [
+      "尺寸依据创6:15：长300肘、宽50肘、高30肘。若按1肘约0.45米估算，约为长135米、宽22.5米、高13.5米；米数是换算参考，非确定的历史尺寸。",
+      "三层依据创6:16。船体外观、各层等高及内部隔间的具体布局并未由这些尺寸确定。",
+      "配图是1690年的艺术作品，用于观察后世的表现方式，不作为方舟真实形制的证据。"
+    ],
+    "sources": [
+      {
+        "title": "创世记 6章 · 新标点和合本（神版）· Bible.com",
+        "url": "https://www.bible.com/bible/48/GEN.6.CUNPSS-%E7%A5%9E"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-02",
+      "review": "经文尺寸及图片许可已初核；待内容审核"
     }
   },
   {

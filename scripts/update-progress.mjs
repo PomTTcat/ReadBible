@@ -1,8 +1,10 @@
 import { readFile, writeFile } from 'node:fs/promises';
 const chapters = JSON.parse(await readFile('data/chapters.json', 'utf8'));
 const catalog = JSON.parse(await readFile('data/catalog.json', 'utf8'));
+const figures = new Map(JSON.parse(await readFile('presentation/figures.json', 'utf8')).map(f=>[f.id,f]));
+const kinds = {genealogy:'人物谱系','event-map':'叙事地图','object-dimensions':'器物尺寸图','illustrated-sequence':'七日配图'};
 const labels = { prototype:'已做原型', reviewed:'已审核' };
-const rows = catalog.flatMap(book => chapters.filter(c=>c.bookId===book.id).sort((a,b)=>a.number-b.number).map(c=>`| ${book.name} ${c.number}章 | ${labels[c.processing.status]} | ${c.figureIds.map(id=>id.includes('family')?'人物谱系':'叙事地图').join('、')} | ${c.processing.review} | ${c.processing.updated} |`));
+const rows = catalog.flatMap(book => chapters.filter(c=>c.bookId===book.id).sort((a,b)=>a.number-b.number).map(c=>`| ${book.name} ${c.number}章 | ${labels[c.processing.status]} | ${c.figureIds.map(id=>kinds[figures.get(id).kind]).join('、')} | ${c.processing.review} | ${c.processing.updated} |`));
 const content = `# 章节处理进度\n\n由 \`data/chapters.json\` 中的 \`processing\` 字段生成；运行 \`npm run progress\` 更新，构建时也会自动更新。新增章节请先维护章节数据。\n\n当前已处理 **${chapters.length} 章**，均为可浏览的原型样本。“已做原型”不等于资料已通过正式审核。未列出的章节尚未处理，书卷目录入口不计作完成。\n\n| 章节 | 状态 | 已有内容 | 审核情况 | 更新日期 |\n| --- | --- | --- | --- | --- |\n${rows.join('\n')}\n\n完成标准：\n\n- 已做原型：章节说明、引用的资料和图表已接入，基础资料校验通过，可在网站查看。\n- 已审核：在原型基础上完成资料来源、关系、措辞与展示的专门审核后，再由维护者更新状态。\n`;
 await writeFile('docs/章节处理进度.md', content);
 console.log(`已更新章节处理进度：${chapters.length} 章`);

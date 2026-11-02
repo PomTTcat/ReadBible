@@ -2,6 +2,8 @@ import { loadData } from './data.js';
 import { el, button, link } from './dom.js';
 import { genealogy } from './components/genealogy.js';
 import { eventMap } from './components/event-map.js';
+import { objectDimensions } from './components/object-dimensions.js';
+import { illustratedSequence } from './components/illustrated-sequence.js';
 
 const app = document.getElementById('app');
 try {
@@ -65,7 +67,11 @@ try {
     if (content) {
       for (const id of content.figureIds) {
         const config = data.figuresById.get(id);
-        article.append(config.kind === 'genealogy' ? genealogy(data, config) : eventMap(data, config, content.eventId));
+        if (config.kind === 'genealogy') article.append(genealogy(data, config));
+        else if (config.kind === 'event-map') article.append(eventMap(data, config, content.eventId));
+        else if (config.kind === 'object-dimensions') article.append(objectDimensions(data, config));
+        else if (config.kind === 'illustrated-sequence') article.append(illustratedSequence(data, config));
+        else throw new Error(`未知图表类型：${config.kind}`);
       }
       if (content.sections?.length) {
         const outline = el('section', 'chapter-outline');

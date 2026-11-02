@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-Hans"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>多配偶布局测试 · 虚构资料</title><link rel="stylesheet" href="../../src/styles.css">
+<body><main><h1>三位配偶 · 虚构测试资料</h1><p id="result" role="status">检查中</p><div id="fixture"></div></main>
+<script type="module">
+import {genealogy} from '../../src/components/genealogy.js';
+const people=[{id:'parent',name:'共同人物',gender:'male',references:['虚构测试资料']}];
+const families=[];
+for(let i=1;i<=3;i++){
+  people.push({id:'spouse-'+i,name:'配偶'+i,gender:'female',references:['虚构测试资料']},{id:'child-'+i,name:'子女'+i,gender:'unknown',references:['虚构测试资料']});
+  families.push({id:'family-'+i,parents:['parent','spouse-'+i],children:['child-'+i],relationship:'夫妻',references:['虚构测试资料']});
+}
+const data={peopleById:new Map(people.map(p=>[p.id,p])),families};
+const fixture=document.getElementById('fixture');
+fixture.append(genealogy(data,{title:'多配偶显示测试',rootId:'parent',initialExpanded:[],scopeNote:'不属于圣经人物数据。'}));
+requestAnimationFrame(()=>requestAnimationFrame(()=>{
+  const unique=fixture.querySelectorAll('[data-person="parent"]').length===1;
+  const spouses=fixture.querySelectorAll('.multi-spouse').length===3;
+  const children=fixture.querySelectorAll('.multi-spouse>.children').length===3;
+  const paths=fixture.querySelectorAll('.multi-connections path').length===6;
+  const root=fixture.querySelector('.shared-person').getBoundingClientRect();
+  const row=fixture.querySelector('.multi-family').getBoundingClientRect();
+  const centered=Math.abs(root.left+root.width/2-row.left-row.width/2)<1;
+  const aligned=[...fixture.querySelectorAll('.multi-spouse>.person')].every(p=>Math.abs(p.getBoundingClientRect().top-root.top)<1);
+  const ok=unique&&spouses&&children&&paths&&centered&&aligned;
+  document.getElementById('result').textContent=ok?'通过：人物唯一、三组配偶与子女、六段连接、共同人物居中、所有配偶同排。':'失败：'+JSON.stringify({unique,spouses,children,paths,centered,aligned});
+}));
+</script></body></html>

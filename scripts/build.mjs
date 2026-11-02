@@ -10,5 +10,5 @@ async function copy(source, target) {
 await rm('dist', { recursive:true, force:true });
 await mkdir('dist', { recursive:true });
 await copyFile('index.html', 'dist/index.html');
-for (const directory of ['src','data','presentation']) await copy(directory, `dist/${directory}`);
+for (const directory of ['src','data','presentation','assets']) await copy(directory, `dist/${directory}`);
 console.log('静态项目已生成到 dist/');

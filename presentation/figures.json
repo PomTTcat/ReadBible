@@ -97,5 +97,18 @@
       "jerusalem-fall"
     ],
     "sceneId": "kingdoms-schematic"
+  },
+  {
+    "id": "noah-ark-dimensions",
+    "kind": "object-dimensions",
+    "title": "方舟 · 长、宽与高",
+    "objectId": "noah-ark",
+    "assetId": "ark-construction-luyken-1690"
+  },
+  {
+    "id": "creation-seven-days",
+    "kind": "illustrated-sequence",
+    "title": "创造的七日",
+    "sequenceId": "creation-seven-days"
   }
 ]
