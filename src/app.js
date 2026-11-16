@@ -1,5 +1,9 @@
+import { chapterRecords } from './components/chapter-records.js';
+import { readingGuide } from './components/reading-guide.js';
 import { loadData } from './data.js';
 import { el, button, link } from './dom.js';
+import { mapLibrary } from './components/map-library.js';
+import { journey } from './components/journey.js';
 import { genealogy } from './components/genealogy.js';
 import { eventMap } from './components/event-map.js';
 import { objectDimensions } from './components/object-dimensions.js';
@@ -12,7 +16,7 @@ try {
   const brand = link('ReadBible', '#/', 'brand');
   brand.append(el('span', '', '经文与脉络'));
   const nav = el('nav', 'main-nav'); nav.setAttribute('aria-label', '主导航');
-  nav.append(link('书卷目录', '#/'), link('人物关系', '#/people'), link('历史地图', '#/atlas'));
+  nav.append(link('书卷目录', '#/'), link('人物关系', '#/people'), link('地图资料', '#/maps'), link('历史地图', '#/atlas'));
   header.append(brand, nav, el('span', 'prototype-label', '探索原型 · 01'));
   const main = el('main'); main.id = 'main';
   const footer = el('footer', '', 'ReadBible / 阅读经文，看见脉络。资料与图表仍在整理，示意内容以标注为准。');
@@ -29,7 +33,7 @@ try {
     const samples = el('div', 'sample-links');
     samples.append(link('01   创世记 4章 · 展开人物关系 →', '#/book/genesis/4', 'sample-card'), link('02   列王纪上 12章 · 沿时间看地图 →', '#/book/1-kings/12', 'sample-card'));
     main.append(samples);
-    const heading = el('div', 'section-heading');heading.append(el('h2', '', '书卷目录'), el('span', 'muted small', '首批 4 卷样本 · 其余书卷待录入'));
+    const heading = el('div', 'section-heading');heading.append(el('h2', '', '书卷目录'), el('span', 'muted small', `已有 ${data.catalog.length} 卷样本 · 其余书卷待录入`));
     main.append(heading);
     const books = el('div', 'book-grid');
     for (const book of data.catalog) {
@@ -68,6 +72,9 @@ try {
       for (const id of content.figureIds) {
         const config = data.figuresById.get(id);
         if (config.kind === 'genealogy') article.append(genealogy(data, config));
+        else if (config.kind === 'chapter-records') article.append(chapterRecords(data, config));
+        else if (config.kind === 'reading-guide') article.append(readingGuide(data, config));
+        else if (config.kind === 'journey') article.append(journey(data, config));
         else if (config.kind === 'event-map') article.append(eventMap(data, config, content.eventId));
         else if (config.kind === 'object-dimensions') article.append(objectDimensions(data, config));
         else if (config.kind === 'illustrated-sequence') {
@@ -76,6 +83,18 @@ try {
           if (sequenceView.versionControls) article.append(sequenceView.versionControls);
         }
         else throw new Error(`未知图表类型：${config.kind}`);
+      }
+      const relatedMaps = data.mapLibrary.filter(record => record.chapters.some(c => c.bookId === book.id && c.number === number));
+      if (relatedMaps.length) {
+        const resources = el('section', 'chapter-map-resources');
+        resources.append(el('h2', '', '地图参考资料'));
+        for (const record of relatedMaps) {
+          const entry = link('', '#/maps?map=' + record.id, 'chapter-map-link');
+          const label = el('span', '', record.title);
+          label.append(el('small', 'muted', record.language + ' · 查看原图与来源 →'), el('small', 'muted', record.creator + ' · ' + record.license));
+          entry.append(label);resources.append(entry);
+        }
+        article.append(resources);
       }
       if (content.sections?.length) {
         const outline = el('section', 'chapter-outline');
@@ -118,7 +137,9 @@ try {
       else if (book && parts.length === 3 && Number.isInteger(number) && number >= 1 && number <= book.chapters) chapterPage(book, number);
       else main.append(intro('404', '没有找到这个章节', '请从书卷目录重新选择。'), link('返回目录', '#/', 'text-link'));
     } else if (parts[0] === 'people') {
-      main.append(intro('PEOPLE & RELATIONSHIPS', '人物可以跨越章节，资料只维护一份。', '全局视图目前接入创世记第4、5章样本。展开连接处，沿家族分支继续阅读。'), genealogy(data, familyConfig, { global:true, focusId:params.get('focus'), returnHash:params.get('from') }));
+      main.append(intro('PEOPLE & RELATIONSHIPS', '人物可以跨越章节，资料只维护一份。', '全局视图目前接入创世记第4、5、10、11、25、28–30章样本。展开连接处，沿家族分支继续阅读。'), genealogy(data, familyConfig, { global:true, focusId:params.get('focus'), returnHash:params.get('from') }));
+    } else if (parts[0] === 'maps') {
+      main.append(intro('MAP LIBRARY', '地图资料', '查找地图参考资料，点击链接到原网站查看。保留来源、署名和许可说明。'), mapLibrary(data, params.get('map')));
     } else if (parts[0] === 'atlas') {
       main.append(intro('PLACES & EVENTS', '拖动时间，看叙事向前推进。', '每一个节点同步更新区域状态、地点与事件说明，也能回到对应章节。'), eventMap(data, mapConfig));
     } else main.append(intro('404', '页面尚不存在', '请返回书卷目录。'), link('返回目录', '#/', 'text-link'));

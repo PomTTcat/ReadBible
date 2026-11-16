@@ -283,6 +283,115 @@
     }
   },
   {
+    "bookId": "genesis",
+    "number": 10,
+    "title": "洪水之后：挪亚的后裔",
+    "summary": "从雅弗、含、闪三支读起，看看本章怎样记下洪水之后的各宗族。",
+    "personIds": [
+      "japheth",
+      "ham",
+      "shem",
+      "gomer",
+      "magog",
+      "madai",
+      "javan",
+      "tubal",
+      "meshech",
+      "tiras",
+      "ashkenaz",
+      "riphath",
+      "togarmah",
+      "elishah",
+      "tarshish",
+      "kittim",
+      "dodanim",
+      "cush",
+      "mizraim",
+      "put",
+      "canaan",
+      "seba",
+      "havilah-cush",
+      "sabtah",
+      "raamah",
+      "sabteca",
+      "nimrod",
+      "sheba-raamah",
+      "dedan",
+      "ludim",
+      "anamim",
+      "lehabim",
+      "naphtuhim",
+      "pathrusim",
+      "casluhim",
+      "caphtorim",
+      "sidon",
+      "heth",
+      "jebusites",
+      "amorites",
+      "girgashites",
+      "hivites",
+      "arkites",
+      "sinites",
+      "arvadites",
+      "zemarites",
+      "hamathites",
+      "elam",
+      "asshur",
+      "arphaxad",
+      "lud",
+      "aram",
+      "uz-aram",
+      "hul",
+      "gether",
+      "mash",
+      "shelah-arphaxad",
+      "eber",
+      "peleg",
+      "joktan",
+      "almodad",
+      "sheleph",
+      "hazarmaveth",
+      "jerah",
+      "hadoram",
+      "uzal",
+      "diklah",
+      "obal",
+      "abimael",
+      "sheba-joktan",
+      "ophir",
+      "havilah-joktan",
+      "jobab"
+    ],
+    "figureIds": [
+      "genesis-10-family"
+    ],
+    "sections": [
+      {
+        "title": "雅弗一支 · 创 10:2–5",
+        "text": "记述雅弗的儿子，以及歌篾和雅完的后裔，末尾提到沿海一带的族群。"
+      },
+      {
+        "title": "含一支 · 创 10:6–20",
+        "text": "记述古实、麦西、弗和迦南的后裔，并穿插宁录与城邑的记载、迦南人的疆界。"
+      },
+      {
+        "title": "闪一支 · 创 10:21–32",
+        "text": "记述闪的后裔，沿亚法撒、沙拉到希伯，再分出法勒和约坍。全章最后总结洪水后各族的分布。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "在 Bible.com 阅读创世记第10章",
+        "url": "https://www.bible.com/zh-CN/bible/48/GEN.10.CUNPSS-%E7%A5%9E"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-04",
+      "review": "待内容审核"
+    }
+  },
+  {
     "bookId": "1-kings",
     "number": 12,
     "title": "分裂后的南与北",
@@ -343,6 +452,895 @@
     "processing": {
       "status": "prototype",
       "updated": "2026-11-02",
+      "review": "待内容审核"
+    }
+  },
+  {
+    "bookId": "genesis",
+    "number": 11,
+    "title": "巴别塔与亚伯兰的家世",
+    "summary": "从众人的聚集与分散，转向闪的后代，再走进他拉一家的故事。",
+    "personIds": [
+      "shem",
+      "arphaxad",
+      "shelah-arphaxad",
+      "eber",
+      "peleg",
+      "reu",
+      "serug",
+      "nahor-ancestor",
+      "terah",
+      "abram",
+      "sarai",
+      "nahor-terah",
+      "haran-person",
+      "lot",
+      "milcah",
+      "iscah"
+    ],
+    "figureIds": [
+      "babel-story",
+      "genesis-11-lineage",
+      "genesis-11-household",
+      "terah-journey"
+    ],
+    "sections": [
+      {
+        "title": "巴别塔 · 11:1–9",
+        "text": "同一种语言的人聚集建造，后来语言不通，停止建城并分散。"
+      },
+      {
+        "title": "闪的后代 · 11:10–26",
+        "text": "谱系延续第10章的闪一支，经过法勒直到他拉。"
+      },
+      {
+        "title": "他拉一家 · 11:27–32",
+        "text": "介绍亚伯兰的亲属，并记下离开吾珥、停在哈兰的经过。"
+      }
+    ],
+    "notes": [
+      "人物哈兰与地名哈兰分开记录；他拉之父与其子两位拿鹤使用不同ID。",
+      "本章族谱按和合本记载；年龄不换算成年代，也不把他拉三子的出生视为同一年。"
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-04",
+      "review": "待内容审核"
+    },
+    "sources": [
+      {
+        "title": "Bible.com · 创世记第11章",
+        "url": "https://www.bible.com/bible/48/GEN.11"
+      },
+      {
+        "title": "Sweet Publishing · 亚伯兰迁往迦南图集",
+        "url": "https://www.freebibleimages.org/illustrations/abraham-canaan/"
+      },
+      {
+        "title": "Sweet Publishing · 巴别塔图集",
+        "url": "https://www.freebibleimages.org/illustrations/tower-babel/"
+      },
+      {
+        "title": "地理参考 · 哈兰",
+        "url": "https://www.iranicaonline.org/articles/harran/"
+      },
+      {
+        "title": "地理参考 · 吾珥定位的不同观点",
+        "url": "https://www.biblegateway.com/resources/encyclopedia-of-the-bible/Ur-Chaldees"
+      }
+    ]
+  },
+  {
+    "bookId": "genesis",
+    "number": 12,
+    "title": "亚伯兰蒙召：前往迦南与埃及",
+    "summary": "跟随事件节点，从离开哈兰、在迦南筑坛，读到因饥荒下埃及的经历。",
+    "personIds": [
+      "abram",
+      "sarai",
+      "lot"
+    ],
+    "figureIds": [
+      "abram-journey"
+    ],
+    "sections": [
+      {
+        "title": "呼召与应许 · 12:1–3",
+        "text": "离开、前往，以及成为大国、蒙福和使万族得福的应许。"
+      },
+      {
+        "title": "进入迦南 · 12:4–9",
+        "text": "75岁的亚伯兰离开哈兰，在示剑和伯特利附近筑坛，随后迁往南地。"
+      },
+      {
+        "title": "下埃及 · 12:10–20",
+        "text": "饥荒、隐瞒夫妻关系、撒莱被带入宫中、灾祸与被送走。"
+      }
+    ],
+    "notes": [
+      "使用亚伯兰、撒莱这两个本章名字，不提前使用后来的名字。",
+      "插图是艺术示意；地图不指定本章未记载的埃及城市或法老身份。"
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-04",
+      "review": "待内容审核"
+    },
+    "sources": [
+      {
+        "title": "Bible.com · 创世记第12章",
+        "url": "https://www.bible.com/bible/48/GEN.12"
+      },
+      {
+        "title": "Sweet Publishing · 亚伯兰迁往迦南图集",
+        "url": "https://www.freebibleimages.org/illustrations/abraham-canaan/"
+      },
+      {
+        "title": "地理参考 · 哈兰",
+        "url": "https://www.iranicaonline.org/articles/harran/"
+      }
+    ]
+  },
+  {
+    "bookId": "genesis",
+    "number": 25,
+    "title": "亚伯拉罕的后裔：以实玛利与以撒",
+    "summary": "从亚伯拉罕的家庭分支，读到以实玛利的十二个儿子，再进入以扫与雅各的故事。",
+    "personIds": [
+      "abram",
+      "sarai",
+      "keturah",
+      "hagar",
+      "isaac",
+      "ishmael",
+      "rebekah",
+      "bethuel",
+      "laban",
+      "esau",
+      "jacob",
+      "zimran",
+      "jokshan",
+      "medan",
+      "midian",
+      "ishbak",
+      "shuah",
+      "sheba-jokshan",
+      "dedan-jokshan",
+      "asshurim",
+      "letushim",
+      "leummim",
+      "ephah",
+      "epher",
+      "hanoch-midian",
+      "abida",
+      "eldaah",
+      "nebaioth",
+      "kedar",
+      "adbeel",
+      "mibsam",
+      "mishma",
+      "dumah",
+      "massa",
+      "hadad-ishmael",
+      "tema",
+      "jetur",
+      "naphish",
+      "kedemah"
+    ],
+    "figureIds": [
+      "genesis-25-abraham",
+      "genesis-25-ishmael",
+      "genesis-25-isaac",
+      "genesis-25-rebekah"
+    ],
+    "sections": [
+      {
+        "title": "其他后裔与亚伯拉罕去世 · 25:1–11",
+        "text": "基土拉的后裔、财物分配；亚伯拉罕享年175岁，由以撒和以实玛利安葬。"
+      },
+      {
+        "title": "以实玛利的后裔 · 25:12–18",
+        "text": "列出十二位儿子；以实玛利享年137岁。"
+      },
+      {
+        "title": "双子出生与长子名分 · 25:19–34",
+        "text": "利百加生下以扫和雅各。二人成长后，以扫向雅各换取食物，卖出长子的名分。"
+      }
+    ],
+    "notes": [
+      "本章完整列出所载名字，人物与关系复用共用资料。",
+      "族群节点与人物分开标色。同名的示巴、底但各自使用支系专属ID。"
+    ],
+    "sources": [
+      {
+        "title": "Bible.com · 创世记25章",
+        "url": "https://www.bible.com/bible/48/GEN.25"
+      },
+      {
+        "title": "以撒的父母依据 · 创21:1–3",
+        "url": "https://www.bible.com/bible/48/GEN.21.1-3"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-09",
+      "review": "待内容审核"
+    }
+  },
+  {
+    "bookId": "genesis",
+    "number": 28,
+    "title": "雅各出发：亲属与婚姻关系",
+    "summary": "看清雅各与拉班的亲属关系，以及以扫新娶的玛哈拉来自哪一支。",
+    "personIds": [
+      "bethuel",
+      "laban",
+      "rebekah",
+      "isaac",
+      "esau",
+      "jacob",
+      "ishmael",
+      "nebaioth",
+      "mahalath-ishmael"
+    ],
+    "figureIds": [
+      "genesis-28-parents",
+      "genesis-28-isaac",
+      "genesis-28-mahalath"
+    ],
+    "sections": [
+      {
+        "title": "雅各被打发往母舅家 · 28:1–5",
+        "text": "以撒祝福雅各，嘱咐他往巴旦亚兰，在拉班的女儿中娶妻。"
+      },
+      {
+        "title": "以扫娶玛哈拉 · 28:6–9",
+        "text": "以扫在已有婚姻之外，又娶了以实玛利的女儿玛哈拉。"
+      },
+      {
+        "title": "伯特利的梦与许愿 · 28:10–22",
+        "text": "雅各在路上梦见梯子，领受应许，醒后立石、起名伯特利并许愿。此处暂以文字梳理。"
+      }
+    ],
+    "notes": [
+      "本章未提前画出雅各未来的妻子和子女。玛哈拉在不同图中均引用同一人物记录。"
+    ],
+    "sources": [
+      {
+        "title": "Bible.com · 创世记28章",
+        "url": "https://www.bible.com/bible/48/GEN.28"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-10",
+      "review": "待内容审核"
+    }
+  },
+  {
+    "bookId": "genesis",
+    "number": 29,
+    "title": "雅各与利亚、拉结",
+    "summary": "先辨认拉班的两个女儿，再看雅各的两段婚姻和利亚的四个儿子。",
+    "personIds": [
+      "laban",
+      "jacob",
+      "leah",
+      "rachel",
+      "bilhah",
+      "zilpah",
+      "reuben",
+      "simeon",
+      "levi",
+      "judah"
+    ],
+    "figureIds": [
+      "genesis-29-laban",
+      "genesis-29-jacob"
+    ],
+    "sections": [
+      {
+        "title": "相遇与服事 · 29:1–20",
+        "text": "雅各在井旁遇见拉结，住进拉班家，并为娶拉结服事七年。"
+      },
+      {
+        "title": "先娶利亚，再娶拉结 · 29:21–30",
+        "text": "拉班先将利亚给雅各；满了利亚的七日婚期，再将拉结给他。雅各此后又服事七年。"
+      },
+      {
+        "title": "利亚生四子 · 29:31–35",
+        "text": "流便、西缅、利未、犹大依次出生。"
+      }
+    ],
+    "notes": [
+      "悉帕给利亚作使女，辟拉给拉结作使女；本章不把她们画为雅各的配偶。点击人物查看共用资料，图中关系按本章进展筛选。"
+    ],
+    "sources": [
+      {
+        "title": "Bible.com · 创世记29章",
+        "url": "https://www.bible.com/bible/48/GEN.29"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-10",
+      "review": "待内容审核"
+    }
+  },
+  {
+    "bookId": "genesis",
+    "number": 30,
+    "title": "雅各的儿女：按四位生母分支",
+    "summary": "沿用第29章的家庭关系，补入第30章记载的子女，按各自生母查看。",
+    "personIds": [
+      "laban",
+      "jacob",
+      "leah",
+      "rachel",
+      "bilhah",
+      "zilpah",
+      "reuben",
+      "simeon",
+      "levi",
+      "judah",
+      "issachar",
+      "zebulun",
+      "dinah",
+      "joseph",
+      "dan",
+      "naphtali",
+      "gad",
+      "asher"
+    ],
+    "figureIds": [
+      "genesis-30-jacob"
+    ],
+    "sections": [
+      {
+        "title": "辟拉与悉帕所生的孩子 · 30:1–13",
+        "text": "拉结的使女辟拉生但、拿弗他利；利亚的使女悉帕生迦得、亚设。"
+      },
+      {
+        "title": "利亚后来的子女 · 30:14–21",
+        "text": "记述风茄的事，以及以萨迦、西布伦和女儿底拿的出生。"
+      },
+      {
+        "title": "拉结生约瑟 · 30:22–24",
+        "text": "拉结生下约瑟，并表达盼望再添儿子的心愿。"
+      },
+      {
+        "title": "雅各与拉班商议工价 · 30:25–43",
+        "text": "约瑟出生后，雅各提出离开，继而与拉班商议羊群与工价。本页以族谱为主，未制作羊群图。"
+      }
+    ],
+    "notes": [
+      "生母与替使女孩子命名的人分开理解：但、拿弗他利的生母是辟拉；迦得、亚设的生母是悉帕。",
+      "各母亲分支内依次排列，不把整张图的左右顺序视为所有孩子的严格出生顺序。"
+    ],
+    "sources": [
+      {
+        "title": "Bible.com · 创世记30章",
+        "url": "https://www.bible.com/bible/48/GEN.30"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-10",
+      "review": "待内容审核"
+    }
+  },
+  {
+    "bookId": "daniel",
+    "number": 1,
+    "title": "四位青年：身份与坚持",
+    "summary": "先认清四人的原名与新名，再区分十天饮食试验和三年受训安排。",
+    "personIds": [
+      "daniel",
+      "hananiah-judah",
+      "mishael-judah",
+      "azariah-judah",
+      "nebuchadnezzar",
+      "ashpenaz"
+    ],
+    "figureIds": [
+      "daniel-1-guide"
+    ],
+    "sections": [
+      {
+        "title": "被带到巴比伦 · 1:1–2",
+        "text": "巴比伦王围困耶路撒冷，部分圣殿器皿被带往示拿。"
+      },
+      {
+        "title": "选入宫中并改名 · 1:3–7",
+        "text": "四位犹大青年被安排学习迦勒底文字言语，也被给予新名和王的饮食。"
+      },
+      {
+        "title": "但以理提出请求 · 1:8–13",
+        "text": "但以理不愿以王的饮食玷污自己，向管理者提出饮食试验。"
+      },
+      {
+        "title": "十天后的察看 · 1:14–16",
+        "text": "委办比较他们的面貌后，改变了饮食供应。"
+      },
+      {
+        "title": "受训期满，接受考问 · 1:17–21",
+        "text": "四人得到知识与智慧，王考问后留他们侍立；但以理还明白异象和梦。"
+      }
+    ],
+    "notes": [
+      "本页是阅读辅助与摘要，点击经文链接对照原文。图表不换算绝对年代。",
+      "名字对照引用1:6–7；同一个人的原名、新名共用一个人物ID。"
+    ],
+    "sources": [
+      {
+        "title": "Bible.com · 但以理书1章",
+        "url": "https://www.bible.com/bible/48/DAN.1"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-11",
+      "review": "待内容审核"
+    }
+  },
+  {
+    "bookId": "daniel",
+    "number": 2,
+    "title": "王的梦：大像与永存的国",
+    "summary": "跟随求问、祷告与解梦的顺序，分清大像的材料和经文本身的解释。",
+    "personIds": [
+      "daniel",
+      "hananiah-judah",
+      "mishael-judah",
+      "azariah-judah",
+      "nebuchadnezzar",
+      "arioch-babylon"
+    ],
+    "figureIds": [
+      "daniel-2-guide"
+    ],
+    "sections": [
+      {
+        "title": "王要求梦和讲解 · 2:1–13",
+        "text": "王要求哲士说出梦的内容及解释。哲士无法满足要求，杀令随之发出。"
+      },
+      {
+        "title": "但以理请求宽限 · 2:14–16",
+        "text": "但以理向护卫长亚略了解情况，并向王请求时间。"
+      },
+      {
+        "title": "同伴祈求，奥秘显明 · 2:17–23",
+        "text": "四人祈求怜悯。夜间奥秘向但以理显明，他随后感谢、称颂神。"
+      },
+      {
+        "title": "在王面前说明来源 · 2:24–30",
+        "text": "但以理先阻止杀害哲士，并把显明奥秘的能力归给天上的神。"
+      },
+      {
+        "title": "述说梦并解释 · 2:31–45",
+        "text": "大像由不同材料组成；石头击脚后，全像粉碎。下方可逐层查看。"
+      },
+      {
+        "title": "王的回应与任命 · 2:46–49",
+        "text": "王承认显明奥秘的神，提升但以理；三位同伴也获任省务职位。"
+      }
+    ],
+    "notes": [
+      "本页是阅读辅助与摘要，点击经文链接对照原文。图表不换算绝对年代。",
+      "第2章的梦中大像与第3章的金像分别按各章记载阅读，不自动视为同一座像。"
+    ],
+    "sources": [
+      {
+        "title": "Bible.com · 但以理书2章",
+        "url": "https://www.bible.com/bible/48/DAN.2"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-11",
+      "review": "待内容审核"
+    }
+  },
+  {
+    "bookId": "daniel",
+    "number": 3,
+    "title": "金像与火窑：三人的选择",
+    "summary": "将王的命令、三人的回应与火窑中的结果放在一起阅读。",
+    "personIds": [
+      "nebuchadnezzar",
+      "hananiah-judah",
+      "mishael-judah",
+      "azariah-judah"
+    ],
+    "figureIds": [
+      "daniel-3-guide"
+    ],
+    "sections": [
+      {
+        "title": "立像与敬拜命令 · 3:1–7",
+        "text": "王在杜拉平原立金像，召集官员，宣告听见乐声就须敬拜的命令。"
+      },
+      {
+        "title": "三人被控告并受问 · 3:8–15",
+        "text": "有人控告三人不敬拜金像；王再次给他们选择，也重申火窑的威胁。"
+      },
+      {
+        "title": "即使不然，仍不敬拜 · 3:16–18",
+        "text": "三人表示神能够救他们；即使不获救，也不敬拜王的神或金像。"
+      },
+      {
+        "title": "被捆投入火窑 · 3:19–23",
+        "text": "王命令把窑加热，将三人捆绑投入；执行命令的人被火焰烧死。"
+      },
+      {
+        "title": "火中四人，三人出来 · 3:24–27",
+        "text": "王惊见火中四位未被捆绑的人，随后召三人出来。官员检查他们，发现没有受火伤害。"
+      },
+      {
+        "title": "王称颂并再下命令 · 3:28–30",
+        "text": "王称神差使者施救，并发出带惩罚的禁令，随后提升三人。获救与新禁令的内容要分别阅读。"
+      }
+    ],
+    "notes": [
+      "本页是阅读辅助与摘要，点击经文链接对照原文。图表不换算绝对年代。",
+      "第2章的梦中大像与第3章的金像分别按各章记载阅读，不自动视为同一座像。"
+    ],
+    "sources": [
+      {
+        "title": "Bible.com · 但以理书3章",
+        "url": "https://www.bible.com/bible/48/DAN.3"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-11",
+      "review": "待内容审核"
+    }
+  },
+  {
+    "bookId": "genesis",
+    "number": 35,
+    "title": "雅各（以色列）与十二子",
+    "summary": "雅各回到伯特利，再次领受以色列之名的确认；便雅悯出生后，本章按四位母亲列出十二个儿子。",
+    "personIds": [
+      "isaac",
+      "rebekah",
+      "esau",
+      "jacob",
+      "leah",
+      "rachel",
+      "bilhah",
+      "zilpah",
+      "reuben",
+      "simeon",
+      "levi",
+      "judah",
+      "issachar",
+      "zebulun",
+      "joseph",
+      "benjamin",
+      "dan",
+      "naphtali",
+      "gad",
+      "asher"
+    ],
+    "figureIds": [
+      "genesis-35-jacob",
+      "genesis-35-isaac"
+    ],
+    "sections": [
+      {
+        "title": "回伯特利与改名的确认 · 35:1–15",
+        "text": "雅各清理家中的偶像、回伯特利筑坛。利百加的奶母底波拉去世。神再次以以色列之名称呼雅各，并重申应许。"
+      },
+      {
+        "title": "便雅悯出生，拉结去世 · 35:16–20",
+        "text": "前往以法他途中，拉结难产；她给孩子起名便俄尼，雅各起名便雅悯。拉结去世，葬在路旁。"
+      },
+      {
+        "title": "流便事件与十二子名单 · 35:21–26",
+        "text": "经文记述流便与辟拉同寝、以色列听见，随后按四位母亲列出雅各的十二个儿子。这不画成新的婚姻关系。"
+      },
+      {
+        "title": "以撒去世 · 35:27–29",
+        "text": "雅各来到父亲以撒那里。以撒享年180岁，由以扫和雅各安葬。"
+      }
+    ],
+    "notes": [
+      "雅各与以色列、便雅悯与便俄尼分别共用同一人物ID，不创建重复人物。",
+      "主图按35:22–26的名单列十二子，没有把底拿算作儿子。前面章节仍按当时进展展示，不提前出现便雅悯。",
+      "便雅悯的出生地点依35:16–19单独记述，不能将十二子名单的总括地名理解为他也出生在巴旦亚兰。"
+    ],
+    "sources": [
+      {
+        "title": "Bible.com · 创世记35章",
+        "url": "https://www.bible.com/bible/48/GEN.35"
+      },
+      {
+        "title": "父母关系补注 · 创世记25章",
+        "url": "https://www.bible.com/bible/48/GEN.25"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-12",
+      "review": "待内容审核"
+    }
+  },
+  {
+    "bookId": "genesis",
+    "number": 36,
+    "title": "以扫（以东）的后裔与诸王",
+    "summary": "分清以扫一家、何利人西珥的后裔、族长名单与诸王继位。亲属连线与王位先后分开阅读。",
+    "personIds": [
+      "esau",
+      "adah-esau",
+      "basemath-ishmael",
+      "oholibamah-esau",
+      "eliphaz-esau",
+      "reuel-esau",
+      "jeush-esau",
+      "jalam-esau",
+      "korah-esau",
+      "teman-eliphaz",
+      "omar-eliphaz",
+      "zepho-eliphaz",
+      "gatam-eliphaz",
+      "kenaz-eliphaz",
+      "timna-eliphaz",
+      "amalek-eliphaz",
+      "nahath-reuel",
+      "zerah-reuel",
+      "shammah-reuel",
+      "mizzah-reuel",
+      "seir-horite",
+      "lotan",
+      "shobal",
+      "zibeon",
+      "anah-seir",
+      "dishon-seir",
+      "ezer",
+      "dishan",
+      "hori-lotan",
+      "hemam-lotan",
+      "alvan",
+      "manahath",
+      "ebal-shobal",
+      "shepho",
+      "onam-shobal",
+      "aiah-zibeon",
+      "anah-zibeon",
+      "dishon-anah",
+      "bilhan-ezer",
+      "zaavan",
+      "akan-ezer",
+      "uz-dishan",
+      "aran-dishan",
+      "hemdan",
+      "eshban",
+      "ithran",
+      "keran",
+      "korah-eliphaz-chief",
+      "bela-edom",
+      "jobab-edom",
+      "husham-edom",
+      "hadad-bedad",
+      "samlah-edom",
+      "shaul-edom",
+      "baal-hanan-edom",
+      "hadad-pau"
+    ],
+    "figureIds": [
+      "genesis-36-esau",
+      "genesis-36-seir",
+      "genesis-36-records"
+    ],
+    "sections": [
+      {
+        "title": "以扫一家与迁居 · 36:1–14",
+        "text": "按母亲记录以扫的儿孙；以扫因群畜财物众多，与雅各分开居住在西珥山区。"
+      },
+      {
+        "title": "以扫后裔中的族长 · 36:15–19",
+        "text": "族长身份按名单标记在人物上；同名或出生名单未列的条目单独说明。"
+      },
+      {
+        "title": "何利人西珥的后裔 · 36:20–30",
+        "text": "另一支在当地居住的家族，不直接挂作以扫的子孙。"
+      },
+      {
+        "title": "以东诸王 · 36:31–39",
+        "text": "依经文记载的继位顺序列表；各王的父名、来自地或京城独立记载，不用继位顺序推断父子关系。"
+      },
+      {
+        "title": "按宗族与住处列族长 · 36:40–43",
+        "text": "保留十一项名单，不与前段同名人物自动认定为同一人或相同世代。"
+      }
+    ],
+    "notes": [
+      "图表按本章称呼与名单层次呈现，细节问题见下方说明。没有将古代族长等同现代国家或民族。"
+    ],
+    "sources": [
+      {
+        "title": "Bible.com · 创世记36章",
+        "url": "https://www.bible.com/bible/48/GEN.36"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-12",
+      "review": "待内容审核"
+    }
+  },
+  {
+    "bookId": "genesis",
+    "number": 37,
+    "title": "约瑟的梦与被卖",
+    "summary": "从两个梦和家人的反应，读到约瑟被卖，以及父亲凭染血衣服作出的判断。",
+    "personIds": [
+      "joseph",
+      "jacob",
+      "reuben",
+      "judah"
+    ],
+    "figureIds": [
+      "genesis-37-guide"
+    ],
+    "sections": [
+      {
+        "title": "父亲偏爱与兄弟不和 · 37:1–4",
+        "text": "雅各特别爱约瑟并给他衣服，兄弟因此对他怀恨。"
+      },
+      {
+        "title": "两个梦与家人的反应 · 37:5–11",
+        "text": "约瑟述说两个梦，兄弟愈发嫉妒，父亲责备后仍将话记在心里。"
+      },
+      {
+        "title": "父亲差遣，寻找兄长 · 37:12–17",
+        "text": "约瑟从希伯仑谷出发，经示剑追到多坍。地点节点不代表已确定的实际道路。"
+      },
+      {
+        "title": "从谋害到被丢入坑 · 37:18–24",
+        "text": "众兄弟谋划杀害约瑟；流便介入。约瑟被剥去衣服、丢进无水的坑。"
+      },
+      {
+        "title": "被卖并带往埃及 · 37:25–28",
+        "text": "犹大提议卖人，约瑟被以二十舍客勒银子卖出，商旅把他带往埃及。"
+      },
+      {
+        "title": "染血衣服与父亲哀伤 · 37:29–35",
+        "text": "流便回来后找不到约瑟。兄弟们让父亲辨认染血衣服，雅各认定约瑟遭遇野兽而哀哭。"
+      },
+      {
+        "title": "约瑟落到波提乏手中 · 37:36",
+        "text": "章末交代约瑟在埃及被卖给护卫长波提乏，第39章继续这一线索。"
+      }
+    ],
+    "notes": [
+      "三章中的衣服、印、带子与杖涉及人物怎样辨认和判断；这是跨章阅读观察，不替代各段本身的叙事。"
+    ],
+    "sources": [
+      {
+        "title": "Bible.com · 创世记37章",
+        "url": "https://www.bible.com/bible/48/GEN.37"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-13",
+      "review": "待内容审核"
+    }
+  },
+  {
+    "bookId": "genesis",
+    "number": 38,
+    "title": "犹大与他玛：辨认凭据",
+    "summary": "暂离约瑟的故事，进入犹大一家，分清关系、承诺、物件凭据与双子的出生。",
+    "personIds": [
+      "judah",
+      "shua-daughter",
+      "er-judah",
+      "onan-judah",
+      "shelah-judah",
+      "tamar-judah",
+      "perez-judah",
+      "zerah-judah",
+      "hirah-adullam"
+    ],
+    "figureIds": [
+      "genesis-38-family",
+      "genesis-38-guide"
+    ],
+    "sections": [
+      {
+        "title": "犹大成婚，三个儿子出生 · 38:1–5",
+        "text": "犹大娶书亚的女儿，生下珥、俄南、示拉。妻子的名字没有记载，书亚是她父亲的名字。"
+      },
+      {
+        "title": "珥、俄南去世，他玛等待 · 38:6–11",
+        "text": "珥娶他玛后去世。俄南拒绝为哥哥留后，也去世。他玛被要求回父家等待示拉长大。"
+      },
+      {
+        "title": "身份遮掩与留下当头 · 38:12–19",
+        "text": "犹大妻子去世后，上亭拿剪羊毛。他玛遮掩身份，留下犹大的印、带子和杖作当头，并从他怀孕。"
+      },
+      {
+        "title": "送羊羔，却找不到人 · 38:20–23",
+        "text": "希拉送羊羔以取回当头，没有找到那位女子。"
+      },
+      {
+        "title": "辨认凭据与承认责任 · 38:24–26",
+        "text": "他玛被指控后，请犹大认出物件。犹大承认自己未履行将她给示拉的安排。"
+      },
+      {
+        "title": "红线与双子的出生 · 38:27–30",
+        "text": "谢拉先伸手，被系上红线，随后收回。法勒斯先出生，谢拉后出生。"
+      }
+    ],
+    "notes": [
+      "三章中的衣服、印、带子与杖涉及人物怎样辨认和判断；这是跨章阅读观察，不替代各段本身的叙事。",
+      "第38章是犹大一家的插叙，第39章继续第37章末约瑟在埃及的线索；不将三章各自的时间跨度强行等长排列。"
+    ],
+    "sources": [
+      {
+        "title": "Bible.com · 创世记38章",
+        "url": "https://www.bible.com/bible/48/GEN.38"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-13",
+      "review": "待内容审核"
+    }
+  },
+  {
+    "bookId": "genesis",
+    "number": 39,
+    "title": "约瑟在埃及：拒绝、指控与下监",
+    "summary": "回到约瑟在埃及的故事，分清实际经过与指控，并观察家中与监中的重复描述。",
+    "personIds": [
+      "joseph",
+      "potiphar",
+      "potiphars-wife",
+      "prison-keeper-gen39"
+    ],
+    "figureIds": [
+      "genesis-39-guide"
+    ],
+    "sections": [
+      {
+        "title": "被买入波提乏家 · 39:1–6",
+        "text": "波提乏买下约瑟，后来信任他、将家务和财物交给他管理。"
+      },
+      {
+        "title": "持续拒绝与逃离 · 39:7–12",
+        "text": "约瑟拒绝主人妻子的要求；一次被抓住衣服时，他留下衣服逃离。"
+      },
+      {
+        "title": "妇人留下衣服并指控 · 39:13–18",
+        "text": "妇人把留下的衣服配合自己的叙述，先向家人、后向丈夫提出指控。"
+      },
+      {
+        "title": "被下在监里 · 39:19–20",
+        "text": "主人听见妻子的话而发怒，把约瑟关在王的囚犯被囚之处。"
+      },
+      {
+        "title": "监中再次蒙信任 · 39:21–23",
+        "text": "约瑟在司狱眼前蒙恩，再次受托管理事务；故事仍处于监狱阶段。"
+      }
+    ],
+    "notes": [
+      "三章中的衣服、印、带子与杖涉及人物怎样辨认和判断；这是跨章阅读观察，不替代各段本身的叙事。"
+    ],
+    "sources": [
+      {
+        "title": "Bible.com · 创世记39章",
+        "url": "https://www.bible.com/bible/48/GEN.39"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-13",
       "review": "待内容审核"
     }
   }

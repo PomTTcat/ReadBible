@@ -202,15 +202,24 @@
     "id": "shem",
     "name": "闪",
     "references": [
-      "创 5:32"
+      "创 5:32",
+      "创 10:21–31",
+      "创 11:10–11"
     ],
-    "gender": "male"
+    "gender": "male",
+    "genealogyAges": {
+      "chapter": 11,
+      "childId": "arphaxad",
+      "ageAtBirth": 100,
+      "yearsAfter": 500
+    }
   },
   {
     "id": "ham",
     "name": "含",
     "references": [
-      "创 5:32"
+      "创 5:32",
+      "创 10:6–20"
     ],
     "gender": "male"
   },
@@ -218,8 +227,2018 @@
     "id": "japheth",
     "name": "雅弗",
     "references": [
-      "创 5:32"
+      "创 5:32",
+      "创 10:2–5"
     ],
     "gender": "male"
+  },
+  {
+    "id": "gomer",
+    "name": "歌篾",
+    "references": [
+      "创 10:2"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "magog",
+    "name": "玛各",
+    "references": [
+      "创 10:2"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "madai",
+    "name": "玛代",
+    "references": [
+      "创 10:2"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "javan",
+    "name": "雅完",
+    "references": [
+      "创 10:2"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "tubal",
+    "name": "土巴",
+    "references": [
+      "创 10:2"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "meshech",
+    "name": "米设",
+    "references": [
+      "创 10:2"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "tiras",
+    "name": "提拉",
+    "references": [
+      "创 10:2"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "ashkenaz",
+    "name": "亚实基拿",
+    "references": [
+      "创 10:3"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "riphath",
+    "name": "利法",
+    "references": [
+      "创 10:3"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "togarmah",
+    "name": "陀迦玛",
+    "references": [
+      "创 10:3"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "elishah",
+    "name": "以利沙",
+    "references": [
+      "创 10:4"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "tarshish",
+    "name": "他施",
+    "references": [
+      "创 10:4"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "kittim",
+    "name": "基提",
+    "references": [
+      "创 10:4"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "dodanim",
+    "name": "多单",
+    "references": [
+      "创 10:4"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "cush",
+    "name": "古实",
+    "references": [
+      "创 10:6"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "mizraim",
+    "name": "麦西",
+    "references": [
+      "创 10:6"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "put",
+    "name": "弗",
+    "references": [
+      "创 10:6"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "canaan",
+    "name": "迦南",
+    "references": [
+      "创 10:6"
+    ],
+    "gender": "male",
+    "note": "创 10:19 描述迦南人的疆界，提到西顿、基拉耳、迦萨、所多玛等地。"
+  },
+  {
+    "id": "seba",
+    "name": "西巴",
+    "references": [
+      "创 10:7"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "havilah-cush",
+    "name": "哈腓拉",
+    "references": [
+      "创 10:7"
+    ],
+    "gender": "male",
+    "note": "古实的后代，与约坍一支的哈腓拉分开记录。"
+  },
+  {
+    "id": "sabtah",
+    "name": "撒弗他",
+    "references": [
+      "创 10:7"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "raamah",
+    "name": "拉玛",
+    "references": [
+      "创 10:7"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "sabteca",
+    "name": "撒弗提迦",
+    "references": [
+      "创 10:7"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "nimrod",
+    "name": "宁录",
+    "references": [
+      "创 10:8–12"
+    ],
+    "gender": "male",
+    "note": "本章记载宁录是猎户。他的国从示拿地的巴别、以力、亚甲和甲尼开始；后文又提到尼尼微、利河伯、迦拉和利鲜。"
+  },
+  {
+    "id": "sheba-raamah",
+    "name": "示巴",
+    "references": [
+      "创 10:7"
+    ],
+    "gender": "male",
+    "note": "拉玛的后代，与约坍一支的示巴分开记录。"
+  },
+  {
+    "id": "dedan",
+    "name": "底但",
+    "references": [
+      "创 10:7"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "ludim",
+    "name": "路低人",
+    "references": [
+      "创 10:13"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "anamim",
+    "name": "亚拿米人",
+    "references": [
+      "创 10:13"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "lehabim",
+    "name": "利哈比人",
+    "references": [
+      "创 10:13"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "naphtuhim",
+    "name": "拿弗土希人",
+    "references": [
+      "创 10:13"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "pathrusim",
+    "name": "帕斯鲁细人",
+    "references": [
+      "创 10:14"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "casluhim",
+    "name": "迦斯路希人",
+    "references": [
+      "创 10:14"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "caphtorim",
+    "name": "迦斐托人",
+    "references": [
+      "创 10:14"
+    ],
+    "kind": "clan",
+    "note": "创 10:14 也提到非利士人；不同译本对他们与同节所列族群的关联有不同处理。"
+  },
+  {
+    "id": "sidon",
+    "name": "西顿",
+    "references": [
+      "创 10:15"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "heth",
+    "name": "赫",
+    "references": [
+      "创 10:15"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "jebusites",
+    "name": "耶布斯人",
+    "references": [
+      "创 10:16"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "amorites",
+    "name": "亚摩利人",
+    "references": [
+      "创 10:16"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "girgashites",
+    "name": "革迦撒人",
+    "references": [
+      "创 10:16"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "hivites",
+    "name": "希未人",
+    "references": [
+      "创 10:17"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "arkites",
+    "name": "亚基人",
+    "references": [
+      "创 10:17"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "sinites",
+    "name": "西尼人",
+    "references": [
+      "创 10:17"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "arvadites",
+    "name": "亚瓦底人",
+    "references": [
+      "创 10:18"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "zemarites",
+    "name": "洗玛利人",
+    "references": [
+      "创 10:18"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "hamathites",
+    "name": "哈马人",
+    "references": [
+      "创 10:18"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "elam",
+    "name": "以拦",
+    "references": [
+      "创 10:22"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "asshur",
+    "name": "亚述",
+    "references": [
+      "创 10:22"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "arphaxad",
+    "name": "亚法撒",
+    "references": [
+      "创 10:22",
+      "创 11:12–13"
+    ],
+    "gender": "male",
+    "genealogyAges": {
+      "chapter": 11,
+      "childId": "shelah-arphaxad",
+      "ageAtBirth": 35,
+      "yearsAfter": 403
+    }
+  },
+  {
+    "id": "lud",
+    "name": "路德",
+    "references": [
+      "创 10:22"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "aram",
+    "name": "亚兰",
+    "references": [
+      "创 10:22"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "uz-aram",
+    "name": "乌斯",
+    "references": [
+      "创 10:23"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "hul",
+    "name": "户勒",
+    "references": [
+      "创 10:23"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "gether",
+    "name": "基帖",
+    "references": [
+      "创 10:23"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "mash",
+    "name": "玛施",
+    "references": [
+      "创 10:23"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "shelah-arphaxad",
+    "name": "沙拉",
+    "references": [
+      "创 10:24",
+      "创 11:14–15"
+    ],
+    "gender": "male",
+    "genealogyAges": {
+      "chapter": 11,
+      "childId": "eber",
+      "ageAtBirth": 30,
+      "yearsAfter": 403
+    }
+  },
+  {
+    "id": "eber",
+    "name": "希伯",
+    "references": [
+      "创 10:24",
+      "创 11:16–17"
+    ],
+    "gender": "male",
+    "genealogyAges": {
+      "chapter": 11,
+      "childId": "peleg",
+      "ageAtBirth": 34,
+      "yearsAfter": 430
+    }
+  },
+  {
+    "id": "peleg",
+    "name": "法勒",
+    "references": [
+      "创 10:25",
+      "创 11:18–19"
+    ],
+    "gender": "male",
+    "note": "创 10:25 将法勒的名字与当时的分地联系起来。",
+    "genealogyAges": {
+      "chapter": 11,
+      "childId": "reu",
+      "ageAtBirth": 30,
+      "yearsAfter": 209
+    }
+  },
+  {
+    "id": "joktan",
+    "name": "约坍",
+    "references": [
+      "创 10:25"
+    ],
+    "gender": "male",
+    "note": "创 10:30 记载约坍后裔居住的范围，提到米沙和西发。"
+  },
+  {
+    "id": "almodad",
+    "name": "亚摩答",
+    "references": [
+      "创 10:26"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "sheleph",
+    "name": "沙列",
+    "references": [
+      "创 10:26"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "hazarmaveth",
+    "name": "哈萨玛非",
+    "references": [
+      "创 10:26"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "jerah",
+    "name": "耶拉",
+    "references": [
+      "创 10:26"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "hadoram",
+    "name": "哈多兰",
+    "references": [
+      "创 10:27"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "uzal",
+    "name": "乌萨",
+    "references": [
+      "创 10:27"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "diklah",
+    "name": "德拉",
+    "references": [
+      "创 10:27"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "obal",
+    "name": "俄巴路",
+    "references": [
+      "创 10:28"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "abimael",
+    "name": "亚比玛利",
+    "references": [
+      "创 10:28"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "sheba-joktan",
+    "name": "示巴",
+    "references": [
+      "创 10:28"
+    ],
+    "gender": "male",
+    "note": "约坍的后代，与拉玛一支的示巴分开记录。"
+  },
+  {
+    "id": "ophir",
+    "name": "阿斐",
+    "references": [
+      "创 10:29"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "havilah-joktan",
+    "name": "哈腓拉",
+    "references": [
+      "创 10:29"
+    ],
+    "gender": "male",
+    "note": "约坍的后代，与古实一支的哈腓拉分开记录。"
+  },
+  {
+    "id": "jobab",
+    "name": "约巴",
+    "references": [
+      "创 10:29"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "reu",
+    "name": "拉吴",
+    "gender": "male",
+    "references": [
+      "创 11:18–21",
+      "创 11:20–21"
+    ],
+    "genealogyAges": {
+      "chapter": 11,
+      "childId": "serug",
+      "ageAtBirth": 32,
+      "yearsAfter": 207
+    }
+  },
+  {
+    "id": "serug",
+    "name": "西鹿",
+    "gender": "male",
+    "references": [
+      "创 11:20–23",
+      "创 11:22–23"
+    ],
+    "genealogyAges": {
+      "chapter": 11,
+      "childId": "nahor-ancestor",
+      "ageAtBirth": 30,
+      "yearsAfter": 200
+    }
+  },
+  {
+    "id": "nahor-ancestor",
+    "name": "拿鹤",
+    "gender": "male",
+    "references": [
+      "创 11:22–25",
+      "创 11:24–25"
+    ],
+    "note": "他拉的父亲，与他拉儿子拿鹤分开记录。",
+    "genealogyAges": {
+      "chapter": 11,
+      "childId": "terah",
+      "ageAtBirth": 29,
+      "yearsAfter": 119
+    }
+  },
+  {
+    "id": "terah",
+    "name": "他拉",
+    "gender": "male",
+    "references": [
+      "创 11:24–32"
+    ],
+    "note": "活到七十岁开始生亚伯兰、拿鹤、哈兰；不能据此认定三人同年出生。他拉在哈兰去世，享年205岁。"
+  },
+  {
+    "id": "abram",
+    "name": "亚伯兰",
+    "gender": "male",
+    "references": [
+      "创 11:26–12:20",
+      "创 25:1–11"
+    ],
+    "note": "撒莱的丈夫、罗得的伯父。离开哈兰时75岁。本章沿用亚伯兰这一名字。",
+    "aliases": [
+      "亚伯拉罕"
+    ]
+  },
+  {
+    "id": "nahor-terah",
+    "name": "拿鹤",
+    "gender": "male",
+    "references": [
+      "创 11:26–29"
+    ],
+    "note": "他拉的儿子，密迦的丈夫；与祖父拿鹤分开记录。"
+  },
+  {
+    "id": "haran-person",
+    "name": "哈兰",
+    "gender": "male",
+    "references": [
+      "创 11:26–29"
+    ],
+    "note": "他拉的儿子、罗得与密迦、亦迦的父亲；在他拉之前死于吾珥。与地名哈兰分开记录。"
+  },
+  {
+    "id": "lot",
+    "name": "罗得",
+    "gender": "male",
+    "references": [
+      "创 11:27–12:5"
+    ],
+    "note": "哈兰的儿子、亚伯兰的侄儿，随亚伯兰同行。"
+  },
+  {
+    "id": "sarai",
+    "name": "撒莱",
+    "gender": "female",
+    "references": [
+      "创 11:29–12:20",
+      "创 25:10–12"
+    ],
+    "note": "亚伯兰的妻子。创11:30记载她当时没有孩子。",
+    "aliases": [
+      "撒拉"
+    ]
+  },
+  {
+    "id": "milcah",
+    "name": "密迦",
+    "gender": "female",
+    "references": [
+      "创 11:29"
+    ],
+    "note": "哈兰的女儿、拿鹤的妻子。图中作为女儿和配偶出现时，均引用同一人物资料。"
+  },
+  {
+    "id": "iscah",
+    "name": "亦迦",
+    "gender": "female",
+    "references": [
+      "创 11:29"
+    ]
+  },
+  {
+    "id": "keturah",
+    "name": "基土拉",
+    "gender": "female",
+    "references": [
+      "创 25:1–4"
+    ],
+    "note": "本章称她为亚伯拉罕所娶的妻子。"
+  },
+  {
+    "id": "hagar",
+    "name": "夏甲",
+    "gender": "female",
+    "references": [
+      "创 25:12"
+    ],
+    "note": "埃及人，撒拉的使女，以实玛利的母亲。"
+  },
+  {
+    "id": "isaac",
+    "name": "以撒",
+    "gender": "male",
+    "references": [
+      "创 25:5–11、19–28",
+      "创 28:1–9",
+      "创 35:27–29"
+    ],
+    "note": "亚伯拉罕与撒拉的儿子（创21:1–3）。40岁娶利百加，60岁时双子出生。 创35:28–29记载他享年180岁，由以扫和雅各安葬。"
+  },
+  {
+    "id": "ishmael",
+    "name": "以实玛利",
+    "gender": "male",
+    "references": [
+      "创 25:9、12–18",
+      "创 28:9"
+    ],
+    "note": "亚伯拉罕与夏甲的儿子，享年137岁；本章列出十二个儿子，作十二族族长。"
+  },
+  {
+    "id": "rebekah",
+    "name": "利百加",
+    "gender": "female",
+    "references": [
+      "创 25:20–28",
+      "创 28:5、7"
+    ],
+    "note": "彼土利的女儿、拉班的妹妹、以撒的妻子。"
+  },
+  {
+    "id": "bethuel",
+    "name": "彼土利",
+    "gender": "male",
+    "references": [
+      "创 25:20",
+      "创 28:2、5"
+    ],
+    "note": "利百加与拉班的父亲；雅各和以扫的外祖父。"
+  },
+  {
+    "id": "laban",
+    "name": "拉班",
+    "gender": "male",
+    "references": [
+      "创 25:20",
+      "创 28:2、5",
+      "创 29:5–30",
+      "创 30:25–43"
+    ],
+    "note": "彼土利的儿子、利百加的哥哥，也是利亚和拉结的父亲。"
+  },
+  {
+    "id": "esau",
+    "name": "以扫",
+    "gender": "male",
+    "references": [
+      "创 25:24–34",
+      "创 28:6–9",
+      "创 35:29",
+      "创 36:1–19、40–43"
+    ],
+    "note": "双子中的长子，又称以东；善于打猎。以饼和红豆汤换出长子的名分。",
+    "aliases": [
+      "以东"
+    ]
+  },
+  {
+    "id": "jacob",
+    "name": "雅各",
+    "gender": "male",
+    "references": [
+      "创 25:24–34",
+      "创 28:1–22",
+      "创 29:1–35",
+      "创 30:1–43",
+      "创 35:9–15、22–29",
+      "创 37:1–35"
+    ],
+    "note": "以扫的弟弟，出生时抓住哥哥的脚跟；常住帐棚。",
+    "aliases": [
+      "以色列"
+    ]
+  },
+  {
+    "id": "zimran",
+    "name": "心兰",
+    "gender": "male",
+    "references": [
+      "创 25:2"
+    ]
+  },
+  {
+    "id": "jokshan",
+    "name": "约珊",
+    "gender": "male",
+    "references": [
+      "创 25:2"
+    ]
+  },
+  {
+    "id": "medan",
+    "name": "米但",
+    "gender": "male",
+    "references": [
+      "创 25:2"
+    ]
+  },
+  {
+    "id": "midian",
+    "name": "米甸",
+    "gender": "male",
+    "references": [
+      "创 25:2"
+    ]
+  },
+  {
+    "id": "ishbak",
+    "name": "伊施巴",
+    "gender": "male",
+    "references": [
+      "创 25:2"
+    ]
+  },
+  {
+    "id": "shuah",
+    "name": "书亚",
+    "gender": "male",
+    "references": [
+      "创 25:2"
+    ]
+  },
+  {
+    "id": "sheba-jokshan",
+    "name": "示巴",
+    "gender": "male",
+    "references": [
+      "创 25:3"
+    ],
+    "note": "约珊的儿子；与创10章其他支系的示巴分开记录。"
+  },
+  {
+    "id": "dedan-jokshan",
+    "name": "底但",
+    "gender": "male",
+    "references": [
+      "创 25:3"
+    ],
+    "note": "约珊的儿子；与创10章拉玛一支的底但分开记录。"
+  },
+  {
+    "id": "asshurim",
+    "name": "亚书利族",
+    "references": [
+      "创 25:3"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "letushim",
+    "name": "利都是族",
+    "references": [
+      "创 25:3"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "leummim",
+    "name": "利乌米族",
+    "references": [
+      "创 25:3"
+    ],
+    "kind": "clan"
+  },
+  {
+    "id": "ephah",
+    "name": "以法",
+    "gender": "male",
+    "references": [
+      "创 25:4"
+    ]
+  },
+  {
+    "id": "epher",
+    "name": "以弗",
+    "gender": "male",
+    "references": [
+      "创 25:4"
+    ]
+  },
+  {
+    "id": "hanoch-midian",
+    "name": "哈诺",
+    "gender": "male",
+    "references": [
+      "创 25:4"
+    ]
+  },
+  {
+    "id": "abida",
+    "name": "亚比大",
+    "gender": "male",
+    "references": [
+      "创 25:4"
+    ]
+  },
+  {
+    "id": "eldaah",
+    "name": "以勒大",
+    "gender": "male",
+    "references": [
+      "创 25:4"
+    ]
+  },
+  {
+    "id": "nebaioth",
+    "name": "尼拜约",
+    "gender": "male",
+    "references": [
+      "创 25:13–16",
+      "创 28:9"
+    ]
+  },
+  {
+    "id": "kedar",
+    "name": "基达",
+    "gender": "male",
+    "references": [
+      "创 25:13–16"
+    ]
+  },
+  {
+    "id": "adbeel",
+    "name": "亚德别",
+    "gender": "male",
+    "references": [
+      "创 25:13–16"
+    ]
+  },
+  {
+    "id": "mibsam",
+    "name": "米比衫",
+    "gender": "male",
+    "references": [
+      "创 25:13–16"
+    ]
+  },
+  {
+    "id": "mishma",
+    "name": "米施玛",
+    "gender": "male",
+    "references": [
+      "创 25:13–16"
+    ]
+  },
+  {
+    "id": "dumah",
+    "name": "度玛",
+    "gender": "male",
+    "references": [
+      "创 25:13–16"
+    ]
+  },
+  {
+    "id": "massa",
+    "name": "玛撒",
+    "gender": "male",
+    "references": [
+      "创 25:13–16"
+    ]
+  },
+  {
+    "id": "hadad-ishmael",
+    "name": "哈大",
+    "gender": "male",
+    "references": [
+      "创 25:13–16"
+    ]
+  },
+  {
+    "id": "tema",
+    "name": "提玛",
+    "gender": "male",
+    "references": [
+      "创 25:13–16"
+    ]
+  },
+  {
+    "id": "jetur",
+    "name": "伊突",
+    "gender": "male",
+    "references": [
+      "创 25:13–16"
+    ]
+  },
+  {
+    "id": "naphish",
+    "name": "拿非施",
+    "gender": "male",
+    "references": [
+      "创 25:13–16"
+    ]
+  },
+  {
+    "id": "kedemah",
+    "name": "基底玛",
+    "gender": "male",
+    "references": [
+      "创 25:13–16"
+    ]
+  },
+  {
+    "id": "mahalath-ishmael",
+    "name": "玛哈拉",
+    "gender": "female",
+    "references": [
+      "创 28:9"
+    ],
+    "note": "以实玛利的女儿、尼拜约的妹妹，以扫的妻子。本图不将她与其他章节的近似名字自动合并。"
+  },
+  {
+    "id": "leah",
+    "name": "利亚",
+    "gender": "female",
+    "references": [
+      "创 29:16–35；30:9–21",
+      "创 35:23"
+    ],
+    "note": "拉班的大女儿、拉结的姐姐，雅各的妻子。"
+  },
+  {
+    "id": "rachel",
+    "name": "拉结",
+    "gender": "female",
+    "references": [
+      "创 29:6–30；30:1–8、22–24",
+      "创 35:16–20、24"
+    ],
+    "note": "拉班的小女儿、利亚的妹妹，雅各的妻子。"
+  },
+  {
+    "id": "bilhah",
+    "name": "辟拉",
+    "gender": "female",
+    "references": [
+      "创 29:29；30:3–8",
+      "创 35:22、25"
+    ],
+    "note": "拉结的使女，后来给雅各为妾；但和拿弗他利的生母。"
+  },
+  {
+    "id": "zilpah",
+    "name": "悉帕",
+    "gender": "female",
+    "references": [
+      "创 29:24；30:9–13",
+      "创 35:26"
+    ],
+    "note": "利亚的使女，后来给雅各为妾；迦得和亚设的生母。"
+  },
+  {
+    "id": "reuben",
+    "name": "流便",
+    "gender": "male",
+    "references": [
+      "创 29:32；30:14",
+      "创 35:22–23",
+      "创 37:21–22、29–30"
+    ],
+    "note": "雅各与利亚的长子。"
+  },
+  {
+    "id": "simeon",
+    "name": "西缅",
+    "gender": "male",
+    "references": [
+      "创 29:33",
+      "创 35:23"
+    ],
+    "note": "利亚所生的第二个儿子。"
+  },
+  {
+    "id": "levi",
+    "name": "利未",
+    "gender": "male",
+    "references": [
+      "创 29:34",
+      "创 35:23"
+    ],
+    "note": "利亚所生的第三个儿子。"
+  },
+  {
+    "id": "judah",
+    "name": "犹大",
+    "gender": "male",
+    "references": [
+      "创 29:35",
+      "创 35:23",
+      "创 37:26–27",
+      "创 38:1–30"
+    ],
+    "note": "利亚所生的第四个儿子。"
+  },
+  {
+    "id": "dan",
+    "name": "但",
+    "gender": "male",
+    "references": [
+      "创 30:3–6",
+      "创 35:25"
+    ],
+    "note": "雅各与辟拉的儿子，由拉结起名。"
+  },
+  {
+    "id": "naphtali",
+    "name": "拿弗他利",
+    "gender": "male",
+    "references": [
+      "创 30:7–8",
+      "创 35:25"
+    ],
+    "note": "辟拉所生的第二个儿子，由拉结起名。"
+  },
+  {
+    "id": "gad",
+    "name": "迦得",
+    "gender": "male",
+    "references": [
+      "创 30:9–11",
+      "创 35:26"
+    ],
+    "note": "雅各与悉帕的儿子，由利亚起名。"
+  },
+  {
+    "id": "asher",
+    "name": "亚设",
+    "gender": "male",
+    "references": [
+      "创 30:12–13",
+      "创 35:26"
+    ],
+    "note": "悉帕所生的第二个儿子，由利亚起名。"
+  },
+  {
+    "id": "issachar",
+    "name": "以萨迦",
+    "gender": "male",
+    "references": [
+      "创 30:17–18",
+      "创 35:23"
+    ],
+    "note": "利亚所生的第五个儿子。"
+  },
+  {
+    "id": "zebulun",
+    "name": "西布伦",
+    "gender": "male",
+    "references": [
+      "创 30:19–20",
+      "创 35:23"
+    ],
+    "note": "利亚所生的第六个儿子。"
+  },
+  {
+    "id": "dinah",
+    "name": "底拿",
+    "gender": "female",
+    "references": [
+      "创 30:21"
+    ],
+    "note": "雅各与利亚的女儿。"
+  },
+  {
+    "id": "joseph",
+    "name": "约瑟",
+    "gender": "male",
+    "references": [
+      "创 30:22–24",
+      "创 35:24",
+      "创 37:1–36",
+      "创 39:1–23"
+    ],
+    "note": "雅各与拉结的儿子；他的出生与起名见创30:22–24。"
+  },
+  {
+    "id": "daniel",
+    "name": "但以理",
+    "aliases": [
+      "伯提沙撒"
+    ],
+    "gender": "male",
+    "references": [
+      "但 1:6–7",
+      "但 2:17–18",
+      "但 2:24–49"
+    ],
+    "note": "四位青年之一；本书主要叙事人物。在第2章解释王的梦。"
+  },
+  {
+    "id": "hananiah-judah",
+    "name": "哈拿尼雅",
+    "aliases": [
+      "沙得拉"
+    ],
+    "gender": "male",
+    "references": [
+      "但 1:6–7",
+      "但 2:17–18",
+      "但 3:12–30"
+    ],
+    "note": "但以理的同伴；第3章拒拜金像的三人之一。"
+  },
+  {
+    "id": "mishael-judah",
+    "name": "米沙利",
+    "aliases": [
+      "米煞"
+    ],
+    "gender": "male",
+    "references": [
+      "但 1:6–7",
+      "但 2:17–18",
+      "但 3:12–30"
+    ],
+    "note": "但以理的同伴；第3章拒拜金像的三人之一。"
+  },
+  {
+    "id": "azariah-judah",
+    "name": "亚撒利雅",
+    "aliases": [
+      "亚伯尼歌"
+    ],
+    "gender": "male",
+    "references": [
+      "但 1:6–7",
+      "但 2:17–18",
+      "但 3:12–30"
+    ],
+    "note": "但以理的同伴；第3章拒拜金像的三人之一。"
+  },
+  {
+    "id": "nebuchadnezzar",
+    "name": "尼布甲尼撒",
+    "gender": "male",
+    "references": [
+      "但 1:1–5",
+      "但 2:1–49",
+      "但 3:1–30"
+    ],
+    "note": "巴比伦王；第2章梦中大像的金头被解释为这位王（但2:37–38）。"
+  },
+  {
+    "id": "ashpenaz",
+    "name": "亚施毗拿",
+    "gender": "male",
+    "references": [
+      "但 1:3–18"
+    ],
+    "note": "太监长，受命选取青年并安排他们学习和在宫中受训。"
+  },
+  {
+    "id": "arioch-babylon",
+    "name": "亚略",
+    "gender": "male",
+    "references": [
+      "但 2:14–25"
+    ],
+    "note": "王的护卫长，后来引但以理到王面前；与创14章同名的以拉撒王不是同一人物。"
+  },
+  {
+    "id": "benjamin",
+    "name": "便雅悯",
+    "aliases": [
+      "便俄尼"
+    ],
+    "gender": "male",
+    "references": [
+      "创 35:16–19、24"
+    ],
+    "note": "雅各与拉结的儿子、约瑟的弟弟。母亲临终时起名便俄尼，父亲起名便雅悯；出生在往以法他的路上。"
+  },
+  {
+    "id": "adah-esau",
+    "name": "亚大",
+    "gender": "female",
+    "references": [
+      "创 36:2、4"
+    ],
+    "note": "本章称赫人以伦的女儿；与创4章拉麦的妻子亚大分开。"
+  },
+  {
+    "id": "basemath-ishmael",
+    "name": "巴实抹",
+    "gender": "female",
+    "references": [
+      "创 36:3–4"
+    ],
+    "note": "本章称以实玛利的女儿、尼拜约的妹妹；创28:9在相同亲属描述处使用玛哈拉。本原型按章节称呼分别记录并注明差异，不自动断言两者是不同妻子或同一人。"
+  },
+  {
+    "id": "oholibamah-esau",
+    "name": "阿何利巴玛",
+    "gender": "female",
+    "references": [
+      "创 36:2、5、14、25"
+    ],
+    "note": "亚拿的女儿、祭便的孙女，以扫的妻子；同名的族长名单另按条目记录。"
+  },
+  {
+    "id": "eliphaz-esau",
+    "name": "以利法",
+    "gender": "male",
+    "references": [
+      "创 36:4、10–12"
+    ],
+    "note": "以扫与亚大的儿子；与约伯记同名人物不自动合并。"
+  },
+  {
+    "id": "reuel-esau",
+    "name": "流珥",
+    "gender": "male",
+    "references": [
+      "创 36:4、10、13"
+    ],
+    "note": "以扫与巴实抹的儿子。"
+  },
+  {
+    "id": "jeush-esau",
+    "name": "耶乌施",
+    "gender": "male",
+    "references": [
+      "创 36:5、14、18"
+    ],
+    "roles": [
+      {
+        "title": "族长",
+        "reference": "创 36:15–19"
+      }
+    ]
+  },
+  {
+    "id": "jalam-esau",
+    "name": "雅兰",
+    "gender": "male",
+    "references": [
+      "创 36:5、14、18"
+    ],
+    "roles": [
+      {
+        "title": "族长",
+        "reference": "创 36:15–19"
+      }
+    ]
+  },
+  {
+    "id": "korah-esau",
+    "name": "可拉",
+    "gender": "male",
+    "references": [
+      "创 36:5、14、18"
+    ],
+    "roles": [
+      {
+        "title": "族长",
+        "reference": "创 36:15–19"
+      }
+    ]
+  },
+  {
+    "id": "teman-eliphaz",
+    "name": "提幔",
+    "gender": "male",
+    "references": [
+      "创 36:11"
+    ],
+    "roles": [
+      {
+        "title": "族长",
+        "reference": "创 36:15–19"
+      }
+    ]
+  },
+  {
+    "id": "omar-eliphaz",
+    "name": "阿抹",
+    "gender": "male",
+    "references": [
+      "创 36:11"
+    ],
+    "roles": [
+      {
+        "title": "族长",
+        "reference": "创 36:15–19"
+      }
+    ]
+  },
+  {
+    "id": "zepho-eliphaz",
+    "name": "洗玻",
+    "gender": "male",
+    "references": [
+      "创 36:11"
+    ],
+    "roles": [
+      {
+        "title": "族长",
+        "reference": "创 36:15–19"
+      }
+    ]
+  },
+  {
+    "id": "gatam-eliphaz",
+    "name": "迦坦",
+    "gender": "male",
+    "references": [
+      "创 36:11"
+    ],
+    "roles": [
+      {
+        "title": "族长",
+        "reference": "创 36:15–19"
+      }
+    ]
+  },
+  {
+    "id": "kenaz-eliphaz",
+    "name": "基纳斯",
+    "gender": "male",
+    "references": [
+      "创 36:11"
+    ],
+    "roles": [
+      {
+        "title": "族长",
+        "reference": "创 36:15–19"
+      }
+    ]
+  },
+  {
+    "id": "timna-eliphaz",
+    "name": "亭纳",
+    "gender": "female",
+    "references": [
+      "创 36:12"
+    ],
+    "note": "以利法的妾，亚玛力的母亲；22节也提到罗坍的妹妹亭纳，本图通过说明保留这一联系，不另推断未明说的父母。"
+  },
+  {
+    "id": "amalek-eliphaz",
+    "name": "亚玛力",
+    "gender": "male",
+    "references": [
+      "创 36:12、16"
+    ],
+    "note": "以利法与亭纳的儿子。",
+    "roles": [
+      {
+        "title": "族长",
+        "reference": "创 36:15–19"
+      }
+    ]
+  },
+  {
+    "id": "nahath-reuel",
+    "name": "拿哈",
+    "gender": "male",
+    "references": [
+      "创 36:13"
+    ],
+    "roles": [
+      {
+        "title": "族长",
+        "reference": "创 36:15–19"
+      }
+    ]
+  },
+  {
+    "id": "zerah-reuel",
+    "name": "谢拉",
+    "gender": "male",
+    "references": [
+      "创 36:13"
+    ],
+    "roles": [
+      {
+        "title": "族长",
+        "reference": "创 36:15–19"
+      }
+    ]
+  },
+  {
+    "id": "shammah-reuel",
+    "name": "沙玛",
+    "gender": "male",
+    "references": [
+      "创 36:13"
+    ],
+    "roles": [
+      {
+        "title": "族长",
+        "reference": "创 36:15–19"
+      }
+    ]
+  },
+  {
+    "id": "mizzah-reuel",
+    "name": "米撒",
+    "gender": "male",
+    "references": [
+      "创 36:13"
+    ],
+    "roles": [
+      {
+        "title": "族长",
+        "reference": "创 36:15–19"
+      }
+    ]
+  },
+  {
+    "id": "seir-horite",
+    "name": "西珥",
+    "gender": "male",
+    "references": [
+      "创 36:20–21"
+    ],
+    "note": "何利人的祖先，本图中的西珥是人名；不与西珥山区这一地名混淆。"
+  },
+  {
+    "id": "lotan",
+    "name": "罗坍",
+    "gender": "male",
+    "references": [
+      "创 36:20–21"
+    ],
+    "note": "本章22节另记其妹妹为亭纳。妹妹关系不画成女儿。",
+    "roles": [
+      {
+        "title": "何利人族长",
+        "reference": "创 36:29–30"
+      }
+    ]
+  },
+  {
+    "id": "shobal",
+    "name": "朔巴",
+    "gender": "male",
+    "references": [
+      "创 36:20–21"
+    ],
+    "roles": [
+      {
+        "title": "何利人族长",
+        "reference": "创 36:29–30"
+      }
+    ]
+  },
+  {
+    "id": "zibeon",
+    "name": "祭便",
+    "gender": "male",
+    "references": [
+      "创 36:20–21"
+    ],
+    "roles": [
+      {
+        "title": "何利人族长",
+        "reference": "创 36:29–30"
+      }
+    ]
+  },
+  {
+    "id": "anah-seir",
+    "name": "亚拿",
+    "gender": "male",
+    "references": [
+      "创 36:20–21"
+    ],
+    "note": "36:20列在西珥子孙中的亚拿；与36:24祭便之子同名，暂分记录。",
+    "roles": [
+      {
+        "title": "何利人族长",
+        "reference": "创 36:29–30"
+      }
+    ]
+  },
+  {
+    "id": "dishon-seir",
+    "name": "底顺",
+    "gender": "male",
+    "references": [
+      "创 36:20–21"
+    ],
+    "roles": [
+      {
+        "title": "何利人族长",
+        "reference": "创 36:29–30"
+      }
+    ]
+  },
+  {
+    "id": "ezer",
+    "name": "以察",
+    "gender": "male",
+    "references": [
+      "创 36:20–21"
+    ],
+    "roles": [
+      {
+        "title": "何利人族长",
+        "reference": "创 36:29–30"
+      }
+    ]
+  },
+  {
+    "id": "dishan",
+    "name": "底珊",
+    "gender": "male",
+    "references": [
+      "创 36:20–21"
+    ],
+    "roles": [
+      {
+        "title": "何利人族长",
+        "reference": "创 36:29–30"
+      }
+    ]
+  },
+  {
+    "id": "hori-lotan",
+    "name": "何利",
+    "gender": "male",
+    "references": [
+      "创 36:22"
+    ]
+  },
+  {
+    "id": "hemam-lotan",
+    "name": "希幔",
+    "gender": "male",
+    "references": [
+      "创 36:22"
+    ]
+  },
+  {
+    "id": "alvan",
+    "name": "亚勒文",
+    "gender": "male",
+    "references": [
+      "创 36:23"
+    ]
+  },
+  {
+    "id": "manahath",
+    "name": "玛拿辖",
+    "gender": "male",
+    "references": [
+      "创 36:23"
+    ]
+  },
+  {
+    "id": "ebal-shobal",
+    "name": "以巴录",
+    "gender": "male",
+    "references": [
+      "创 36:23"
+    ]
+  },
+  {
+    "id": "shepho",
+    "name": "示玻",
+    "gender": "male",
+    "references": [
+      "创 36:23"
+    ]
+  },
+  {
+    "id": "onam-shobal",
+    "name": "阿南",
+    "gender": "male",
+    "references": [
+      "创 36:23"
+    ]
+  },
+  {
+    "id": "aiah-zibeon",
+    "name": "亚雅",
+    "gender": "male",
+    "references": [
+      "创 36:24"
+    ]
+  },
+  {
+    "id": "anah-zibeon",
+    "name": "亚拿",
+    "gender": "male",
+    "references": [
+      "创 36:24"
+    ],
+    "note": "36:24祭便之子，记载他放驴时遇见温泉。依36:2、14及24–25的上下文，将阿何利巴玛连接在此支；本章另有同名亚拿。"
+  },
+  {
+    "id": "dishon-anah",
+    "name": "底顺",
+    "gender": "male",
+    "references": [
+      "创 36:25"
+    ],
+    "note": "25节亚拿的儿子；与21节列在西珥子孙中的同名底顺分开记录。26节的子女名单另列，暂不指定属于哪位底顺。"
+  },
+  {
+    "id": "bilhan-ezer",
+    "name": "辟罕",
+    "gender": "male",
+    "references": [
+      "创 36:27"
+    ]
+  },
+  {
+    "id": "zaavan",
+    "name": "撒番",
+    "gender": "male",
+    "references": [
+      "创 36:27"
+    ]
+  },
+  {
+    "id": "akan-ezer",
+    "name": "亚干",
+    "gender": "male",
+    "references": [
+      "创 36:27"
+    ]
+  },
+  {
+    "id": "uz-dishan",
+    "name": "乌斯",
+    "gender": "male",
+    "references": [
+      "创 36:28"
+    ]
+  },
+  {
+    "id": "aran-dishan",
+    "name": "亚兰",
+    "gender": "male",
+    "references": [
+      "创 36:28"
+    ]
+  },
+  {
+    "id": "hemdan",
+    "name": "欣但",
+    "gender": "male",
+    "references": [
+      "创 36:26"
+    ],
+    "note": "36:26记作底顺的儿子；暂不指定上代为本章哪位同名底顺。"
+  },
+  {
+    "id": "eshban",
+    "name": "伊是班",
+    "gender": "male",
+    "references": [
+      "创 36:26"
+    ],
+    "note": "36:26记作底顺的儿子；暂不指定上代为本章哪位同名底顺。"
+  },
+  {
+    "id": "ithran",
+    "name": "益兰",
+    "gender": "male",
+    "references": [
+      "创 36:26"
+    ],
+    "note": "36:26记作底顺的儿子；暂不指定上代为本章哪位同名底顺。"
+  },
+  {
+    "id": "keran",
+    "name": "基兰",
+    "gender": "male",
+    "references": [
+      "创 36:26"
+    ],
+    "note": "36:26记作底顺的儿子；暂不指定上代为本章哪位同名底顺。"
+  },
+  {
+    "id": "korah-eliphaz-chief",
+    "name": "可拉",
+    "gender": "male",
+    "references": [
+      "创 36:16"
+    ],
+    "note": "在以利法所出的族长名单中出现；不与以扫之子可拉自动合并，不补造生母。",
+    "roles": [
+      {
+        "title": "族长",
+        "reference": "创 36:15–19"
+      }
+    ]
+  },
+  {
+    "id": "bela-edom",
+    "name": "比拉",
+    "gender": "male",
+    "references": [
+      "创 36:32"
+    ],
+    "note": "与创14章的所多玛王比拉、比拉城分开记录。"
+  },
+  {
+    "id": "jobab-edom",
+    "name": "约巴",
+    "gender": "male",
+    "references": [
+      "创 36:33"
+    ],
+    "note": "与创10章约坍后裔约巴、36:13流珥之子谢拉分别处理。"
+  },
+  {
+    "id": "husham-edom",
+    "name": "户珊",
+    "gender": "male",
+    "references": [
+      "创 36:34"
+    ]
+  },
+  {
+    "id": "hadad-bedad",
+    "name": "哈达",
+    "gender": "male",
+    "references": [
+      "创 36:35"
+    ],
+    "note": "记有在摩押地击败米甸人的事；不同于39节同名的末位王。"
+  },
+  {
+    "id": "samlah-edom",
+    "name": "桑拉",
+    "gender": "male",
+    "references": [
+      "创 36:36"
+    ]
+  },
+  {
+    "id": "shaul-edom",
+    "name": "扫罗",
+    "gender": "male",
+    "references": [
+      "创 36:37"
+    ],
+    "note": "不与后来的以色列王扫罗合并。"
+  },
+  {
+    "id": "baal-hanan-edom",
+    "name": "巴勒哈南",
+    "gender": "male",
+    "references": [
+      "创 36:38"
+    ]
+  },
+  {
+    "id": "hadad-pau",
+    "name": "哈达",
+    "gender": "male",
+    "references": [
+      "创 36:39"
+    ],
+    "note": "妻子米希他别，是玛特列的女儿、米萨合的孙女。不同于35节比达之子哈达。"
+  },
+  {
+    "id": "shua-daughter",
+    "name": "书亚的女儿",
+    "gender": "female",
+    "references": [
+      "创 38:2–5、12"
+    ],
+    "note": "犹大的妻子，迦南人书亚的女儿；经文没有记载她本人的名字。"
+  },
+  {
+    "id": "er-judah",
+    "name": "珥",
+    "gender": "male",
+    "references": [
+      "创 38:3、6–7"
+    ],
+    "note": "犹大的长子，他玛的丈夫；本章记载他去世。"
+  },
+  {
+    "id": "onan-judah",
+    "name": "俄南",
+    "gender": "male",
+    "references": [
+      "创 38:4、8–10"
+    ],
+    "note": "犹大的儿子，受嘱为哥哥生子立后，却拒绝给哥哥留后；经文随后记载他去世。"
+  },
+  {
+    "id": "shelah-judah",
+    "name": "示拉",
+    "gender": "male",
+    "references": [
+      "创 38:5、11、14、26"
+    ],
+    "note": "犹大的儿子；犹大让他玛等待他长大，后来没有履行婚配安排。与亚法撒之子沙拉分开记录。"
+  },
+  {
+    "id": "tamar-judah",
+    "name": "他玛",
+    "gender": "female",
+    "references": [
+      "创 38:6–30"
+    ],
+    "note": "先是珥的妻子，后来与犹大生法勒斯、谢拉。与犹大画生父母关系，不称作本章记载的夫妻。"
+  },
+  {
+    "id": "perez-judah",
+    "name": "法勒斯",
+    "gender": "male",
+    "references": [
+      "创 38:27–29"
+    ],
+    "note": "犹大与他玛的双子之一，先出生。与创11章的法勒分开记录。"
+  },
+  {
+    "id": "zerah-judah",
+    "name": "谢拉",
+    "gender": "male",
+    "references": [
+      "创 38:27–30"
+    ],
+    "note": "犹大与他玛的双子之一；先伸手被系红线，实际在法勒斯之后出生。与创36章流珥之子等同名人物分开。"
+  },
+  {
+    "id": "hirah-adullam",
+    "name": "希拉",
+    "gender": "male",
+    "references": [
+      "创 38:1、12、20–23"
+    ],
+    "note": "亚杜兰人，犹大的朋友；不是图中的亲属。"
+  },
+  {
+    "id": "potiphar",
+    "name": "波提乏",
+    "gender": "male",
+    "references": [
+      "创 37:36；39:1–20"
+    ],
+    "note": "埃及法老的内臣、护卫长，买下约瑟，后来把他下在监里；不指定法老姓名或年代。"
+  },
+  {
+    "id": "potiphars-wife",
+    "name": "波提乏的妻子",
+    "gender": "female",
+    "references": [
+      "创 39:7–19"
+    ],
+    "note": "本章未记她的名字。经文叙述她要求与约瑟同寝，约瑟拒绝；她后来利用留下的衣服提出指控。"
+  },
+  {
+    "id": "prison-keeper-gen39",
+    "name": "司狱",
+    "gender": "unknown",
+    "references": [
+      "创 39:21–23"
+    ],
+    "note": "监中的管理者，姓名未记；将监里的事务交给约瑟。"
   }
 ]

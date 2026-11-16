@@ -1,0 +1,1107 @@
+[
+  {
+    "id": "daniel-1-guide",
+    "title": "四位青年：名字、选择与受训",
+    "personIds": [
+      "daniel",
+      "hananiah-judah",
+      "mishael-judah",
+      "azariah-judah",
+      "nebuchadnezzar",
+      "ashpenaz"
+    ],
+    "nameTableIds": [
+      "daniel",
+      "hananiah-judah",
+      "mishael-judah",
+      "azariah-judah"
+    ],
+    "nameTableReference": {
+      "bookId": "daniel",
+      "chapter": 1,
+      "verseStart": 6,
+      "verseEnd": 7
+    },
+    "facts": [
+      {
+        "label": "三年",
+        "text": "王安排青年学习、受训的期限。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 1,
+          "verseStart": 3,
+          "verseEnd": 5
+        }
+      },
+      {
+        "label": "十天",
+        "text": "委办同意实行的饮食试验期限。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 1,
+          "verseStart": 12,
+          "verseEnd": 16
+        }
+      }
+    ],
+    "stages": [
+      {
+        "id": "d1-exile",
+        "title": "被带到巴比伦",
+        "summary": "巴比伦王围困耶路撒冷，部分圣殿器皿被带往示拿。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 1,
+          "verseStart": 1,
+          "verseEnd": 2
+        }
+      },
+      {
+        "id": "d1-training",
+        "title": "选入宫中并改名",
+        "summary": "四位犹大青年被安排学习迦勒底文字言语，也被给予新名和王的饮食。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 1,
+          "verseStart": 3,
+          "verseEnd": 7
+        },
+        "period": "训练安排：三年"
+      },
+      {
+        "id": "d1-request",
+        "title": "但以理提出请求",
+        "summary": "但以理不愿以王的饮食玷污自己，向管理者提出饮食试验。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 1,
+          "verseStart": 8,
+          "verseEnd": 13
+        },
+        "period": "请求试验：十天"
+      },
+      {
+        "id": "d1-test",
+        "title": "十天后的察看",
+        "summary": "委办比较他们的面貌后，改变了饮食供应。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 1,
+          "verseStart": 14,
+          "verseEnd": 16
+        },
+        "period": "十天试验结束"
+      },
+      {
+        "id": "d1-examination",
+        "title": "受训期满，接受考问",
+        "summary": "四人得到知识与智慧，王考问后留他们侍立；但以理还明白异象和梦。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 1,
+          "verseStart": 17,
+          "verseEnd": 21
+        },
+        "period": "接续三年受训安排"
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "十天和三年分别指什么？",
+        "observation": "十天是饮食试验；三年是王安排的受训期限。第18节接回训练期满。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 1,
+          "verseStart": 5,
+          "verseEnd": 18
+        }
+      },
+      {
+        "prompt": "但以理怎样表达自己的坚持？",
+        "observation": "留意他的立志、请求、试验提议，以及管理者对责任的顾虑。经文没有将这次试验写成通用饮食保证。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 1,
+          "verseStart": 8,
+          "verseEnd": 16
+        }
+      }
+    ]
+  },
+  {
+    "id": "daniel-2-guide",
+    "title": "从王的难题到梦的讲解",
+    "personIds": [
+      "daniel",
+      "hananiah-judah",
+      "mishael-judah",
+      "azariah-judah",
+      "nebuchadnezzar",
+      "arioch-babylon"
+    ],
+    "stages": [
+      {
+        "id": "d2-demand",
+        "title": "王要求梦和讲解",
+        "summary": "王要求哲士说出梦的内容及解释。哲士无法满足要求，杀令随之发出。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 2,
+          "verseStart": 1,
+          "verseEnd": 13
+        }
+      },
+      {
+        "id": "d2-time",
+        "title": "但以理请求宽限",
+        "summary": "但以理向护卫长亚略了解情况，并向王请求时间。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 2,
+          "verseStart": 14,
+          "verseEnd": 16
+        }
+      },
+      {
+        "id": "d2-prayer",
+        "title": "同伴祈求，奥秘显明",
+        "summary": "四人祈求怜悯。夜间奥秘向但以理显明，他随后感谢、称颂神。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 2,
+          "verseStart": 17,
+          "verseEnd": 23
+        }
+      },
+      {
+        "id": "d2-audience",
+        "title": "在王面前说明来源",
+        "summary": "但以理先阻止杀害哲士，并把显明奥秘的能力归给天上的神。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 2,
+          "verseStart": 24,
+          "verseEnd": 30
+        }
+      },
+      {
+        "id": "d2-dream",
+        "title": "述说梦并解释",
+        "summary": "大像由不同材料组成；石头击脚后，全像粉碎。下方可逐层查看。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 2,
+          "verseStart": 31,
+          "verseEnd": 45
+        }
+      },
+      {
+        "id": "d2-result",
+        "title": "王的回应与任命",
+        "summary": "王承认显明奥秘的神，提升但以理；三位同伴也获任省务职位。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 2,
+          "verseStart": 46,
+          "verseEnd": 49
+        }
+      }
+    ],
+    "statue": {
+      "note": "网页绘制的材料分层示意，不是经文所给的实际外形、尺寸或比例。点击材料按钮查看梦与解释。",
+      "parts": [
+        {
+          "id": "gold",
+          "label": "金头",
+          "material": "精金",
+          "dream": "大像的头由精金构成。",
+          "explanation": "但以理明确将金头指向尼布甲尼撒；王的权柄来自天上的神。",
+          "dreamReference": {
+            "bookId": "daniel",
+            "chapter": 2,
+            "verseStart": 31,
+            "verseEnd": 32
+          },
+          "explanationReference": {
+            "bookId": "daniel",
+            "chapter": 2,
+            "verseStart": 37,
+            "verseEnd": 38
+          }
+        },
+        {
+          "id": "silver",
+          "label": "银胸与双臂",
+          "material": "银",
+          "dream": "胸膛和膀臂由银构成。",
+          "explanation": "王之后另有一国兴起。本章没有给这个国家点名。",
+          "dreamReference": {
+            "bookId": "daniel",
+            "chapter": 2,
+            "verseStart": 32,
+            "verseEnd": 32
+          },
+          "explanationReference": {
+            "bookId": "daniel",
+            "chapter": 2,
+            "verseStart": 39,
+            "verseEnd": 39
+          }
+        },
+        {
+          "id": "bronze",
+          "label": "铜腹与腰",
+          "material": "铜",
+          "dream": "肚腹和腰由铜构成。",
+          "explanation": "随后有第三国。经文描述它的统治范围，没有点明国家名称。",
+          "dreamReference": {
+            "bookId": "daniel",
+            "chapter": 2,
+            "verseStart": 32,
+            "verseEnd": 32
+          },
+          "explanationReference": {
+            "bookId": "daniel",
+            "chapter": 2,
+            "verseStart": 39,
+            "verseEnd": 39
+          }
+        },
+        {
+          "id": "iron",
+          "label": "铁腿",
+          "material": "铁",
+          "dream": "腿由铁构成。",
+          "explanation": "第四国以铁的强硬、打碎和压制来描述；本章未点名。",
+          "dreamReference": {
+            "bookId": "daniel",
+            "chapter": 2,
+            "verseStart": 33,
+            "verseEnd": 33
+          },
+          "explanationReference": {
+            "bookId": "daniel",
+            "chapter": 2,
+            "verseStart": 40,
+            "verseEnd": 40
+          }
+        },
+        {
+          "id": "mixed",
+          "label": "半铁半泥的脚",
+          "material": "铁与泥",
+          "dream": "脚由铁与泥混合构成。",
+          "explanation": "这一部分描述分裂、强弱混杂与不能相合，不在这里直接对应现代国家。",
+          "dreamReference": {
+            "bookId": "daniel",
+            "chapter": 2,
+            "verseStart": 33,
+            "verseEnd": 33
+          },
+          "explanationReference": {
+            "bookId": "daniel",
+            "chapter": 2,
+            "verseStart": 41,
+            "verseEnd": 43
+          }
+        },
+        {
+          "id": "stone",
+          "label": "石头与大山",
+          "material": "非人手凿出的石头",
+          "dream": "石头击中脚，大像全体粉碎并被吹散；石头成为充满天下的大山。",
+          "explanation": "天上的神立永不败坏的国；这是本章讲解的落点。",
+          "dreamReference": {
+            "bookId": "daniel",
+            "chapter": 2,
+            "verseStart": 34,
+            "verseEnd": 35
+          },
+          "explanationReference": {
+            "bookId": "daniel",
+            "chapter": 2,
+            "verseStart": 44,
+            "verseEnd": 45
+          }
+        }
+      ],
+      "interpretationNote": "解释边界：本图区分梦的材料与本章给出的解释。后世对未点名国度的历史对应有不同观点；此处不把某一种对应表当成本章原文。"
+    },
+    "questions": [
+      {
+        "prompt": "王要的只是解释一个已知的梦吗？",
+        "observation": "还要求人先说出梦本身。注意哲士的请求与王的要求不同。关于王的话，译本可能在“忘了”与“已定命”之间有不同处理。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 2,
+          "verseStart": 4,
+          "verseEnd": 11
+        }
+      },
+      {
+        "prompt": "大像的结局发生在哪个部位受击之后？",
+        "observation": "石头击中脚，但随后粉碎的是整座大像，不只是脚。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 2,
+          "verseStart": 34,
+          "verseEnd": 35
+        }
+      }
+    ]
+  },
+  {
+    "id": "daniel-3-guide",
+    "title": "拒拜金像：命令、回答与获救",
+    "personIds": [
+      "nebuchadnezzar",
+      "hananiah-judah",
+      "mishael-judah",
+      "azariah-judah"
+    ],
+    "displayAliases": true,
+    "facts": [
+      {
+        "label": "60肘 × 6肘",
+        "text": "金像的高度与宽度；不据此补造完整外形。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 3,
+          "verseStart": 1,
+          "verseEnd": 1
+        }
+      }
+    ],
+    "contrasts": [
+      {
+        "title": "王的要求与威胁",
+        "text": "听见乐声就敬拜金像，否则被投入火窑。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 3,
+          "verseStart": 4,
+          "verseEnd": 6
+        }
+      },
+      {
+        "title": "三人的信靠",
+        "text": "他们相信神有能力拯救，也不把是否获救作为拒绝拜像的条件。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 3,
+          "verseStart": 16,
+          "verseEnd": 18
+        }
+      },
+      {
+        "title": "王所看见与后来的称述",
+        "text": "王说火中出现第四位；后来他称神差遣使者救护三人。阅读时区分王的观察与经文中的解释性表述。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 3,
+          "verseStart": 24,
+          "verseEnd": 28
+        }
+      }
+    ],
+    "stages": [
+      {
+        "id": "d3-command",
+        "title": "立像与敬拜命令",
+        "summary": "王在杜拉平原立金像，召集官员，宣告听见乐声就须敬拜的命令。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 3,
+          "verseStart": 1,
+          "verseEnd": 7
+        }
+      },
+      {
+        "id": "d3-accusation",
+        "title": "三人被控告并受问",
+        "summary": "有人控告三人不敬拜金像；王再次给他们选择，也重申火窑的威胁。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 3,
+          "verseStart": 8,
+          "verseEnd": 15
+        }
+      },
+      {
+        "id": "d3-response",
+        "title": "即使不然，仍不敬拜",
+        "summary": "三人表示神能够救他们；即使不获救，也不敬拜王的神或金像。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 3,
+          "verseStart": 16,
+          "verseEnd": 18
+        }
+      },
+      {
+        "id": "d3-furnace",
+        "title": "被捆投入火窑",
+        "summary": "王命令把窑加热，将三人捆绑投入；执行命令的人被火焰烧死。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 3,
+          "verseStart": 19,
+          "verseEnd": 23
+        }
+      },
+      {
+        "id": "d3-deliverance",
+        "title": "火中四人，三人出来",
+        "summary": "王惊见火中四位未被捆绑的人，随后召三人出来。官员检查他们，发现没有受火伤害。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 3,
+          "verseStart": 24,
+          "verseEnd": 27
+        }
+      },
+      {
+        "id": "d3-decree",
+        "title": "王称颂并再下命令",
+        "summary": "王称神差使者施救，并发出带惩罚的禁令，随后提升三人。获救与新禁令的内容要分别阅读。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 3,
+          "verseStart": 28,
+          "verseEnd": 30
+        }
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "三人是否要求神必须使他们免受伤害？",
+        "observation": "比较第17节的信靠与第18节的决心。顺服并不以必定获救为交换条件。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 3,
+          "verseStart": 16,
+          "verseEnd": 18
+        }
+      },
+      {
+        "prompt": "第四位的身份应怎样表述？",
+        "observation": "第25节是王对所见的描述，不同译本的措辞可能不同；第28节又提到神的使者。本页不画定具体身份。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 3,
+          "verseStart": 24,
+          "verseEnd": 28
+        }
+      },
+      {
+        "prompt": "但以理在第3章在哪里？",
+        "observation": "本章没有交代他的所在，因此不编造他缺席的原因，也不把他加入火窑中的三人。",
+        "reference": {
+          "bookId": "daniel",
+          "chapter": 3,
+          "verseStart": 12,
+          "verseEnd": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": "genesis-37-guide",
+    "title": "约瑟被卖：梦、反应与事件顺序",
+    "personIds": [
+      "joseph",
+      "jacob",
+      "reuben",
+      "judah"
+    ],
+    "facts": [
+      {
+        "label": "17岁",
+        "text": "本章开头约瑟的年龄。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 37,
+          "verseStart": 2,
+          "verseEnd": 2
+        }
+      },
+      {
+        "label": "20舍客勒银子",
+        "text": "本章所记约瑟被卖的价格，不换算现代币值。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 37,
+          "verseStart": 28,
+          "verseEnd": 28
+        }
+      }
+    ],
+    "dreams": [
+      {
+        "kind": "sheaves",
+        "title": "第一个梦：禾捆下拜",
+        "summary": "约瑟的禾捆站立，周围的禾捆向它下拜。图中的周围禾捆数量仅作示意。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 37,
+          "verseStart": 5,
+          "verseEnd": 8
+        }
+      },
+      {
+        "kind": "stars",
+        "title": "第二个梦：日、月与十一颗星",
+        "summary": "日、月和十一颗星向约瑟下拜。雅各责备他，又将这话存在心里。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 37,
+          "verseStart": 9,
+          "verseEnd": 11
+        }
+      }
+    ],
+    "contrasts": [
+      {
+        "title": "流便：想把约瑟救回",
+        "text": "流便反对杀害，提议放入坑中；经文说明他想救回约瑟交还父亲。回来时却发现约瑟已不在。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 37,
+          "verseStart": 21,
+          "verseEnd": 30
+        }
+      },
+      {
+        "title": "犹大：提议卖掉",
+        "text": "犹大提出不杀兄弟、改为卖给商旅，众兄弟听从。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 37,
+          "verseStart": 26,
+          "verseEnd": 27
+        }
+      }
+    ],
+    "stages": [
+      {
+        "id": "g37-family",
+        "title": "父亲偏爱与兄弟不和",
+        "summary": "雅各特别爱约瑟并给他衣服，兄弟因此对他怀恨。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 37,
+          "verseStart": 1,
+          "verseEnd": 4
+        }
+      },
+      {
+        "id": "g37-dreams",
+        "title": "两个梦与家人的反应",
+        "summary": "约瑟述说两个梦，兄弟愈发嫉妒，父亲责备后仍将话记在心里。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 37,
+          "verseStart": 5,
+          "verseEnd": 11
+        }
+      },
+      {
+        "id": "g37-search",
+        "title": "父亲差遣，寻找兄长",
+        "summary": "约瑟从希伯仑谷出发，经示剑追到多坍。地点节点不代表已确定的实际道路。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 37,
+          "verseStart": 12,
+          "verseEnd": 17
+        }
+      },
+      {
+        "id": "g37-pit",
+        "title": "从谋害到被丢入坑",
+        "summary": "众兄弟谋划杀害约瑟；流便介入。约瑟被剥去衣服、丢进无水的坑。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 37,
+          "verseStart": 18,
+          "verseEnd": 24
+        }
+      },
+      {
+        "id": "g37-sale",
+        "title": "被卖并带往埃及",
+        "summary": "犹大提议卖人，约瑟被以二十舍客勒银子卖出，商旅把他带往埃及。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 37,
+          "verseStart": 25,
+          "verseEnd": 28
+        }
+      },
+      {
+        "id": "g37-evidence",
+        "title": "染血衣服与父亲哀伤",
+        "summary": "流便回来后找不到约瑟。兄弟们让父亲辨认染血衣服，雅各认定约瑟遭遇野兽而哀哭。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 37,
+          "verseStart": 29,
+          "verseEnd": 35
+        }
+      },
+      {
+        "id": "g37-egypt",
+        "title": "约瑟落到波提乏手中",
+        "summary": "章末交代约瑟在埃及被卖给护卫长波提乏，第39章继续这一线索。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 37,
+          "verseStart": 36,
+          "verseEnd": 36
+        }
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "父亲看见的凭据，与读者知道的事实相同吗？",
+        "observation": "父亲看到染血衣服；读者知道兄弟们染血的过程，也知道约瑟没有被野兽吃掉。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 37,
+          "verseStart": 29,
+          "verseEnd": 36
+        }
+      },
+      {
+        "prompt": "商人身份为什么有不同称呼？",
+        "observation": "本段出现米甸人、以实玛利人等称呼，译本也可能影响句子主语的理解。本页不补造转手次数，重点保留被卖并带到埃及的叙事。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 37,
+          "verseStart": 25,
+          "verseEnd": 36
+        }
+      },
+      {
+        "prompt": "可以直接把梦里的月亮标成拉结吗？",
+        "observation": "本章转述父亲的话，但没有进一步解释母亲称呼与前章拉结已去世的关系。示意图不把月亮直接标定为某位女性。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 37,
+          "verseStart": 9,
+          "verseEnd": 11
+        }
+      }
+    ],
+    "crossChapterLinks": [
+      {
+        "title": "37章 · 染血的衣服",
+        "summary": "父亲凭衣服作出约瑟已死的判断，读者却知道他被卖。",
+        "href": "#/book/genesis/37"
+      },
+      {
+        "title": "38章 · 印、带子与杖",
+        "summary": "他玛交出凭据，请犹大辨认，促使他承认责任。",
+        "href": "#/book/genesis/38"
+      },
+      {
+        "title": "39章 · 留下的衣服",
+        "summary": "约瑟逃离时留下衣服，妇人随后用它支持自己的指控。",
+        "href": "#/book/genesis/39"
+      }
+    ],
+    "routeStops": [
+      "希伯仑谷",
+      "示剑",
+      "多坍",
+      "埃及"
+    ],
+    "routeReference": {
+      "bookId": "genesis",
+      "chapter": 37,
+      "verseStart": 12,
+      "verseEnd": 36
+    }
+  },
+  {
+    "id": "genesis-38-guide",
+    "title": "犹大与他玛：关系、承诺与凭据",
+    "personIds": [
+      "judah",
+      "shua-daughter",
+      "er-judah",
+      "onan-judah",
+      "shelah-judah",
+      "tamar-judah",
+      "perez-judah",
+      "zerah-judah",
+      "hirah-adullam"
+    ],
+    "contrasts": [
+      {
+        "title": "已经成立的婚姻",
+        "text": "珥与他玛为夫妻。珥去世后，犹大要求俄南承担为哥哥立后的责任。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 38,
+          "verseStart": 6,
+          "verseEnd": 10
+        }
+      },
+      {
+        "title": "没有兑现的安排",
+        "text": "示拉长大后，他玛仍未被给他为妻。图中不画示拉与他玛为夫妻。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 38,
+          "verseStart": 11,
+          "verseEnd": 14
+        }
+      },
+      {
+        "title": "双子的生父母",
+        "text": "他玛从犹大怀孕，生下法勒斯和谢拉；这条线只标生父母，不称夫妻。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 38,
+          "verseStart": 18,
+          "verseEnd": 30
+        }
+      }
+    ],
+    "stages": [
+      {
+        "id": "g38-sons",
+        "title": "犹大成婚，三个儿子出生",
+        "summary": "犹大娶书亚的女儿，生下珥、俄南、示拉。妻子的名字没有记载，书亚是她父亲的名字。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 38,
+          "verseStart": 1,
+          "verseEnd": 5
+        }
+      },
+      {
+        "id": "g38-widow",
+        "title": "珥、俄南去世，他玛等待",
+        "summary": "珥娶他玛后去世。俄南拒绝为哥哥留后，也去世。他玛被要求回父家等待示拉长大。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 38,
+          "verseStart": 6,
+          "verseEnd": 11
+        }
+      },
+      {
+        "id": "g38-pledge",
+        "title": "身份遮掩与留下当头",
+        "summary": "犹大妻子去世后，上亭拿剪羊毛。他玛遮掩身份，留下犹大的印、带子和杖作当头，并从他怀孕。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 38,
+          "verseStart": 12,
+          "verseEnd": 19
+        }
+      },
+      {
+        "id": "g38-search",
+        "title": "送羊羔，却找不到人",
+        "summary": "希拉送羊羔以取回当头，没有找到那位女子。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 38,
+          "verseStart": 20,
+          "verseEnd": 23
+        }
+      },
+      {
+        "id": "g38-recognition",
+        "title": "辨认凭据与承认责任",
+        "summary": "他玛被指控后，请犹大认出物件。犹大承认自己未履行将她给示拉的安排。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 38,
+          "verseStart": 24,
+          "verseEnd": 26
+        },
+        "period": "约三个月后"
+      },
+      {
+        "id": "g38-twins",
+        "title": "红线与双子的出生",
+        "summary": "谢拉先伸手，被系上红线，随后收回。法勒斯先出生，谢拉后出生。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 38,
+          "verseStart": 27,
+          "verseEnd": 30
+        }
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "他玛与示拉有没有在本章成婚？",
+        "observation": "没有。经文强调示拉已长大，却没有娶她；这正是犹大后来承认的责任。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 38,
+          "verseStart": 11,
+          "verseEnd": 26
+        }
+      },
+      {
+        "prompt": "双子中谁先伸手，谁先出生？",
+        "observation": "谢拉先伸手被系红线；实际先出生的是法勒斯。不能把伸手次序当作出生次序。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 38,
+          "verseStart": 27,
+          "verseEnd": 30
+        }
+      },
+      {
+        "prompt": "他玛是犹大正式迎娶的妻子吗？",
+        "observation": "本章没有这样记载。本图只连接他们作为双子生父母的事实，并保留他玛先为珥妻的关系。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 38,
+          "verseStart": 6,
+          "verseEnd": 30
+        }
+      }
+    ],
+    "crossChapterLinks": [
+      {
+        "title": "37章 · 染血的衣服",
+        "summary": "父亲凭衣服作出约瑟已死的判断，读者却知道他被卖。",
+        "href": "#/book/genesis/37"
+      },
+      {
+        "title": "38章 · 印、带子与杖",
+        "summary": "他玛交出凭据，请犹大辨认，促使他承认责任。",
+        "href": "#/book/genesis/38"
+      },
+      {
+        "title": "39章 · 留下的衣服",
+        "summary": "约瑟逃离时留下衣服，妇人随后用它支持自己的指控。",
+        "href": "#/book/genesis/39"
+      }
+    ]
+  },
+  {
+    "id": "genesis-39-guide",
+    "title": "约瑟在埃及：所发生的事与指控",
+    "personIds": [
+      "joseph",
+      "potiphar",
+      "potiphars-wife",
+      "prison-keeper-gen39"
+    ],
+    "contrasts": [
+      {
+        "title": "叙述中的实际经过",
+        "text": "约瑟拒绝同寝，之后衣服被拉住，他留下衣服逃到外面。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 39,
+          "verseStart": 7,
+          "verseEnd": 12
+        }
+      },
+      {
+        "title": "向家人和丈夫提出的指控",
+        "text": "妇人随后声称是约瑟来侵犯、自己喊叫才使他逃走。这里是她的说法，不是叙述者对经过的确认。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 39,
+          "verseStart": 13,
+          "verseEnd": 18
+        }
+      }
+    ],
+    "parallels": {
+      "title": "处境变了，哪些描述再次出现？",
+      "columns": [
+        "波提乏家中",
+        "监狱中"
+      ],
+      "rows": [
+        {
+          "label": "神与约瑟同在",
+          "cells": [
+            {
+              "text": "叙述明确说耶和华与他同在。",
+              "reference": {
+                "bookId": "genesis",
+                "chapter": 39,
+                "verseStart": 2,
+                "verseEnd": 3
+              }
+            },
+            {
+              "text": "叙述再次说耶和华与他同在、向他施恩。",
+              "reference": {
+                "bookId": "genesis",
+                "chapter": 39,
+                "verseStart": 21,
+                "verseEnd": 21
+              }
+            }
+          ]
+        },
+        {
+          "label": "在人面前蒙恩",
+          "cells": [
+            {
+              "text": "在主人眼前蒙恩。",
+              "reference": {
+                "bookId": "genesis",
+                "chapter": 39,
+                "verseStart": 4,
+                "verseEnd": 4
+              }
+            },
+            {
+              "text": "在司狱眼前蒙恩。",
+              "reference": {
+                "bookId": "genesis",
+                "chapter": 39,
+                "verseStart": 21,
+                "verseEnd": 21
+              }
+            }
+          ]
+        },
+        {
+          "label": "受托管理",
+          "cells": [
+            {
+              "text": "主人把家务和所有的交给他。",
+              "reference": {
+                "bookId": "genesis",
+                "chapter": 39,
+                "verseStart": 4,
+                "verseEnd": 6
+              }
+            },
+            {
+              "text": "司狱把囚犯及监中事务交给他。",
+              "reference": {
+                "bookId": "genesis",
+                "chapter": 39,
+                "verseStart": 22,
+                "verseEnd": 23
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "stages": [
+      {
+        "id": "g39-house",
+        "title": "被买入波提乏家",
+        "summary": "波提乏买下约瑟，后来信任他、将家务和财物交给他管理。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 39,
+          "verseStart": 1,
+          "verseEnd": 6
+        }
+      },
+      {
+        "id": "g39-refusal",
+        "title": "持续拒绝与逃离",
+        "summary": "约瑟拒绝主人妻子的要求；一次被抓住衣服时，他留下衣服逃离。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 39,
+          "verseStart": 7,
+          "verseEnd": 12
+        }
+      },
+      {
+        "id": "g39-accusation",
+        "title": "妇人留下衣服并指控",
+        "summary": "妇人把留下的衣服配合自己的叙述，先向家人、后向丈夫提出指控。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 39,
+          "verseStart": 13,
+          "verseEnd": 18
+        }
+      },
+      {
+        "id": "g39-prison",
+        "title": "被下在监里",
+        "summary": "主人听见妻子的话而发怒，把约瑟关在王的囚犯被囚之处。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 39,
+          "verseStart": 19,
+          "verseEnd": 20
+        }
+      },
+      {
+        "id": "g39-trust",
+        "title": "监中再次蒙信任",
+        "summary": "约瑟在司狱眼前蒙恩，再次受托管理事务；故事仍处于监狱阶段。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 39,
+          "verseStart": 21,
+          "verseEnd": 23
+        }
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "留下衣服是否就证明指控属实？",
+        "observation": "把7–12节的经过与13–18节的说法并排读。物件是真的，围绕它所说的话仍须分辨。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 39,
+          "verseStart": 7,
+          "verseEnd": 18
+        }
+      },
+      {
+        "prompt": "“顺利”是否表示约瑟的环境一直顺遂？",
+        "observation": "本章同时记述神与他同在、受托管理，以及受指控和下监。不要把“同在”简化成不会受苦。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 39,
+          "verseStart": 2,
+          "verseEnd": 23
+        }
+      },
+      {
+        "prompt": "波提乏的妻子叫什么？",
+        "observation": "本章没有记名，不把后世故事中的名字当作经文人物姓名。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 39,
+          "verseStart": 7,
+          "verseEnd": 19
+        }
+      }
+    ],
+    "crossChapterLinks": [
+      {
+        "title": "37章 · 染血的衣服",
+        "summary": "父亲凭衣服作出约瑟已死的判断，读者却知道他被卖。",
+        "href": "#/book/genesis/37"
+      },
+      {
+        "title": "38章 · 印、带子与杖",
+        "summary": "他玛交出凭据，请犹大辨认，促使他承认责任。",
+        "href": "#/book/genesis/38"
+      },
+      {
+        "title": "39章 · 留下的衣服",
+        "summary": "约瑟逃离时留下衣服，妇人随后用它支持自己的指控。",
+        "href": "#/book/genesis/39"
+      }
+    ]
+  }
+]

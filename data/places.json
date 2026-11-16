@@ -1,5 +1,106 @@
 [
- {"id":"shechem","name":"示剑","references":["王上 12:1"]},
- {"id":"samaria","name":"撒马利亚","references":["王上 16:24","王下 17:6"]},
- {"id":"jerusalem","name":"耶路撒冷","references":["王上 12:21","王下 25:8–10"]}
+  {
+    "id": "shechem",
+    "name": "示剑",
+    "references": [
+      "王上 12:1",
+      "创 12:6–7"
+    ],
+    "coordinates": [
+      35.31,
+      32.21
+    ]
+  },
+  {
+    "id": "samaria",
+    "name": "撒马利亚",
+    "references": [
+      "王上 16:24",
+      "王下 17:6"
+    ]
+  },
+  {
+    "id": "jerusalem",
+    "name": "耶路撒冷",
+    "references": [
+      "王上 12:21",
+      "王下 25:8–10"
+    ]
+  },
+  {
+    "id": "ur-chaldeans",
+    "name": "迦勒底的吾珥",
+    "references": [
+      "创 11:28–31"
+    ],
+    "coordinates": [
+      46.1,
+      30.96
+    ],
+    "note": "采用美索不达米亚南部乌尔的传统定位，存在其他定位观点。"
+  },
+  {
+    "id": "haran-place",
+    "name": "哈兰",
+    "references": [
+      "创 11:31–32",
+      "创 12:4–5"
+    ],
+    "coordinates": [
+      39.03,
+      36.86
+    ],
+    "note": "地名，与他拉的儿子哈兰分开记录。"
+  },
+  {
+    "id": "bethel-ai",
+    "name": "伯特利与艾之间",
+    "references": [
+      "创 12:8"
+    ],
+    "coordinates": [
+      35.25,
+      31.92
+    ],
+    "note": "帐棚位于伯特利以东、艾以西的山地；点仅用于示意该区域。"
+  },
+  {
+    "id": "negev",
+    "name": "南地",
+    "references": [
+      "创 12:9"
+    ],
+    "coordinates": [
+      34.9,
+      30.8
+    ],
+    "kind": "region",
+    "note": "区域标记，不代表指定营地。"
+  },
+  {
+    "id": "egypt-region",
+    "name": "埃及",
+    "references": [
+      "创 12:10–20"
+    ],
+    "coordinates": [
+      31.3,
+      30.2
+    ],
+    "kind": "region",
+    "note": "区域标记，经文没有记载具体城邑。"
+  },
+  {
+    "id": "canaan-region",
+    "name": "迦南",
+    "references": [
+      "创 11:31",
+      "创 12:5"
+    ],
+    "coordinates": [
+      35.2,
+      32
+    ],
+    "kind": "region"
+  }
 ]

@@ -217,5 +217,810 @@
     "references": [
       "创 5:32"
     ]
+  },
+  {
+    "id": "japheth-descendants",
+    "parents": [
+      "japheth"
+    ],
+    "children": [
+      "gomer",
+      "magog",
+      "madai",
+      "javan",
+      "tubal",
+      "meshech",
+      "tiras"
+    ],
+    "references": [
+      "创 10:2"
+    ]
+  },
+  {
+    "id": "gomer-descendants",
+    "parents": [
+      "gomer"
+    ],
+    "children": [
+      "ashkenaz",
+      "riphath",
+      "togarmah"
+    ],
+    "references": [
+      "创 10:3"
+    ]
+  },
+  {
+    "id": "javan-descendants",
+    "parents": [
+      "javan"
+    ],
+    "children": [
+      "elishah",
+      "tarshish",
+      "kittim",
+      "dodanim"
+    ],
+    "references": [
+      "创 10:4"
+    ]
+  },
+  {
+    "id": "ham-descendants",
+    "parents": [
+      "ham"
+    ],
+    "children": [
+      "cush",
+      "mizraim",
+      "put",
+      "canaan"
+    ],
+    "references": [
+      "创 10:6"
+    ]
+  },
+  {
+    "id": "cush-descendants",
+    "parents": [
+      "cush"
+    ],
+    "children": [
+      "seba",
+      "havilah-cush",
+      "sabtah",
+      "raamah",
+      "sabteca",
+      "nimrod"
+    ],
+    "references": [
+      "创 10:7–8"
+    ]
+  },
+  {
+    "id": "raamah-descendants",
+    "parents": [
+      "raamah"
+    ],
+    "children": [
+      "sheba-raamah",
+      "dedan"
+    ],
+    "references": [
+      "创 10:7"
+    ]
+  },
+  {
+    "id": "mizraim-descendants",
+    "parents": [
+      "mizraim"
+    ],
+    "children": [
+      "ludim",
+      "anamim",
+      "lehabim",
+      "naphtuhim",
+      "pathrusim",
+      "casluhim",
+      "caphtorim"
+    ],
+    "references": [
+      "创 10:13–14"
+    ]
+  },
+  {
+    "id": "canaan-descendants",
+    "parents": [
+      "canaan"
+    ],
+    "children": [
+      "sidon",
+      "heth",
+      "jebusites",
+      "amorites",
+      "girgashites",
+      "hivites",
+      "arkites",
+      "sinites",
+      "arvadites",
+      "zemarites",
+      "hamathites"
+    ],
+    "references": [
+      "创 10:15–18"
+    ]
+  },
+  {
+    "id": "shem-descendants",
+    "parents": [
+      "shem"
+    ],
+    "children": [
+      "elam",
+      "asshur",
+      "arphaxad",
+      "lud",
+      "aram"
+    ],
+    "references": [
+      "创 10:22",
+      "创 11:10–11"
+    ]
+  },
+  {
+    "id": "aram-descendants",
+    "parents": [
+      "aram"
+    ],
+    "children": [
+      "uz-aram",
+      "hul",
+      "gether",
+      "mash"
+    ],
+    "references": [
+      "创 10:23"
+    ]
+  },
+  {
+    "id": "arphaxad-descendants",
+    "parents": [
+      "arphaxad"
+    ],
+    "children": [
+      "shelah-arphaxad"
+    ],
+    "references": [
+      "创 10:24",
+      "创 11:12–13"
+    ]
+  },
+  {
+    "id": "shelah-arphaxad-descendants",
+    "parents": [
+      "shelah-arphaxad"
+    ],
+    "children": [
+      "eber"
+    ],
+    "references": [
+      "创 10:24",
+      "创 11:14–15"
+    ]
+  },
+  {
+    "id": "eber-descendants",
+    "parents": [
+      "eber"
+    ],
+    "children": [
+      "peleg",
+      "joktan"
+    ],
+    "references": [
+      "创 10:25",
+      "创 11:16–17"
+    ]
+  },
+  {
+    "id": "joktan-descendants",
+    "parents": [
+      "joktan"
+    ],
+    "children": [
+      "almodad",
+      "sheleph",
+      "hazarmaveth",
+      "jerah",
+      "hadoram",
+      "uzal",
+      "diklah",
+      "obal",
+      "abimael",
+      "sheba-joktan",
+      "ophir",
+      "havilah-joktan",
+      "jobab"
+    ],
+    "references": [
+      "创 10:26–29"
+    ]
+  },
+  {
+    "id": "peleg-descendants",
+    "parents": [
+      "peleg"
+    ],
+    "children": [
+      "reu"
+    ],
+    "references": [
+      "创 11:18–19"
+    ]
+  },
+  {
+    "id": "reu-descendants",
+    "parents": [
+      "reu"
+    ],
+    "children": [
+      "serug"
+    ],
+    "references": [
+      "创 11:20–21"
+    ]
+  },
+  {
+    "id": "serug-descendants",
+    "parents": [
+      "serug"
+    ],
+    "children": [
+      "nahor-ancestor"
+    ],
+    "references": [
+      "创 11:22–23"
+    ]
+  },
+  {
+    "id": "nahor-ancestor-descendants",
+    "parents": [
+      "nahor-ancestor"
+    ],
+    "children": [
+      "terah"
+    ],
+    "references": [
+      "创 11:24–25"
+    ]
+  },
+  {
+    "id": "terah-children",
+    "parents": [
+      "terah"
+    ],
+    "children": [
+      "abram",
+      "nahor-terah",
+      "haran-person"
+    ],
+    "references": [
+      "创 11:26–27"
+    ]
+  },
+  {
+    "id": "haran-children",
+    "parents": [
+      "haran-person"
+    ],
+    "children": [
+      "lot",
+      "milcah",
+      "iscah"
+    ],
+    "references": [
+      "创 11:27–29"
+    ]
+  },
+  {
+    "id": "abram-sarai",
+    "parents": [
+      "abram",
+      "sarai"
+    ],
+    "children": [
+      "isaac"
+    ],
+    "references": [
+      "创 11:29–30",
+      "创 21:1–3",
+      "创 25:19"
+    ],
+    "relationship": "夫妻"
+  },
+  {
+    "id": "nahor-milcah",
+    "parents": [
+      "nahor-terah",
+      "milcah"
+    ],
+    "children": [],
+    "references": [
+      "创 11:29"
+    ],
+    "relationship": "夫妻"
+  },
+  {
+    "id": "abraham-keturah",
+    "parents": [
+      "abram",
+      "keturah"
+    ],
+    "children": [
+      "zimran",
+      "jokshan",
+      "medan",
+      "midian",
+      "ishbak",
+      "shuah"
+    ],
+    "references": [
+      "创 25:1–4"
+    ],
+    "relationship": "夫妻"
+  },
+  {
+    "id": "jokshan-children",
+    "parents": [
+      "jokshan"
+    ],
+    "children": [
+      "sheba-jokshan",
+      "dedan-jokshan"
+    ],
+    "references": [
+      "创 25:3"
+    ]
+  },
+  {
+    "id": "dedan-jokshan-children",
+    "parents": [
+      "dedan-jokshan"
+    ],
+    "children": [
+      "asshurim",
+      "letushim",
+      "leummim"
+    ],
+    "references": [
+      "创 25:3"
+    ]
+  },
+  {
+    "id": "midian-children",
+    "parents": [
+      "midian"
+    ],
+    "children": [
+      "ephah",
+      "epher",
+      "hanoch-midian",
+      "abida",
+      "eldaah"
+    ],
+    "references": [
+      "创 25:4"
+    ]
+  },
+  {
+    "id": "abraham-hagar",
+    "parents": [
+      "abram",
+      "hagar"
+    ],
+    "children": [
+      "ishmael"
+    ],
+    "references": [
+      "创 25:12"
+    ],
+    "relationship": "父母"
+  },
+  {
+    "id": "isaac-rebekah",
+    "parents": [
+      "isaac",
+      "rebekah"
+    ],
+    "children": [
+      "esau",
+      "jacob"
+    ],
+    "references": [
+      "创 25:20–26",
+      "创 28:1–5",
+      "创 35:27–29"
+    ],
+    "relationship": "夫妻"
+  },
+  {
+    "id": "bethuel-children",
+    "parents": [
+      "bethuel"
+    ],
+    "children": [
+      "laban",
+      "rebekah"
+    ],
+    "references": [
+      "创 25:20",
+      "创 28:2、5"
+    ]
+  },
+  {
+    "id": "ishmael-children",
+    "parents": [
+      "ishmael"
+    ],
+    "children": [
+      "nebaioth",
+      "kedar",
+      "adbeel",
+      "mibsam",
+      "mishma",
+      "dumah",
+      "massa",
+      "hadad-ishmael",
+      "tema",
+      "jetur",
+      "naphish",
+      "kedemah",
+      "mahalath-ishmael"
+    ],
+    "references": [
+      "创 25:13–16",
+      "创 28:9"
+    ]
+  },
+  {
+    "id": "esau-mahalath",
+    "parents": [
+      "esau",
+      "mahalath-ishmael"
+    ],
+    "children": [],
+    "references": [
+      "创 28:9"
+    ],
+    "relationship": "夫妻",
+    "overviewAlternativeTo": "esau-basemath"
+  },
+  {
+    "id": "laban-daughters",
+    "parents": [
+      "laban"
+    ],
+    "children": [
+      "leah",
+      "rachel"
+    ],
+    "references": [
+      "创 29:16"
+    ]
+  },
+  {
+    "id": "jacob-leah",
+    "parents": [
+      "jacob",
+      "leah"
+    ],
+    "children": [
+      "reuben",
+      "simeon",
+      "levi",
+      "judah",
+      "issachar",
+      "zebulun",
+      "dinah"
+    ],
+    "references": [
+      "创 29:23–35",
+      "创 30:17–21",
+      "创 35:23"
+    ],
+    "relationship": "夫妻"
+  },
+  {
+    "id": "jacob-rachel",
+    "parents": [
+      "jacob",
+      "rachel"
+    ],
+    "children": [
+      "joseph",
+      "benjamin"
+    ],
+    "references": [
+      "创 29:28–30",
+      "创 30:22–24",
+      "创 35:16–19、24"
+    ],
+    "relationship": "夫妻"
+  },
+  {
+    "id": "jacob-bilhah",
+    "parents": [
+      "jacob",
+      "bilhah"
+    ],
+    "children": [
+      "dan",
+      "naphtali"
+    ],
+    "references": [
+      "创 30:3–8",
+      "创 35:25"
+    ],
+    "relationship": "妾"
+  },
+  {
+    "id": "jacob-zilpah",
+    "parents": [
+      "jacob",
+      "zilpah"
+    ],
+    "children": [
+      "gad",
+      "asher"
+    ],
+    "references": [
+      "创 30:9–13",
+      "创 35:26"
+    ],
+    "relationship": "妾"
+  },
+  {
+    "id": "esau-adah",
+    "parents": [
+      "esau",
+      "adah-esau"
+    ],
+    "children": [
+      "eliphaz-esau"
+    ],
+    "references": [
+      "创 36:2、4"
+    ],
+    "relationship": "夫妻"
+  },
+  {
+    "id": "esau-basemath",
+    "parents": [
+      "esau",
+      "basemath-ishmael"
+    ],
+    "children": [
+      "reuel-esau"
+    ],
+    "references": [
+      "创 36:3–4"
+    ],
+    "relationship": "夫妻"
+  },
+  {
+    "id": "esau-oholibamah",
+    "parents": [
+      "esau",
+      "oholibamah-esau"
+    ],
+    "children": [
+      "jeush-esau",
+      "jalam-esau",
+      "korah-esau"
+    ],
+    "references": [
+      "创 36:2、5、14"
+    ],
+    "relationship": "夫妻"
+  },
+  {
+    "id": "eliphaz-esau-children",
+    "parents": [
+      "eliphaz-esau"
+    ],
+    "children": [
+      "teman-eliphaz",
+      "omar-eliphaz",
+      "zepho-eliphaz",
+      "gatam-eliphaz",
+      "kenaz-eliphaz"
+    ],
+    "references": [
+      "创 36:11"
+    ]
+  },
+  {
+    "id": "eliphaz-timna",
+    "parents": [
+      "eliphaz-esau",
+      "timna-eliphaz"
+    ],
+    "children": [
+      "amalek-eliphaz"
+    ],
+    "references": [
+      "创 36:12"
+    ],
+    "relationship": "妾"
+  },
+  {
+    "id": "reuel-esau-children",
+    "parents": [
+      "reuel-esau"
+    ],
+    "children": [
+      "nahath-reuel",
+      "zerah-reuel",
+      "shammah-reuel",
+      "mizzah-reuel"
+    ],
+    "references": [
+      "创 36:13"
+    ]
+  },
+  {
+    "id": "seir-horite-children",
+    "parents": [
+      "seir-horite"
+    ],
+    "children": [
+      "lotan",
+      "shobal",
+      "zibeon",
+      "anah-seir",
+      "dishon-seir",
+      "ezer",
+      "dishan"
+    ],
+    "references": [
+      "创 36:20–21"
+    ]
+  },
+  {
+    "id": "lotan-children",
+    "parents": [
+      "lotan"
+    ],
+    "children": [
+      "hori-lotan",
+      "hemam-lotan"
+    ],
+    "references": [
+      "创 36:22"
+    ]
+  },
+  {
+    "id": "shobal-children",
+    "parents": [
+      "shobal"
+    ],
+    "children": [
+      "alvan",
+      "manahath",
+      "ebal-shobal",
+      "shepho",
+      "onam-shobal"
+    ],
+    "references": [
+      "创 36:23"
+    ]
+  },
+  {
+    "id": "zibeon-children",
+    "parents": [
+      "zibeon"
+    ],
+    "children": [
+      "aiah-zibeon",
+      "anah-zibeon"
+    ],
+    "references": [
+      "创 36:24"
+    ]
+  },
+  {
+    "id": "anah-zibeon-children",
+    "parents": [
+      "anah-zibeon"
+    ],
+    "children": [
+      "dishon-anah",
+      "oholibamah-esau"
+    ],
+    "references": [
+      "创 36:2、14、24–25"
+    ]
+  },
+  {
+    "id": "ezer-children",
+    "parents": [
+      "ezer"
+    ],
+    "children": [
+      "bilhan-ezer",
+      "zaavan",
+      "akan-ezer"
+    ],
+    "references": [
+      "创 36:27"
+    ]
+  },
+  {
+    "id": "dishan-children",
+    "parents": [
+      "dishan"
+    ],
+    "children": [
+      "uz-dishan",
+      "aran-dishan"
+    ],
+    "references": [
+      "创 36:28"
+    ]
+  },
+  {
+    "id": "judah-shua-daughter",
+    "parents": [
+      "judah",
+      "shua-daughter"
+    ],
+    "children": [
+      "er-judah",
+      "onan-judah",
+      "shelah-judah"
+    ],
+    "references": [
+      "创 38:2–5"
+    ],
+    "relationship": "夫妻"
+  },
+  {
+    "id": "er-tamar",
+    "parents": [
+      "er-judah",
+      "tamar-judah"
+    ],
+    "children": [],
+    "references": [
+      "创 38:6–7"
+    ],
+    "relationship": "夫妻"
+  },
+  {
+    "id": "judah-tamar",
+    "parents": [
+      "judah",
+      "tamar-judah"
+    ],
+    "children": [
+      "perez-judah",
+      "zerah-judah"
+    ],
+    "references": [
+      "创 38:18、27–30"
+    ],
+    "relationship": "生父母"
+  },
+  {
+    "id": "potiphar-wife",
+    "parents": [
+      "potiphar",
+      "potiphars-wife"
+    ],
+    "children": [],
+    "references": [
+      "创 39:7–19"
+    ],
+    "relationship": "夫妻"
   }
 ]

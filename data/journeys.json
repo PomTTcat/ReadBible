@@ -1,0 +1,259 @@
+[
+  {
+    "id": "terah-journey",
+    "title": "他拉一家：出发与停留",
+    "personIds": [
+      "terah",
+      "abram",
+      "sarai",
+      "lot"
+    ],
+    "note": "行程连线仅连接叙事地点，不表示实际道路、途经地点或距离。吾珥采用南部乌尔的传统定位，位置存在不同观点。虚线表示目的地，不表示本章已经到达。",
+    "steps": [
+      {
+        "id": "terah-leaves",
+        "label": "离开吾珥",
+        "summary": "他拉带亚伯兰、撒莱和罗得离开吾珥，原本要前往迦南。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 11,
+          "verseStart": 31,
+          "verseEnd": 31
+        },
+        "placeId": "ur-chaldeans",
+        "visitedPlaceIds": [
+          "ur-chaldeans"
+        ],
+        "assetId": "sweet-abram-03",
+        "destinationId": "canaan-region"
+      },
+      {
+        "id": "terah-haran",
+        "label": "停在哈兰",
+        "summary": "一家人到哈兰便住下。他拉在这里去世，享年205岁；本章尚未到达迦南。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 11,
+          "verseStart": 31,
+          "verseEnd": 32
+        },
+        "placeId": "haran-place",
+        "visitedPlaceIds": [
+          "ur-chaldeans",
+          "haran-place"
+        ],
+        "assetId": "sweet-abram-04",
+        "destinationId": "canaan-region"
+      }
+    ],
+    "overviewPlaceIds": [
+      "ur-chaldeans",
+      "haran-place",
+      "canaan-region"
+    ]
+  },
+  {
+    "id": "abram-journey",
+    "title": "亚伯兰的旅程：迦南与埃及",
+    "personIds": [
+      "abram",
+      "sarai",
+      "lot"
+    ],
+    "note": "地图为简化位置图，连线表示行程关系，不是实际路线；事件节点按叙事顺序等距排列，不代表耗时。南地与埃及用区域标记，帐棚位置仅示意。",
+    "steps": [
+      {
+        "id": "abram-call",
+        "label": "蒙召与应许",
+        "summary": "呼召亚伯兰离开本地、亲族和父家，前往所指示之地；应许使他成为大国、蒙福，并使地上万族因他得福。地图保留下一步离开哈兰的地点，不据此确定呼召发生的具体位置。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 12,
+          "verseStart": 1,
+          "verseEnd": 3
+        },
+        "placeId": "haran-place",
+        "visitedPlaceIds": [],
+        "assetId": "sweet-abram-02"
+      },
+      {
+        "id": "abram-leaves",
+        "label": "离开哈兰",
+        "summary": "亚伯兰离开哈兰时75岁，与撒莱、罗得及所带的人口财物一同进入迦南。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 12,
+          "verseStart": 4,
+          "verseEnd": 5
+        },
+        "placeId": "haran-place",
+        "visitedPlaceIds": [
+          "haran-place"
+        ],
+        "assetId": "sweet-abram-05"
+      },
+      {
+        "id": "abram-shechem",
+        "label": "到达示剑",
+        "summary": "亚伯兰来到示剑、摩利橡树那里，领受赐地给后裔的应许，并筑坛。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 12,
+          "verseStart": 6,
+          "verseEnd": 7
+        },
+        "placeId": "shechem",
+        "visitedPlaceIds": [
+          "haran-place",
+          "shechem"
+        ],
+        "assetId": "sweet-abram-09",
+        "local": true
+      },
+      {
+        "id": "abram-bethel",
+        "label": "伯特利与艾之间",
+        "summary": "亚伯兰在伯特利以东、艾以西的山上支搭帐棚，又筑坛、求告耶和华。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 12,
+          "verseStart": 8,
+          "verseEnd": 8
+        },
+        "placeId": "bethel-ai",
+        "visitedPlaceIds": [
+          "haran-place",
+          "shechem",
+          "bethel-ai"
+        ],
+        "assetId": "sweet-abram-11",
+        "local": true
+      },
+      {
+        "id": "abram-negev",
+        "label": "渐往南地",
+        "summary": "亚伯兰继续迁往南地。经文没有逐一列出这一段的营地。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 12,
+          "verseStart": 9,
+          "verseEnd": 9
+        },
+        "placeId": "negev",
+        "visitedPlaceIds": [
+          "haran-place",
+          "shechem",
+          "bethel-ai",
+          "negev"
+        ],
+        "assetId": "sweet-abram-05",
+        "local": true
+      },
+      {
+        "id": "abram-famine",
+        "label": "饥荒与下埃及",
+        "summary": "迦南发生严重饥荒，亚伯兰下埃及暂居。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 12,
+          "verseStart": 10,
+          "verseEnd": 10
+        },
+        "placeId": "egypt-region",
+        "visitedPlaceIds": [
+          "haran-place",
+          "shechem",
+          "bethel-ai",
+          "negev",
+          "egypt-region"
+        ],
+        "assetId": "sweet-abram-13"
+      },
+      {
+        "id": "abram-sister",
+        "label": "称撒莱为妹子",
+        "summary": "将近埃及时，亚伯兰因担心自己被杀，请撒莱说她是自己的妹子。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 12,
+          "verseStart": 11,
+          "verseEnd": 13
+        },
+        "placeId": "egypt-region",
+        "visitedPlaceIds": [
+          "haran-place",
+          "shechem",
+          "bethel-ai",
+          "negev",
+          "egypt-region"
+        ],
+        "assetId": "sweet-abram-14"
+      },
+      {
+        "id": "sarai-palace",
+        "label": "撒莱被带入宫中",
+        "summary": "撒莱被带进法老宫中；亚伯兰因她得到牲畜和仆婢等。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 12,
+          "verseStart": 14,
+          "verseEnd": 16
+        },
+        "placeId": "egypt-region",
+        "visitedPlaceIds": [
+          "haran-place",
+          "shechem",
+          "bethel-ai",
+          "negev",
+          "egypt-region"
+        ],
+        "assetId": "sweet-abram-15"
+      },
+      {
+        "id": "pharaoh-plague",
+        "label": "灾祸与责问",
+        "summary": "因撒莱的缘故，法老和全家遭遇灾祸。法老召亚伯兰来，责问他隐瞒夫妻关系。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 12,
+          "verseStart": 17,
+          "verseEnd": 19
+        },
+        "placeId": "egypt-region",
+        "visitedPlaceIds": [
+          "haran-place",
+          "shechem",
+          "bethel-ai",
+          "negev",
+          "egypt-region"
+        ],
+        "assetId": "sweet-abram-16"
+      },
+      {
+        "id": "abram-sent-away",
+        "label": "被送走",
+        "summary": "法老吩咐人将亚伯兰、妻子和所有财物送走。本章在这里结束，回到南地是第13章的内容。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 12,
+          "verseStart": 20,
+          "verseEnd": 20
+        },
+        "placeId": "egypt-region",
+        "visitedPlaceIds": [
+          "haran-place",
+          "shechem",
+          "bethel-ai",
+          "negev",
+          "egypt-region"
+        ],
+        "assetId": "sweet-abram-17"
+      }
+    ],
+    "overviewPlaceIds": [
+      "haran-place",
+      "shechem",
+      "egypt-region"
+    ]
+  }
+]

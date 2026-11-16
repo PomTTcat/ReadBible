@@ -433,5 +433,77 @@
         ]
       }
     ]
+  },
+  {
+    "id": "babel-story",
+    "stepType": "scene",
+    "referenceLabel": "创 11:1–9",
+    "note": "从同一种语言到分散各地。插画只作故事示意，经文没有给出塔的尺寸或确定外形。",
+    "steps": [
+      {
+        "id": "babel-language",
+        "number": 1,
+        "title": "同一种语言",
+        "summary": "人们言语相通，在示拿的一片平原定居。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 11,
+          "verseStart": 1,
+          "verseEnd": 2
+        },
+        "referenceLabel": "创 11:1–2",
+        "assetIds": [
+          "sweet-babel-01"
+        ]
+      },
+      {
+        "id": "babel-building",
+        "number": 2,
+        "title": "建城造塔",
+        "summary": "他们用烧制的砖和石漆建城造塔，希望扬名并避免分散。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 11,
+          "verseStart": 3,
+          "verseEnd": 4
+        },
+        "referenceLabel": "创 11:3–4",
+        "assetIds": [
+          "sweet-babel-02"
+        ]
+      },
+      {
+        "id": "babel-confusion",
+        "number": 3,
+        "title": "语言被变乱",
+        "summary": "耶和华察看城和塔，并使他们的言语彼此不通。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 11,
+          "verseStart": 5,
+          "verseEnd": 7
+        },
+        "referenceLabel": "创 11:5–7",
+        "assetIds": [
+          "sweet-babel-04"
+        ]
+      },
+      {
+        "id": "babel-scattering",
+        "number": 4,
+        "title": "停工与分散",
+        "summary": "众人停止建城，从那里分散到各地；这城被称为巴别。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 11,
+          "verseStart": 8,
+          "verseEnd": 9
+        },
+        "referenceLabel": "创 11:8–9",
+        "assetIds": [
+          "sweet-babel-05"
+        ]
+      }
+    ]
   }
 ]

@@ -1,5 +1,11 @@
 [
   {
+    "id": "babel-story",
+    "kind": "illustrated-sequence",
+    "title": "巴别塔：从聚集到分散",
+    "sequenceId": "babel-story"
+  },
+  {
     "id": "genesis-4-family",
     "kind": "genealogy",
     "title": "创世记 4 · 人物关系",
@@ -122,5 +128,679 @@
     "kind": "illustrated-sequence",
     "title": "从园中对话到离园",
     "sequenceId": "eden-chapter-three"
+  },
+  {
+    "id": "genesis-10-family",
+    "kind": "genealogy",
+    "title": "挪亚三子的后裔",
+    "rootId": "japheth",
+    "branchIds": [
+      "japheth",
+      "ham",
+      "shem"
+    ],
+    "initialExpanded": [
+      "japheth-descendants",
+      "ham-descendants",
+      "shem-descendants"
+    ],
+    "familyIds": [
+      "japheth-descendants",
+      "gomer-descendants",
+      "javan-descendants",
+      "ham-descendants",
+      "cush-descendants",
+      "raamah-descendants",
+      "mizraim-descendants",
+      "canaan-descendants",
+      "shem-descendants",
+      "aram-descendants",
+      "arphaxad-descendants",
+      "shelah-arphaxad-descendants",
+      "eber-descendants",
+      "joktan-descendants"
+    ],
+    "personIds": [
+      "japheth",
+      "ham",
+      "shem",
+      "gomer",
+      "magog",
+      "madai",
+      "javan",
+      "tubal",
+      "meshech",
+      "tiras",
+      "ashkenaz",
+      "riphath",
+      "togarmah",
+      "elishah",
+      "tarshish",
+      "kittim",
+      "dodanim",
+      "cush",
+      "mizraim",
+      "put",
+      "canaan",
+      "seba",
+      "havilah-cush",
+      "sabtah",
+      "raamah",
+      "sabteca",
+      "nimrod",
+      "sheba-raamah",
+      "dedan",
+      "ludim",
+      "anamim",
+      "lehabim",
+      "naphtuhim",
+      "pathrusim",
+      "casluhim",
+      "caphtorim",
+      "sidon",
+      "heth",
+      "jebusites",
+      "amorites",
+      "girgashites",
+      "hivites",
+      "arkites",
+      "sinites",
+      "arvadites",
+      "zemarites",
+      "hamathites",
+      "elam",
+      "asshur",
+      "arphaxad",
+      "lud",
+      "aram",
+      "uz-aram",
+      "hul",
+      "gether",
+      "mash",
+      "shelah-arphaxad",
+      "eber",
+      "peleg",
+      "joktan",
+      "almodad",
+      "sheleph",
+      "hazarmaveth",
+      "jerah",
+      "hadoram",
+      "uzal",
+      "diklah",
+      "obal",
+      "abimael",
+      "sheba-joktan",
+      "ophir",
+      "havilah-joktan",
+      "jobab"
+    ],
+    "scopeNote": "按本章顺序切换雅弗、含、闪三支。图中的连线表示谱系；节点包括人物和族群。"
+  },
+  {
+    "id": "genesis-11-lineage",
+    "kind": "genealogy",
+    "title": "闪到他拉 · 创 11:10–26",
+    "rootId": "shem",
+    "familyIds": [
+      "shem-descendants",
+      "arphaxad-descendants",
+      "shelah-arphaxad-descendants",
+      "eber-descendants",
+      "peleg-descendants",
+      "reu-descendants",
+      "serug-descendants",
+      "nahor-ancestor-descendants"
+    ],
+    "personIds": [
+      "shem",
+      "arphaxad",
+      "shelah-arphaxad",
+      "eber",
+      "peleg",
+      "reu",
+      "serug",
+      "nahor-ancestor",
+      "terah"
+    ],
+    "initialExpanded": [],
+    "ageChapter": 11,
+    "scopeNote": "只展示本段记载的谱系主线，不表示各人仅有一个孩子。年龄按本章所列生子年龄和此后年数标注，不换算绝对年代。"
+  },
+  {
+    "id": "genesis-11-household",
+    "kind": "genealogy",
+    "title": "他拉一家 · 创 11:27–32",
+    "rootId": "terah",
+    "familyIds": [
+      "terah-children",
+      "haran-children",
+      "abram-sarai",
+      "nahor-milcah"
+    ],
+    "personIds": [
+      "terah",
+      "abram",
+      "sarai",
+      "nahor-terah",
+      "haran-person",
+      "lot",
+      "milcah",
+      "iscah"
+    ],
+    "initialExpanded": [],
+    "scopeNote": "密迦既是哈兰的女儿，也是拿鹤的妻子；两处节点引用同一人物。夫妻下方没有子女，不表示此后一生没有后代。"
+  },
+  {
+    "id": "terah-journey",
+    "kind": "journey",
+    "journeyId": "terah-journey",
+    "title": "他拉一家：出发与停留"
+  },
+  {
+    "id": "abram-journey",
+    "kind": "journey",
+    "journeyId": "abram-journey",
+    "title": "亚伯兰的旅程：迦南与埃及"
+  },
+  {
+    "id": "genesis-25-abraham",
+    "title": "亚伯拉罕一家 · 创 25:1–12",
+    "rootId": "abram",
+    "familyIds": [
+      "abram-sarai",
+      "abraham-hagar",
+      "abraham-keturah",
+      "jokshan-children",
+      "dedan-jokshan-children",
+      "midian-children"
+    ],
+    "personIds": [
+      "abram",
+      "sarai",
+      "hagar",
+      "keturah",
+      "isaac",
+      "ishmael",
+      "zimran",
+      "jokshan",
+      "medan",
+      "midian",
+      "ishbak",
+      "shuah",
+      "sheba-jokshan",
+      "dedan-jokshan",
+      "asshurim",
+      "letushim",
+      "leummim",
+      "ephah",
+      "epher",
+      "hanoch-midian",
+      "abida",
+      "eldaah"
+    ],
+    "scopeNote": "三组父母关系共用一个亚伯拉罕节点。以撒的母亲撒拉依据创21:1–3补注；不代表三位女性在同一时期共同生活。",
+    "kind": "genealogy",
+    "initialExpanded": [],
+    "nameOverrides": {
+      "abram": "亚伯拉罕",
+      "sarai": "撒拉"
+    }
+  },
+  {
+    "id": "genesis-25-ishmael",
+    "title": "以实玛利的十二个儿子 · 创 25:12–18",
+    "rootId": "ishmael",
+    "familyIds": [
+      "ishmael-children"
+    ],
+    "personIds": [
+      "ishmael",
+      "nebaioth",
+      "kedar",
+      "adbeel",
+      "mibsam",
+      "mishma",
+      "dumah",
+      "massa",
+      "hadad-ishmael",
+      "tema",
+      "jetur",
+      "naphish",
+      "kedemah"
+    ],
+    "scopeNote": "本章按家谱列出十二个儿子，并称他们为十二族族长。",
+    "kind": "genealogy",
+    "initialExpanded": [],
+    "nameOverrides": {
+      "abram": "亚伯拉罕",
+      "sarai": "撒拉"
+    }
+  },
+  {
+    "id": "genesis-25-isaac",
+    "title": "以撒与利百加 · 创 25:19–34",
+    "rootId": "isaac",
+    "familyIds": [
+      "isaac-rebekah"
+    ],
+    "personIds": [
+      "isaac",
+      "rebekah",
+      "esau",
+      "jacob"
+    ],
+    "scopeNote": "以扫先出生，雅各随后出生。以撒40岁成婚，双子出生时60岁。点击人物可看简介。",
+    "kind": "genealogy",
+    "initialExpanded": [],
+    "nameOverrides": {
+      "abram": "亚伯拉罕",
+      "sarai": "撒拉"
+    }
+  },
+  {
+    "id": "genesis-25-rebekah",
+    "title": "利百加的娘家 · 创 25:20",
+    "rootId": "bethuel",
+    "familyIds": [
+      "bethuel-children"
+    ],
+    "personIds": [
+      "bethuel",
+      "laban",
+      "rebekah"
+    ],
+    "scopeNote": "彼土利是利百加的父亲，拉班是她的哥哥；本图不补入尚未整理的上代关系。",
+    "kind": "genealogy",
+    "initialExpanded": [],
+    "nameOverrides": {
+      "abram": "亚伯拉罕",
+      "sarai": "撒拉"
+    }
+  },
+  {
+    "id": "genesis-28-parents",
+    "kind": "genealogy",
+    "title": "以撒一家与雅各的母舅 · 创 28:1–5",
+    "rootId": "bethuel",
+    "familyIds": [
+      "bethuel-children"
+    ],
+    "personIds": [
+      "bethuel",
+      "laban",
+      "rebekah"
+    ],
+    "initialExpanded": [],
+    "scopeNote": "彼土利是利百加与拉班的父亲；拉班是雅各和以扫的母舅。",
+    "nameOverrides": {
+      "abram": "亚伯拉罕",
+      "sarai": "撒拉"
+    }
+  },
+  {
+    "id": "genesis-28-isaac",
+    "kind": "genealogy",
+    "title": "以撒、利百加与两个儿子 · 创 28:1–9",
+    "rootId": "isaac",
+    "familyIds": [
+      "isaac-rebekah",
+      "esau-mahalath"
+    ],
+    "personIds": [
+      "isaac",
+      "rebekah",
+      "esau",
+      "jacob",
+      "mahalath-ishmael"
+    ],
+    "initialExpanded": [],
+    "scopeNote": "以扫本章娶玛哈拉；经文还提到他已有两位妻子，本图未展开前章的婚姻。雅各此时尚未与利亚、拉结成婚。",
+    "nameOverrides": {
+      "abram": "亚伯拉罕",
+      "sarai": "撒拉"
+    }
+  },
+  {
+    "id": "genesis-28-mahalath",
+    "kind": "genealogy",
+    "title": "玛哈拉的娘家 · 创 28:9",
+    "rootId": "ishmael",
+    "familyIds": [
+      "ishmael-children"
+    ],
+    "personIds": [
+      "ishmael",
+      "nebaioth",
+      "mahalath-ishmael"
+    ],
+    "initialExpanded": [],
+    "scopeNote": "这里节选本节提到的尼拜约与玛哈拉，不表示以实玛利只有这两个孩子。玛哈拉是尼拜约的妹妹。",
+    "nameOverrides": {
+      "abram": "亚伯拉罕",
+      "sarai": "撒拉"
+    }
+  },
+  {
+    "id": "genesis-29-laban",
+    "kind": "genealogy",
+    "title": "拉班的两个女儿 · 创 29:16",
+    "rootId": "laban",
+    "familyIds": [
+      "laban-daughters"
+    ],
+    "personIds": [
+      "laban",
+      "leah",
+      "rachel"
+    ],
+    "initialExpanded": [],
+    "scopeNote": "利亚是姐姐，拉结是妹妹；她们是雅各母舅拉班的女儿。悉帕、辟拉为使女，不绘为拉班的女儿。",
+    "nameOverrides": {
+      "abram": "亚伯拉罕",
+      "sarai": "撒拉"
+    }
+  },
+  {
+    "id": "genesis-29-jacob",
+    "kind": "genealogy",
+    "title": "雅各成婚与利亚的四个儿子 · 创 29:23–35",
+    "rootId": "jacob",
+    "familyIds": [
+      "jacob-leah",
+      "jacob-rachel"
+    ],
+    "personIds": [
+      "jacob",
+      "leah",
+      "rachel",
+      "reuben",
+      "simeon",
+      "levi",
+      "judah"
+    ],
+    "initialExpanded": [],
+    "scopeNote": "雅各只显示一个节点；两位妻子分列两侧，孩子从各自的夫妻连接处分出。本章只显示利亚已生的四子，不提前显示第30章的孩子。",
+    "nameOverrides": {
+      "abram": "亚伯拉罕",
+      "sarai": "撒拉"
+    }
+  },
+  {
+    "id": "genesis-30-jacob",
+    "kind": "genealogy",
+    "title": "雅各的四组父母关系 · 截至创 30章",
+    "rootId": "jacob",
+    "familyIds": [
+      "jacob-leah",
+      "jacob-rachel",
+      "jacob-bilhah",
+      "jacob-zilpah"
+    ],
+    "personIds": [
+      "jacob",
+      "leah",
+      "rachel",
+      "bilhah",
+      "zilpah",
+      "reuben",
+      "simeon",
+      "levi",
+      "judah",
+      "issachar",
+      "zebulun",
+      "dinah",
+      "joseph",
+      "dan",
+      "naphtali",
+      "gad",
+      "asher"
+    ],
+    "initialExpanded": [],
+    "scopeNote": "按生母连接孩子：利亚六子一女，辟拉二子，悉帕二子，拉结一子；截至本章共十一子一女。流便、西缅、利未、犹大沿用第29章资料。便雅悯尚未出生，不列入。",
+    "nameOverrides": {
+      "abram": "亚伯拉罕",
+      "sarai": "撒拉"
+    }
+  },
+  {
+    "id": "daniel-1-guide",
+    "kind": "reading-guide",
+    "guideId": "daniel-1-guide",
+    "title": "四位青年：名字、选择与受训"
+  },
+  {
+    "id": "daniel-2-guide",
+    "kind": "reading-guide",
+    "guideId": "daniel-2-guide",
+    "title": "从王的难题到梦的讲解"
+  },
+  {
+    "id": "daniel-3-guide",
+    "kind": "reading-guide",
+    "guideId": "daniel-3-guide",
+    "title": "拒拜金像：命令、回答与获救"
+  },
+  {
+    "id": "genesis-35-jacob",
+    "kind": "genealogy",
+    "title": "雅各（以色列）的十二个儿子 · 创 35:22–26",
+    "rootId": "jacob",
+    "familyIds": [
+      "jacob-leah",
+      "jacob-rachel",
+      "jacob-bilhah",
+      "jacob-zilpah"
+    ],
+    "personIds": [
+      "jacob",
+      "leah",
+      "rachel",
+      "bilhah",
+      "zilpah",
+      "reuben",
+      "simeon",
+      "levi",
+      "judah",
+      "issachar",
+      "zebulun",
+      "joseph",
+      "benjamin",
+      "dan",
+      "naphtali",
+      "gad",
+      "asher"
+    ],
+    "initialExpanded": [],
+    "nameOverrides": {
+      "jacob": "雅各（以色列）"
+    },
+    "scopeNote": "按四位生母分支：利亚六子、拉结二子、辟拉二子、悉帕二子。本段专列十二子；女儿底拿见第30章，不表示雅各没有女儿。"
+  },
+  {
+    "id": "genesis-35-isaac",
+    "kind": "genealogy",
+    "title": "以撒与两个儿子 · 创 35:27–29",
+    "rootId": "isaac",
+    "familyIds": [
+      "isaac-rebekah"
+    ],
+    "personIds": [
+      "isaac",
+      "rebekah",
+      "esau",
+      "jacob"
+    ],
+    "initialExpanded": [],
+    "nameOverrides": {
+      "jacob": "雅各（以色列）"
+    },
+    "scopeNote": "以撒享年180岁，以扫和雅各共同安葬他。利百加作为两个儿子的母亲沿用创25章资料；第35章未记载她在此时去世。"
+  },
+  {
+    "id": "genesis-36-esau",
+    "kind": "genealogy",
+    "title": "以扫一家：妻子、儿孙与族长 · 创 36:1–19",
+    "rootId": "esau",
+    "familyIds": [
+      "esau-adah",
+      "esau-basemath",
+      "esau-oholibamah",
+      "eliphaz-esau-children",
+      "eliphaz-timna",
+      "reuel-esau-children"
+    ],
+    "personIds": [
+      "esau",
+      "esau",
+      "adah-esau",
+      "eliphaz-esau",
+      "basemath-ishmael",
+      "reuel-esau",
+      "oholibamah-esau",
+      "jeush-esau",
+      "jalam-esau",
+      "korah-esau",
+      "teman-eliphaz",
+      "omar-eliphaz",
+      "zepho-eliphaz",
+      "gatam-eliphaz",
+      "kenaz-eliphaz",
+      "timna-eliphaz",
+      "amalek-eliphaz",
+      "nahath-reuel",
+      "zerah-reuel",
+      "shammah-reuel",
+      "mizzah-reuel"
+    ],
+    "initialExpanded": [],
+    "nodeBadges": {
+      "teman-eliphaz": "族长",
+      "omar-eliphaz": "族长",
+      "zepho-eliphaz": "族长",
+      "gatam-eliphaz": "族长",
+      "kenaz-eliphaz": "族长",
+      "amalek-eliphaz": "族长",
+      "nahath-reuel": "族长",
+      "zerah-reuel": "族长",
+      "shammah-reuel": "族长",
+      "mizzah-reuel": "族长",
+      "jeush-esau": "族长",
+      "jalam-esau": "族长",
+      "korah-esau": "族长"
+    },
+    "nameOverrides": {
+      "esau": "以扫（以东）"
+    },
+    "scopeNote": "按本章称呼展示三组婚姻；族长标记依据15–19节。以利法部分子女的母亲未记名，只有亚玛力明确连接亭纳。",
+    "centerRoot": true
+  },
+  {
+    "id": "genesis-36-seir",
+    "kind": "genealogy",
+    "title": "何利人西珥的后裔 · 创 36:20–30",
+    "rootId": "seir-horite",
+    "familyIds": [
+      "seir-horite-children",
+      "lotan-children",
+      "shobal-children",
+      "zibeon-children",
+      "anah-zibeon-children",
+      "ezer-children",
+      "dishan-children"
+    ],
+    "personIds": [
+      "seir-horite",
+      "lotan",
+      "shobal",
+      "zibeon",
+      "anah-seir",
+      "dishon-seir",
+      "ezer",
+      "dishan",
+      "hori-lotan",
+      "hemam-lotan",
+      "alvan",
+      "manahath",
+      "ebal-shobal",
+      "shepho",
+      "onam-shobal",
+      "aiah-zibeon",
+      "anah-zibeon",
+      "dishon-anah",
+      "oholibamah-esau",
+      "bilhan-ezer",
+      "zaavan",
+      "akan-ezer",
+      "uz-dishan",
+      "aran-dishan"
+    ],
+    "initialExpanded": [],
+    "nodeBadges": {
+      "lotan": "何利人族长",
+      "shobal": "何利人族长",
+      "zibeon": "何利人族长",
+      "anah-seir": "何利人族长",
+      "dishon-seir": "何利人族长",
+      "ezer": "何利人族长",
+      "dishan": "何利人族长"
+    },
+    "nameOverrides": {
+      "esau": "以扫（以东）"
+    },
+    "scopeNote": "独立于以扫的家族。亚拿、底顺按出处分辨；36:26的底顺子女另列，避免强行认定同名人物。阿何利巴玛与以扫一家共用同一人物。",
+    "centerRoot": true
+  },
+  {
+    "id": "genesis-36-records",
+    "kind": "chapter-records",
+    "recordId": "genesis-36-records",
+    "title": "以东诸王与名单阅读"
+  },
+  {
+    "id": "genesis-38-family",
+    "kind": "genealogy",
+    "title": "犹大、他玛与双子 · 创38章",
+    "rootId": "judah",
+    "familyIds": [
+      "judah-shua-daughter",
+      "er-tamar",
+      "judah-tamar"
+    ],
+    "personIds": [
+      "judah",
+      "shua-daughter",
+      "er-judah",
+      "onan-judah",
+      "shelah-judah",
+      "tamar-judah",
+      "perez-judah",
+      "zerah-judah"
+    ],
+    "initialExpanded": [],
+    "centerRoot": true,
+    "nodeBadges": {
+      "perez-judah": "先出生",
+      "zerah-judah": "先伸手系红线"
+    },
+    "scopeNote": "犹大与书亚的女儿、珥与他玛标夫妻；犹大与他玛仅标生父母。他玛在两处引用同一人物。示拉的安排未兑现，不画成夫妻；俄南的立后责任用阅读卡片说明。"
+  },
+  {
+    "id": "genesis-37-guide",
+    "kind": "reading-guide",
+    "guideId": "genesis-37-guide",
+    "title": "约瑟被卖：梦、反应与事件顺序"
+  },
+  {
+    "id": "genesis-38-guide",
+    "kind": "reading-guide",
+    "guideId": "genesis-38-guide",
+    "title": "犹大与他玛：关系、承诺与凭据"
+  },
+  {
+    "id": "genesis-39-guide",
+    "kind": "reading-guide",
+    "guideId": "genesis-39-guide",
+    "title": "约瑟在埃及：所发生的事与指控"
   }
 ]
