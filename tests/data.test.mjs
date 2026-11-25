@@ -182,7 +182,7 @@ for(const guide of readingGuides){
     const r=ranges[i];assert.ok(['daniel','genesis'].includes(r.bookId));assert.equal(r.bookId,ranges[0].bookId);assert.ok(r.verseStart<=r.verseEnd);
     if(i)assert.equal(r.verseStart,ranges[i-1].verseEnd+1);
   }
-  assert.equal(ranges.at(-1).verseEnd,{'daniel:1':21,'daniel:2':49,'daniel:3':30,'genesis:37':36,'genesis:38':30,'genesis:39':23}[ranges[0].bookId+':'+ranges[0].chapter]);
+  assert.equal(ranges.at(-1).verseEnd,{'daniel:1':21,'daniel:2':49,'daniel:3':30,'genesis:37':36,'genesis:38':30,'genesis:39':23,'genesis:49':33}[ranges[0].bookId+':'+ranges[0].chapter]);
 }
 const guide1=readingGuides.find(g=>g.id==='daniel-1-guide');
 assert.deepEqual(guide1.nameTableIds.map(id=>people.find(p=>p.id===id).aliases[0]),['伯提沙撒','沙得拉','米煞','亚伯尼歌']);
@@ -243,7 +243,18 @@ assert.deepEqual(guide37.dreams.map(d=>d.kind),['sheaves','stars']);
 const guide39=readingGuides.find(g=>g.id==='genesis-39-guide');
 assert.equal(guide39.parallels.rows.length,3);
 assert.deepEqual(guide39.parallels.columns,['波提乏家中','监狱中']);
-for(const guide of readingGuides.filter(g=>g.id.startsWith('genesis-'))){
+for(const guide of readingGuides.filter(g=>g.crossChapterLinks)){
   assert.equal(guide.crossChapterLinks.length,3);
   for(const link of guide.crossChapterLinks)assert.ok(chapters.some(c=>'#/book/'+c.bookId+'/'+c.number===link.href));
 }
+
+// Genesis 49 follows the poem's order, with shared words for Simeon/Levi.
+const guide49=readingGuides.find(g=>g.id==='genesis-49-guide');
+assert.deepEqual(guide49.portraits.map(p=>p.personId),['reuben','simeon','levi','judah','zebulun','issachar','dan','gad','asher','naphtali','joseph','benjamin']);
+for(const portrait of guide49.portraits){
+  assert.ok(personIds.has(portrait.personId));
+  assert.equal(portrait.reference.chapter,49);
+  assert.ok(portrait.summary && portrait.message && portrait.note);
+}
+assert.deepEqual(guide49.portraits[1].reference,guide49.portraits[2].reference);
+assert.equal(guide49.portraits.find(p=>p.personId==='dan').reference.verseEnd,17);

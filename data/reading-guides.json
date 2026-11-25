@@ -1103,5 +1103,365 @@
         "href": "#/book/genesis/39"
       }
     ]
+  },
+  {
+    "id": "genesis-49-guide",
+    "title": "雅各临终的话：逐人读十二个儿子",
+    "personIds": [
+      "reuben",
+      "simeon",
+      "levi",
+      "judah",
+      "zebulun",
+      "issachar",
+      "dan",
+      "gad",
+      "asher",
+      "naphtali",
+      "joseph",
+      "benjamin"
+    ],
+    "hidePeoplePicker": true,
+    "portraitIntro": "这些话既回顾人物经历，也指向后代和支派。以下按经文次序整理特点、比喻与宣告，不把诗歌压缩成固定的性格测评。",
+    "portraits": [
+      {
+        "personId": "reuben",
+        "order": 1,
+        "keywords": [
+          "长子",
+          "失去居首地位"
+        ],
+        "imagery": "水的翻涌、不稳定",
+        "summary": "有长子的尊荣与力量，却因越界的行为受到责备。",
+        "message": "父亲先肯定原有身份，再宣告他不得居首；不是说他不再是出生次序上的长子。",
+        "note": "回顾行为与宣告后果，不将整个生命缩成一个性格标签。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 3,
+          "verseEnd": 4
+        }
+      },
+      {
+        "personId": "simeon",
+        "order": 2,
+        "keywords": [
+          "与利未合段",
+          "暴怒受责备"
+        ],
+        "imagery": "刀剑、猛烈的怒气",
+        "summary": "与利未一起受到责备，重点是怒气中的残忍与伤害。",
+        "message": "父亲拒绝与他们的同谋联合，并宣告他们分居、散住。",
+        "note": "西缅和利未共用同一段经文。受咒诅的措辞针对怒气与忿恨，不是简单称赞勇猛。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 5,
+          "verseEnd": 7
+        }
+      },
+      {
+        "personId": "levi",
+        "order": 3,
+        "keywords": [
+          "与西缅合段",
+          "分散"
+        ],
+        "imagery": "刀剑、残忍的忿恨",
+        "summary": "与西缅一起被指出暴烈和残忍，而不是得到单纯的赞许。",
+        "message": "与西缅同受分散的宣告；本段没有展开后来利未支派的全部历史。",
+        "note": "这张卡与西缅同属49:5–7，不为利未补写一段独立发言。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 5,
+          "verseEnd": 7
+        }
+      },
+      {
+        "personId": "judah",
+        "order": 4,
+        "keywords": [
+          "领袖意象",
+          "弟兄赞美"
+        ],
+        "imagery": "狮子、圭与杖；葡萄酒与奶",
+        "summary": "突出威势、领袖地位与丰盛的图像。",
+        "message": "弟兄赞美、仇敌受制；狮子的形象和掌权的器物紧接着出现，随后是丰盛的诗意描绘。",
+        "note": "第10节“细罗”等措辞存在译法与解释差异，本卡不将某一种解释写成唯一原文含义。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 8,
+          "verseEnd": 12
+        }
+      },
+      {
+        "personId": "zebulun",
+        "order": 5,
+        "keywords": [
+          "海口",
+          "交通位置"
+        ],
+        "imagery": "停船的海口、延向西顿的境界",
+        "summary": "这一段主要谈居住位置与海上交通，不是直接描写个人脾气。",
+        "message": "用海口、船只和西顿描画将来的居住与联系。",
+        "note": "这里保留诗歌的地理描述，不绘成经过核定的精确支派边界。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 13,
+          "verseEnd": 13
+        }
+      },
+      {
+        "personId": "issachar",
+        "order": 6,
+        "keywords": [
+          "强壮",
+          "安息与重担"
+        ],
+        "imagery": "强壮的驴、肩背重担",
+        "summary": "同时呈现力量、对安静与肥地的看重，以及承担劳役的处境。",
+        "message": "安静与美地吸引他，他却低肩背重、成为服劳役的人；要读出两面张力。",
+        "note": "不只用“懒惰”或“勤劳”概括，避免抹去本段的力量与服役意象。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 14,
+          "verseEnd": 15
+        }
+      },
+      {
+        "personId": "dan",
+        "order": 7,
+        "keywords": [
+          "判断",
+          "小胜大的战斗意象"
+        ],
+        "imagery": "路旁的蛇，咬伤马蹄",
+        "summary": "一方面提到为民判断，另一方面用蛇使骑者跌落的画面描写争战。",
+        "message": "被列为以色列支派之一；攻击马蹄使骑者坠落，突出出其不意的力量。",
+        "note": "蛇在这里属于具体战斗比喻，不据此直接给但贴上永久邪恶的标签。第18节呼求另列。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 16,
+          "verseEnd": 17
+        }
+      },
+      {
+        "personId": "gad",
+        "order": 8,
+        "keywords": [
+          "受袭",
+          "反击"
+        ],
+        "imagery": "敌军追逼、追逼脚跟",
+        "summary": "呈现受攻击后仍能反击、追赶的处境。",
+        "message": "先被敌军压迫，随后转而追击；句子有明显的前后反转。",
+        "note": "这是争战处境的宣告，不是对每个后代性格的预测。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 19,
+          "verseEnd": 19
+        }
+      },
+      {
+        "personId": "asher",
+        "order": 9,
+        "keywords": [
+          "丰美粮食",
+          "供应"
+        ],
+        "imagery": "肥美食物、君王的美味",
+        "summary": "重点在土地出产和丰盛供应。",
+        "message": "这一段描画足以供应君王的佳美食物，不是对个人财富的普遍保证。",
+        "note": "按本段的生产与供应图像阅读，不换成现代财运判断。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 20,
+          "verseEnd": 20
+        }
+      },
+      {
+        "personId": "naphtali",
+        "order": 10,
+        "keywords": [
+          "自由舒展",
+          "佳美言语"
+        ],
+        "imagery": "被释放的母鹿",
+        "summary": "和合本用自由的母鹿和佳美言语构成轻快、舒展的画面。",
+        "message": "本卡依和合本的母鹿与言语措辞整理，保留诗歌意象。",
+        "note": "此节其他译本可能在意象或措辞上不同；读者可对照所用译本，不把比喻当作实物描述。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 21,
+          "verseEnd": 21
+        }
+      },
+      {
+        "personId": "joseph",
+        "order": 11,
+        "keywords": [
+          "多结果子",
+          "受苦仍坚韧",
+          "神的帮助"
+        ],
+        "imagery": "泉旁的枝子越墙；弓箭与坚固的弓",
+        "summary": "经历逼迫仍得坚固、帮助与丰盛祝福，是篇幅较长的一段。",
+        "message": "弓箭手的攻击与仍坚硬的弓并列；坚韧的来源归给神的帮助，随后多次说到祝福。",
+        "note": "既有受苦也有蒙福，不把结果全归于约瑟个人意志，或理解为从不遇见困境。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 22,
+          "verseEnd": 26
+        }
+      },
+      {
+        "personId": "benjamin",
+        "order": 12,
+        "keywords": [
+          "争战",
+          "得胜后的分取"
+        ],
+        "imagery": "撕掠的狼；早晨捕获、晚上分取",
+        "summary": "用狼的图像突出攻击、夺取与分战利品。",
+        "message": "早晚的画面连在一起，侧重争战能力；经文没有在此直接使用“残忍”作评价。",
+        "note": "不将争战意象扩写成整个支派或现代群体的固定性格。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 27,
+          "verseEnd": 27
+        }
+      }
+    ],
+    "facts": [
+      {
+        "label": "49:18",
+        "text": "在但的一段之后，插入向耶和华等候救恩的呼求；单列阅读，不直接作为但的性格标签。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 18,
+          "verseEnd": 18
+        }
+      },
+      {
+        "label": "49:28",
+        "text": "经文将前面的话总括为对十二支派的祝福，其中也包含责备与后果的宣告。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 28,
+          "verseEnd": 28
+        }
+      }
+    ],
+    "stages": [
+      {
+        "id": "g49-gather",
+        "title": "召集众子，说明要听什么",
+        "summary": "雅各召集儿子，说明要告诉他们日后必遇的事；以父亲以色列的身份要求他们听。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 1,
+          "verseEnd": 2
+        }
+      },
+      {
+        "id": "g49-sons",
+        "title": "逐人说话：回顾与宣告",
+        "summary": "按诗歌次序说到十二个儿子；西缅、利未合在一段。对不同人的话有责备、争战、生活和丰盛等不同意象。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 3,
+          "verseEnd": 27
+        }
+      },
+      {
+        "id": "g49-summary",
+        "title": "总括为对十二支派的祝福",
+        "summary": "叙述者将这些话总括为对各人的祝福；不能因此把所有责备都改写成赞美。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 28,
+          "verseEnd": 28
+        }
+      },
+      {
+        "id": "g49-burial",
+        "title": "吩咐安葬之处",
+        "summary": "雅各要求葬在麦比拉洞，并提及亚伯拉罕、撒拉、以撒、利百加和利亚已葬在那里。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 29,
+          "verseEnd": 32
+        }
+      },
+      {
+        "id": "g49-death",
+        "title": "嘱咐完毕，雅各去世",
+        "summary": "雅各嘱咐众子后去世。本章没有完成叙述他的葬礼，不提前并入第50章。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 33,
+          "verseEnd": 33
+        }
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "为什么称作祝福，却有严厉的责备？",
+        "observation": "第28节是全段的总括；第3–7节确实包含对行为的责备和后果。保留两者，不把所有话都改成正面性格介绍。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 3,
+          "verseEnd": 28
+        }
+      },
+      {
+        "prompt": "卡片顺序为什么不是出生顺序？",
+        "observation": "这里跟随49章的诗歌顺序。西布伦在以萨迦之前，迦得、亚设在拿弗他利之前；不要直接用它替换前面章节的出生或母亲分组。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 13,
+          "verseEnd": 21
+        }
+      },
+      {
+        "prompt": "第18节是谁的特点？",
+        "observation": "它是向耶和华等候救恩的呼求。本页单列，让它保有诗歌中的祷告性质，不硬贴为但个人的性格。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 16,
+          "verseEnd": 19
+        }
+      },
+      {
+        "prompt": "犹大的“细罗”需要怎样读？",
+        "observation": "先看第8–12节中赞美、狮子、掌权和丰盛的上下文。第10节存在译法与解释差异，涉及更进一步的解释时应单独说明，不能当成已无争议的性格标签。",
+        "reference": {
+          "bookId": "genesis",
+          "chapter": 49,
+          "verseStart": 8,
+          "verseEnd": 12
+        }
+      }
+    ]
   }
 ]

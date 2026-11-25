@@ -100,3 +100,12 @@
 .guide-route ol{display:flex;gap:12px;flex-wrap:wrap;align-items:center;list-style:none;padding:0;margin:16px 0}
 .guide-route li{background:var(--soft);padding:8px 12px;border-radius:4px;font-size:14px}.guide-route li+li:before{content:'→';margin-right:12px;color:var(--muted)}
 .guide-route p{margin:12px 0}
+.person-portraits{display:grid;gap:16px}.person-portraits>h3{margin:0}
+.person-portraits>input{width:100%;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:4px;color:var(--ink)}
+.portrait-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.portrait-card{padding:22px;border:1px solid var(--line);border-radius:5px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.portrait-heading{display:flex;align-items:center;gap:12px}.portrait-heading .eyebrow{margin:0}.portrait-heading h4{font:500 25px "Noto Serif SC",Georgia,serif;margin:0}
+.portrait-keywords{display:flex;gap:6px;flex-wrap:wrap}.portrait-summary{font-size:15px}
+.portrait-card dl{margin:0;display:grid;gap:8px}.portrait-card dt{font-size:12px;color:var(--accent);font-weight:600}.portrait-card dd{margin:0 0 6px;font-size:14px;color:var(--muted)}
+.portrait-card details{margin-top:auto;border-top:1px solid var(--line);padding-top:12px}.portrait-card summary{cursor:pointer;font-size:13px}.portrait-card details p{margin-top:10px}
+@media(max-width:850px){.portrait-grid{grid-template-columns:1fr}.portrait-card{padding:18px}}

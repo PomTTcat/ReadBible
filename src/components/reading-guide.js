@@ -26,6 +26,7 @@ export function readingGuide(data, config) {
     table.append(caption,head,body);scroller.append(table);
     section.append(scroller,referenceLink(guide.nameTableReference));host.append(section);
   }
+  if (!guide.hidePeoplePicker) {
   const people=el('section','guide-people');
   people.append(el('h3','','本章人物'));
   const badges=el('div','guide-person-buttons');
@@ -42,6 +43,8 @@ export function readingGuide(data, config) {
     personInfo.replaceChildren(el('strong','',p.name+(p.aliases?.length?' / '+p.aliases.join('、'):'')),el('p','',p.note));
   }
   people.append(badges,personInfo);host.append(people);drawPeople();
+  }
+  if (guide.portraits) host.append(personPortraits(data, guide));
   if(guide.facts?.length){
     const facts=el('div','guide-facts');
     for(const fact of guide.facts){
@@ -217,4 +220,35 @@ function dreamComparison(dreams){
     card.append(drawing,el('h4','',dream.title),el('p','',dream.summary),referenceLink(dream.reference));grid.append(card);
   }
   host.append(grid);return host;
+}
+
+function personPortraits(data, guide){
+  const host=el('section','person-portraits');
+  host.append(el('h3','','十二子：各人的特点与父亲的话'),el('p','muted small',guide.portraitIntro));
+  const search=el('input');search.type='search';search.placeholder='搜索名字、比喻或关键词';
+  search.setAttribute('aria-label','搜索十二子特点');
+  const count=el('p','muted small');count.setAttribute('aria-live','polite');
+  const grid=el('div','portrait-grid');
+  function render(){
+    const query=search.value.trim().toLowerCase();
+    const matches=guide.portraits.filter(p=>[data.peopleById.get(p.personId).name,...p.keywords,p.imagery,p.summary,p.message].join(' ').toLowerCase().includes(query));
+    count.textContent='显示 '+matches.length+' / '+guide.portraits.length+' 人 · 按经文次序';
+    grid.replaceChildren();
+    if(!matches.length)grid.append(el('p','muted','没有找到匹配的人物或意象。'));
+    for(const portrait of matches){
+      const person=data.peopleById.get(portrait.personId);
+      const card=el('article','portrait-card');card.dataset.portrait=person.id;
+      const heading=el('div','portrait-heading');heading.append(el('span','eyebrow',String(portrait.order).padStart(2,'0')),el('h4','',person.name));
+      const keywords=el('div','portrait-keywords');portrait.keywords.forEach(word=>keywords.append(el('span','tag',word)));
+      card.append(heading,keywords,el('p','portrait-summary',portrait.summary));
+      const content=el('dl');
+      for(const [title,text] of [['经文意象',portrait.imagery],['父亲的话',portrait.message]]){
+        content.append(el('dt','',title),el('dd','',text));
+      }
+      card.append(content,referenceLink(portrait.reference));
+      const note=el('details');note.append(el('summary','','阅读提醒'),el('p','muted small',portrait.note));card.append(note);
+      grid.append(card);
+    }
+  }
+  search.addEventListener('input',render);host.append(search,count,grid);render();return host;
 }
