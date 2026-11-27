@@ -1,3 +1,4 @@
+import { topicView, topicIndex } from './components/topic.js';
 import { chapterRecords } from './components/chapter-records.js';
 import { readingGuide } from './components/reading-guide.js';
 import { loadData } from './data.js';
@@ -16,7 +17,7 @@ try {
   const brand = link('ReadBible', '#/', 'brand');
   brand.append(el('span', '', '经文与脉络'));
   const nav = el('nav', 'main-nav'); nav.setAttribute('aria-label', '主导航');
-  nav.append(link('书卷目录', '#/'), link('人物关系', '#/people'), link('地图资料', '#/maps'), link('历史地图', '#/atlas'));
+  nav.append(link('书卷目录', '#/'), link('主题阅读', '#/topics'), link('人物关系', '#/people'), link('地图资料', '#/maps'), link('历史地图', '#/atlas'));
   header.append(brand, nav, el('span', 'prototype-label', '探索原型 · 01'));
   const main = el('main'); main.id = 'main';
   const footer = el('footer', '', 'ReadBible / 阅读经文，看见脉络。资料与图表仍在整理，示意内容以标注为准。');
@@ -32,7 +33,7 @@ try {
     main.append(intro('READ / CONNECT / EXPLORE', '从一章开始，看见更大的脉络。', '沿着书卷阅读，在人物关系、地点与事件之间自由切换。'));
     const samples = el('div', 'sample-links');
     samples.append(link('01   创世记 4章 · 展开人物关系 →', '#/book/genesis/4', 'sample-card'), link('02   列王纪上 12章 · 沿时间看地图 →', '#/book/1-kings/12', 'sample-card'));
-    main.append(samples);
+    main.append(samples,link('主题阅读：会幕与祭司 · 出埃及记25–28章 →','#/topics/tabernacle','sample-card'));
     const heading = el('div', 'section-heading');heading.append(el('h2', '', '书卷目录'), el('span', 'muted small', `已有 ${data.catalog.length} 卷样本 · 其余书卷待录入`));
     main.append(heading);
     const books = el('div', 'book-grid');
@@ -47,6 +48,7 @@ try {
   }
   function bookPage(book) {
     main.append(link('← 书卷目录', '#/', 'breadcrumb'), intro(book.section, book.name, '选择章节。带圆点的章节已有图表样本，其余章节保留整理入口。'));
+    if(book.id==='exodus')main.append(link('按主题读：会幕与祭司（25–28章） →','#/topics/tabernacle','sample-card'));
     const grid = el('div', 'chapter-grid');
     for (let number = 1; number <= book.chapters; number++) {
       const ready = data.chapters.some(c => c.bookId === book.id && c.number === number);
@@ -69,6 +71,7 @@ try {
     const article = el('article');
     article.append(intro(`CHAPTER ${String(number).padStart(2, '0')}`, content?.title || `${book.name} 第${number}章`, content?.summary || '这一章的资料尚未整理。可以继续浏览目录，或先查看已有的交互样本。'));
     if (content) {
+      if(book.id==='exodus'&&number===25)article.append(link('继续按主题读：帐幕、院子与祭司衣袍 →','#/topics/tabernacle','sample-card'));
       for (const id of content.figureIds) {
         const config = data.figuresById.get(id);
         if (config.kind === 'genealogy') article.append(genealogy(data, config));
@@ -136,6 +139,9 @@ try {
       if (book && parts.length === 2) bookPage(book);
       else if (book && parts.length === 3 && Number.isInteger(number) && number >= 1 && number <= book.chapters) chapterPage(book, number);
       else main.append(intro('404', '没有找到这个章节', '请从书卷目录重新选择。'), link('返回目录', '#/', 'text-link'));
+    } else if(parts[0]==='topics'){
+      if(parts.length===1)main.append(intro('TOPICS','主题阅读','从一个主题出发，串起相关经文、图表与参考图片。'),topicIndex(data));
+      else{const topic=data.topics.find(t=>t.id===parts[1]);if(topic)main.append(link('← 主题目录','#/topics','breadcrumb'),intro(topic.scope,topic.title,topic.subtitle),topicView(data,topic,params.get('section')));else main.append(intro('404','没有找到这个主题','请返回主题目录。'),link('返回主题目录','#/topics','text-link'));}
     } else if (parts[0] === 'people') {
       main.append(intro('PEOPLE & RELATIONSHIPS', '人物可以跨越章节，资料只维护一份。', '全局视图目前接入创世记第4、5、10、11、25、28–30章样本。展开连接处，沿家族分支继续阅读。'), genealogy(data, familyConfig, { global:true, focusId:params.get('focus'), returnHash:params.get('from') }));
     } else if (parts[0] === 'maps') {

@@ -6,6 +6,12 @@
     "chapters": 50
   },
   {
+    "id": "exodus",
+    "name": "出埃及记",
+    "section": "摩西五经",
+    "chapters": 40
+  },
+  {
     "id": "judges",
     "name": "士师记",
     "section": "历史书",

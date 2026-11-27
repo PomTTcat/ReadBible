@@ -1405,5 +1405,57 @@
       "updated": "2026-11-17",
       "review": "待内容审核"
     }
+  },
+  {
+    "bookId": "exodus",
+    "number": 25,
+    "title": "甘心献礼与三类圣所器物",
+    "summary": "从圣所的目的开始，逐件查看约柜与施恩座、陈设饼桌、金灯台，比较材料、尺寸和用途。",
+    "personIds": [],
+    "figureIds": [
+      "exodus-25-guide"
+    ],
+    "sections": [
+      {
+        "title": "甘心献上材料 · 25:1–9",
+        "text": "先读献礼的心意，再看金属、织物、木材、油与宝石；这些材料为圣所及其器具预备。"
+      },
+      {
+        "title": "约柜与施恩座 · 25:10–22",
+        "text": "柜内放法版；柜上是施恩座，两端有基路伯。神宣告要在那里与摩西相会、说话。"
+      },
+      {
+        "title": "陈设饼桌 · 25:23–30",
+        "text": "木桌包金，带环和抬杠；桌上常摆陈设饼，并有配套器皿。"
+      },
+      {
+        "title": "金灯台 · 25:31–40",
+        "text": "精金锤成一体，中央灯台两侧各有三个枝子，共有七个灯盏；最后再次提醒照山上所示样式制作。"
+      }
+    ],
+    "notes": [
+      "左侧为本站绘制的结构示意，右侧为现代会幕器物模型照片；两者都不作为古代原物照片或精确施工图。图像不按器物之间的比例展示。",
+      "尺寸依经文保留肘数，米数只作估算；灯台没有已知于本章的长宽高。",
+      "本章是制作指示；实际制作另见出37章。第5节皮料的动物名称有译法差异，不确定指认其物种。"
+    ],
+    "sources": [
+      {
+        "title": "Bible.com · 出埃及记25章",
+        "url": "https://www.bible.com/bible/48/EXO.25"
+      },
+      {
+        "title": "CNBible · 和合本出埃及记25章",
+        "url": "https://www.cnbible.com/cus/exodus/25.htm"
+      },
+      {
+        "title": "Bible Gateway · ESV出25:10长度单位注释",
+        "url": "https://www.biblegateway.com/passage/?search=Exodus+25&version=ESV"
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-26",
+      "review": "待内容审核"
+    }
   }
 ]

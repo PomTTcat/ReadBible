@@ -1,6 +1,6 @@
 import { el, button, link, svg } from '../dom.js';
 
-const referenceBooks = { genesis: {label:'创',code:'GEN'}, daniel: {label:'但',code:'DAN'} };
+const referenceBooks = { exodus: {label:'出',code:'EXO'}, genesis: {label:'创',code:'GEN'}, daniel: {label:'但',code:'DAN'} };
 const referenceText = r => `${referenceBooks[r.bookId].label} ${r.chapter}:${r.verseStart}${r.verseStart === r.verseEnd ? '' : '–'+r.verseEnd}`;
 const referenceLink = r => link(referenceText(r)+' · 阅读经文 ↗', `https://www.bible.com/bible/48/${referenceBooks[r.bookId].code}.${r.chapter}.${r.verseStart}${r.verseStart === r.verseEnd ? '' : '-'+r.verseEnd}`, 'text-link');
 
@@ -44,6 +44,7 @@ export function readingGuide(data, config) {
   }
   people.append(badges,personInfo);host.append(people);drawPeople();
   }
+  if (guide.sanctuaryItems) host.append(sanctuaryGuide(data, guide.sanctuaryItems));
   if (guide.portraits) host.append(personPortraits(data, guide));
   if(guide.facts?.length){
     const facts=el('div','guide-facts');
@@ -251,4 +252,65 @@ function personPortraits(data, guide){
     }
   }
   search.addEventListener('input',render);host.append(search,count,grid);render();return host;
+}
+
+function sanctuaryGuide(data, items){
+  const host=el('section','sanctuary-guide');
+  host.append(el('h3','','三类器物，逐件查看'),el('p','muted small','原创结构示意 · 不按比例 · 点击器物名称查看细节'));
+  const tabs=el('div','guide-person-buttons');tabs.setAttribute('role','group');tabs.setAttribute('aria-label','选择圣所器物');
+  const layout=el('div','sanctuary-layout'),canvas=el('div','sanctuary-canvas'),info=el('div','sanctuary-info');
+  info.setAttribute('aria-live','polite');
+  const drawing=svg('svg',{viewBox:'0 0 440 310',role:'img'});canvas.append(el('span','eyebrow','结构示意'),drawing);
+  const photo=el('figure','sanctuary-photo'),visuals=el('div','sanctuary-visuals');visuals.append(canvas,photo);
+  let selected=0;
+  const controls=items.map((item,i)=>{const b=button(item.name,()=>{selected=i;render();});tabs.append(b);return b;});
+  function render(){
+    const item=items[selected];
+    photo.replaceChildren();
+    for(const [photoIndex,assetId] of [item.assetId,...(item.supplementaryAssetIds||[])].filter(Boolean).entries()){
+      const asset=data.assetsById.get(assetId);
+      const image=el('img');image.src=asset.remoteUrl;image.alt=asset.alt;image.loading='lazy';image.decoding='async';
+      const original=link('',asset.remoteUrl,'sanctuary-photo-link');original.target='_blank';original.rel='noopener noreferrer';original.setAttribute('aria-label','查看'+asset.title+'大图');original.append(image);
+      const caption=el(photoIndex===0?'figcaption':'div','sanctuary-caption');caption.append(el('strong','',asset.title),el('p','muted small',asset.note));
+      const credit=el('p','muted small');credit.append(document.createTextNode('摄影：'+asset.creator+' · '),link('Wikimedia Commons 来源 ↗',asset.sourceUrl,'text-link'),document.createTextNode(' · '),link(asset.license,asset.licenseUrl,'text-link'));
+      caption.append(credit,el('p','muted small',asset.changes));
+      const failure=el('p','muted small','图片暂时未能加载，请使用下方来源链接查看。');failure.hidden=true;
+      image.addEventListener('error',()=>{original.hidden=true;failure.hidden=false;});
+      if(photoIndex===0){
+        photo.append(el('span','eyebrow','网图参考 · 现代模型'),original,failure,caption);
+      }else{
+        const supplement=el('details','sanctuary-supplement');
+        supplement.append(el('summary','','补充：查看约柜内部'),original,failure,caption);photo.append(supplement);
+      }
+    }
+    drawing.replaceChildren(svg('title',{},item.name+'结构示意，非精确复原'));drawing.setAttribute('aria-label',item.name+'结构示意，非精确复原');
+    const path=(d,width=6)=>drawing.append(svg('path',{d,fill:'none',stroke:'#997334','stroke-width':width,'stroke-linecap':'round','stroke-linejoin':'round'}));
+    const label=(x,y,text)=>drawing.append(svg('text',{x,y,'text-anchor':'middle',fill:'#52635b','font-size':15},text));
+    if(item.id==='ark'){
+      drawing.append(svg('rect',{x:100,y:150,width:240,height:105,rx:4,fill:'#eee0b8',stroke:'#997334','stroke-width':3}));
+      path('M86 148 H354',10);path('M50 218 H390',7);
+      for(const x of [125,315])drawing.append(svg('circle',{cx:x,cy:218,r:9,fill:'#eee0b8',stroke:'#997334','stroke-width':3}));
+      path('M143 140 Q138 105 160 90 Q183 110 205 84 M297 140 Q302 105 280 90 Q257 110 235 84',5);
+      label(220,55,'基路伯与翅膀 · 符号示意');label(220,133,'施恩座');label(220,186,'柜内：法版');label(220,291,'长2.5肘 × 宽1.5肘 × 高1.5肘');
+    }else if(item.id==='table'){
+      drawing.append(svg('rect',{x:85,y:123,width:270,height:25,rx:3,fill:'#eee0b8',stroke:'#997334','stroke-width':3}));
+      path('M105 150 V258 M335 150 V258 M120 148 V230 M320 148 V230',8);path('M50 174 H390',5);
+      for(const x of [145,215,285])drawing.append(svg('ellipse',{cx:x,cy:114,rx:23,ry:10,fill:'#c49b61',stroke:'#997334','stroke-width':2}));
+      label(220,68,'陈设饼 · 数量仅示意');label(220,291,'长2肘 × 宽1肘 × 高1.5肘');
+    }else{
+      path('M220 72 V250 M180 264 H260',9);
+      for(const [left,right,y] of [[70,370,210],[120,320,170],[170,270,130]])path(`M${left} 72 V${y-25} Q${left} ${y} 220 ${y} Q${right} ${y} ${right} ${y-25} V72`,7);
+      for(const x of [70,120,170,220,270,320,370]){
+        drawing.append(svg('ellipse',{cx:x,cy:72,rx:12,ry:6,fill:'#eee0b8',stroke:'#997334','stroke-width':2}));
+        drawing.append(svg('path',{d:`M${x} 61 Q${x-9} 52 ${x} 39 Q${x+9} 52 ${x} 61`,fill:'#c98b31'}));
+      }
+      label(220,24,'七个灯盏');label(220,291,'中央灯台 + 两侧各三枝');
+    }
+    info.replaceChildren(el('h3','',item.name),el('p','',item.material),el('p','',item.purpose));
+    const dimensions=item.dimensions;
+    info.append(el('strong','',dimensions?dimensions.map((n,i)=>['长','宽','高'][i]+n+'肘（约'+(n*0.45).toFixed(2)+'米）').join(' · '):'长宽高：本章未记载'));
+    const list=el('ul');item.details.forEach(text=>list.append(el('li','',text)));info.append(list,el('p','muted small',item.note),referenceLink(item.reference));
+    controls.forEach((b,i)=>b.setAttribute('aria-pressed',String(i===selected)));
+  }
+  layout.append(visuals,info);host.append(tabs,layout);render();return host;
 }

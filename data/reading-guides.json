@@ -1463,5 +1463,184 @@
         }
       }
     ]
+  },
+  {
+    "id": "exodus-25-guide",
+    "title": "会幕器物：约柜、陈设饼桌与金灯台",
+    "personIds": [],
+    "hidePeoplePicker": true,
+    "sanctuaryItems": [
+      {
+        "id": "ark",
+        "name": "约柜与施恩座",
+        "reference": {
+          "bookId": "exodus",
+          "chapter": 25,
+          "verseStart": 10,
+          "verseEnd": 22
+        },
+        "dimensions": [
+          2.5,
+          1.5,
+          1.5
+        ],
+        "material": "皂荚木柜，里外包精金；施恩座用精金。",
+        "purpose": "柜内放法版；施恩座上、两基路伯中间是神与摩西相会说话之处。",
+        "details": [
+          "四个金环配两根包金抬杠；约柜的杠不可抽出。",
+          "施恩座长2.5肘、宽1.5肘，与柜的长宽对应。",
+          "两个基路伯相向、脸朝施恩座，翅膀遮掩其上。"
+        ],
+        "note": "图中翅膀只是符号，不复原基路伯的确切外貌；经文没有给出施恩座厚度。",
+        "assetId": "osnis-ark-cherubim",
+        "supplementaryAssetIds": [
+          "timna-ark-interior"
+        ]
+      },
+      {
+        "id": "table",
+        "name": "陈设饼桌",
+        "reference": {
+          "bookId": "exodus",
+          "chapter": 25,
+          "verseStart": 23,
+          "verseEnd": 30
+        },
+        "dimensions": [
+          2,
+          1,
+          1.5
+        ],
+        "material": "皂荚木桌包精金；盘、调羹及奠酒的爵和瓶也用精金。",
+        "purpose": "在神面前常摆陈设饼。",
+        "details": [
+          "桌边有一掌宽的横梁与金牙边。",
+          "四角有金环，穿入包金的杠便于抬桌。",
+          "第25章未说明饼的数目和更换时间；十二个饼及安息日更换见利24:5–9。"
+        ],
+        "note": "图上以少量饼形符号表示用途，不表示本章规定的数目；桌上器皿的形状也未详细规定。",
+        "assetId": "timna-showbread-table"
+      },
+      {
+        "id": "lampstand",
+        "name": "金灯台",
+        "reference": {
+          "bookId": "exodus",
+          "chapter": 25,
+          "verseStart": 31,
+          "verseEnd": 40
+        },
+        "dimensions": null,
+        "material": "灯台及相关器具使用精金一他连得；一体锤成，不是木胎包金。",
+        "purpose": "七个灯盏发光，照向灯台前面。",
+        "details": [
+          "中央灯台加两侧各三枝，共七个灯盏。",
+          "枝子与主干有杏花形杯、球与花，连为一体。",
+          "配套蜡剪与蜡花盘也是精金。"
+        ],
+        "note": "本章没有给灯台长宽高，不补造尺寸；枝条弯曲形状是示意，不视为唯一考古复原。一他连得是重量单位，此处不作精确公斤换算。",
+        "assetId": "timna-menorah"
+      }
+    ],
+    "facts": [
+      {
+        "label": "先看目的，再看器物",
+        "text": "25:8说明圣所关乎神住在百姓中间；本章是制作指示，不是已经完工的现场记录。",
+        "reference": {
+          "bookId": "exodus",
+          "chapter": 25,
+          "verseStart": 8,
+          "verseEnd": 9
+        }
+      },
+      {
+        "label": "肘与米怎样对应？",
+        "text": "肘是以手肘至指端为基础的古代长度单位，标准并非一律相同。本页仅用1肘约0.45米作阅读估算；保留经文肘数，不当作精确施工尺寸。",
+        "reference": {
+          "bookId": "exodus",
+          "chapter": 25,
+          "verseStart": 10,
+          "verseEnd": 23
+        }
+      }
+    ],
+    "stages": [
+      {
+        "id": "ex25-0",
+        "title": "甘心献上材料",
+        "summary": "先读献礼的心意，再看金属、织物、木材、油与宝石；这些材料为圣所及其器具预备。",
+        "reference": {
+          "bookId": "exodus",
+          "chapter": 25,
+          "verseStart": 1,
+          "verseEnd": 9
+        }
+      },
+      {
+        "id": "ex25-1",
+        "title": "约柜与施恩座",
+        "summary": "柜内放法版；柜上是施恩座，两端有基路伯。神宣告要在那里与摩西相会、说话。",
+        "reference": {
+          "bookId": "exodus",
+          "chapter": 25,
+          "verseStart": 10,
+          "verseEnd": 22
+        }
+      },
+      {
+        "id": "ex25-2",
+        "title": "陈设饼桌",
+        "summary": "木桌包金，带环和抬杠；桌上常摆陈设饼，并有配套器皿。",
+        "reference": {
+          "bookId": "exodus",
+          "chapter": 25,
+          "verseStart": 23,
+          "verseEnd": 30
+        }
+      },
+      {
+        "id": "ex25-3",
+        "title": "金灯台",
+        "summary": "精金锤成一体，中央灯台两侧各有三个枝子，共有七个灯盏；最后再次提醒照山上所示样式制作。",
+        "reference": {
+          "bookId": "exodus",
+          "chapter": 25,
+          "verseStart": 31,
+          "verseEnd": 40
+        }
+      }
+    ],
+    "questions": [
+      {
+        "prompt": "这里是不是会幕的完整平面图？",
+        "observation": "不是。第25章主要列出献礼与三类器物。帐幕结构、幔子和安放位置见第26章；本页不提前把它们画成本章已给出的完整布局。",
+        "reference": {
+          "bookId": "exodus",
+          "chapter": 25,
+          "verseStart": 1,
+          "verseEnd": 40
+        }
+      },
+      {
+        "prompt": "施恩座是一张供人坐的椅子吗？",
+        "observation": "本段描述它安在柜上，基路伯在其两端，并与神相会说话有关；示意中不用普通座椅的外形表示。",
+        "reference": {
+          "bookId": "exodus",
+          "chapter": 25,
+          "verseStart": 17,
+          "verseEnd": 22
+        }
+      },
+      {
+        "prompt": "为什么反复提“样式”？",
+        "observation": "第9节与第40节前后呼应：材料与工艺不是随意发挥，而须依照神所指示的样式。本页图像只辅助定位经文细节。",
+        "reference": {
+          "bookId": "exodus",
+          "chapter": 25,
+          "verseStart": 9,
+          "verseEnd": 40
+        }
+      }
+    ]
   }
 ]

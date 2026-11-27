@@ -45,7 +45,7 @@ console.log(`资料校验通过：${catalog.length} 书卷、${chapters.length} 
 const ark=objects.find(o=>o.id==='noah-ark');
 assert.deepEqual(ark.dimensions,{length:300,width:50,height:30,unit:'cubit'});
 assert.equal(ark.decks,3);
-for(const asset of assets){assert.ok(asset.license);assert.ok(asset.sourceUrl.startsWith('https://'));await stat(asset.path);}
+for(const asset of assets){assert.ok(asset.license);assert.ok(asset.sourceUrl.startsWith('https://'));if(asset.remoteUrl){assert.ok(asset.remoteUrl.startsWith('https://'));assert.ok(asset.creator && asset.licenseUrl);}else await stat(asset.path);}
 const six=chapters.find(c=>c.bookId==='genesis'&&c.number===6);
 assert.deepEqual(six.figureIds,['noah-ark-dimensions']);
 
@@ -179,10 +179,10 @@ for(const guide of readingGuides){
   const ranges=guide.stages.map(s=>s.reference);
   assert.equal(ranges[0].verseStart,1);
   for(let i=0;i<ranges.length;i++){
-    const r=ranges[i];assert.ok(['daniel','genesis'].includes(r.bookId));assert.equal(r.bookId,ranges[0].bookId);assert.ok(r.verseStart<=r.verseEnd);
+    const r=ranges[i];assert.ok(['daniel','genesis','exodus'].includes(r.bookId));assert.equal(r.bookId,ranges[0].bookId);assert.ok(r.verseStart<=r.verseEnd);
     if(i)assert.equal(r.verseStart,ranges[i-1].verseEnd+1);
   }
-  assert.equal(ranges.at(-1).verseEnd,{'daniel:1':21,'daniel:2':49,'daniel:3':30,'genesis:37':36,'genesis:38':30,'genesis:39':23,'genesis:49':33}[ranges[0].bookId+':'+ranges[0].chapter]);
+  assert.equal(ranges.at(-1).verseEnd,{'daniel:1':21,'daniel:2':49,'daniel:3':30,'genesis:37':36,'genesis:38':30,'genesis:39':23,'genesis:49':33,'exodus:25':40}[ranges[0].bookId+':'+ranges[0].chapter]);
 }
 const guide1=readingGuides.find(g=>g.id==='daniel-1-guide');
 assert.deepEqual(guide1.nameTableIds.map(id=>people.find(p=>p.id===id).aliases[0]),['伯提沙撒','沙得拉','米煞','亚伯尼歌']);
@@ -258,3 +258,38 @@ for(const portrait of guide49.portraits){
 }
 assert.deepEqual(guide49.portraits[1].reference,guide49.portraits[2].reference);
 assert.equal(guide49.portraits.find(p=>p.personId==='dan').reference.verseEnd,17);
+
+const ex25=readingGuides.find(g=>g.id==='exodus-25-guide');
+assert.deepEqual(ex25.sanctuaryItems.map(i=>i.id),['ark','table','lampstand']);
+assert.deepEqual(ex25.sanctuaryItems[0].dimensions,[2.5,1.5,1.5]);
+assert.deepEqual(ex25.sanctuaryItems[1].dimensions,[2,1,1.5]);
+assert.equal(ex25.sanctuaryItems[2].dimensions,null,'Do not invent lampstand dimensions');
+for(const item of ex25.sanctuaryItems){assert.equal(item.reference.bookId,'exodus');assert.equal(item.reference.chapter,25);}
+assert.ok(chapters.find(c=>c.bookId==='exodus'&&c.number===25).sources.some(s=>s.url.endsWith('/EXO.25')));
+for(const item of ex25.sanctuaryItems){
+  const asset=assets.find(a=>a.id===item.assetId);
+  assert.ok(asset,'Each sanctuary object must reference a registered photo');
+  assert.match(asset.license,/^CC BY-SA (3|4)\.0$/);
+  assert.ok(asset.creator && asset.sourceUrl && asset.licenseUrl && asset.changes);
+}
+
+// Themes cover references across chapters without requiring chapter-page copies.
+const topics=await read('data/topics.json');index(topics);
+const tabernacle=topics.find(t=>t.id==='tabernacle');
+index(tabernacle.sections);
+const covered=new Map();
+for(const section of tabernacle.sections){
+  assert.ok(assets.some(a=>a.id===section.assetId));index(section.blocks);
+  for(const item of section.blocks){
+    assert.ok(item.summary && item.details.length);
+    assert.ok(['layers','frame','interior','altar','court','priest','breastplate'].includes(item.diagram));
+    if(item.assetId)assert.ok(assets.some(a=>a.id===item.assetId));
+    const r=item.reference;assert.equal(r.bookId,'exodus');assert.ok(r.verseStart<=r.verseEnd);
+    for(let verse=r.verseStart;verse<=r.verseEnd;verse++){
+      const key=r.chapter+':'+verse;assert.ok(!covered.has(key),'No missing or duplicated passage grouping');covered.set(key,item.id);
+    }
+  }
+}
+for(const [chapter,last] of [[26,37],[27,21],[28,43]])for(let v=1;v<=last;v++)assert.ok(covered.has(chapter+':'+v));
+assert.equal(covered.size,101);
+assert.equal(tabernacle.processing.status,'prototype');

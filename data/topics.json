@@ -1,0 +1,293 @@
+[
+  {
+    "id": "tabernacle",
+    "title": "会幕与祭司",
+    "subtitle": "从帐幕的层次，到院子的边界，再到祭司身上的名字。",
+    "scope": "主要经文：出埃及记26–28章 · 关联25章器物",
+    "intro": "按主题看空间、材料、器物与服事的人；点击各项查看示意、尺寸、经文与模型照片。",
+    "related": [
+      {
+        "title": "约柜、陈设饼桌与灯台",
+        "href": "#/book/exodus/25",
+        "summary": "查看25章器物、施恩座与两个基路伯的参考照片。"
+      }
+    ],
+    "notes": [
+      "这是制作指示的阅读导览，不表示这些物件在此时已经制作完成。",
+      "本站图形仅作结构和相对位置示意，不是施工图；模型照片为现代复原，不能替代经文本身。",
+      "米数沿用1肘约0.45米的阅读估算，不作为古代长度标准的精确判定。"
+    ],
+    "sections": [
+      {
+        "id": "structure",
+        "title": "帐幕：覆盖、骨架与分隔",
+        "description": "先从外到内拆开看，再看幔子两侧的器物。",
+        "assetId": "timna-sanctuary-interior",
+        "blocks": [
+          {
+            "id": "coverings",
+            "title": "四层覆盖",
+            "reference": {
+              "bookId": "exodus",
+              "chapter": 26,
+              "verseStart": 1,
+              "verseEnd": 14
+            },
+            "summary": "把内层幔子、山羊毛罩棚与两层皮盖分开，便不会把所有“幔子”混成一张布。",
+            "details": [
+              "最内层：十幅细麻彩线幔子，绣基路伯；每幅28×4肘，五幅一组，两组以五十个金钩连接。",
+              "山羊毛罩棚：十一幅，每幅30×4肘；分五幅与六幅两组，以五十个铜钩连接，前面折回，后面与两侧有余垂。",
+              "上面另有染红公羊皮盖与最外层皮盖；经文未给这两层的尺寸。"
+            ],
+            "diagram": "layers",
+            "note": "最外层皮料的希伯来名称译法有分歧，和合本译“海狗皮”；这里不确定其动物种类。层间距离与外层颜色仅为示意。"
+          },
+          {
+            "id": "frames",
+            "title": "竖板、银座与闩",
+            "reference": {
+              "bookId": "exodus",
+              "chapter": 26,
+              "verseStart": 15,
+              "verseEnd": 30
+            },
+            "summary": "骨架不是整面实墙：逐块竖板落在银座上，再以横闩连在一起。",
+            "details": [
+              "每块板10×1.5肘，约4.50×0.68米，每块两榫。",
+              "南北各二十块板、四十银座；西面六块加两个拐角，共八块、十六银座。",
+              "每一面各五根闩，中闩从一端通到另一端；木板和闩包金，金环套闩。"
+            ],
+            "diagram": "frame",
+            "note": "拐角连接的具体复原存在不同方案；示意不据此断定整座建筑的精确宽度。"
+          },
+          {
+            "id": "veil",
+            "title": "幔子与器物位置",
+            "reference": {
+              "bookId": "exodus",
+              "chapter": 26,
+              "verseStart": 31,
+              "verseEnd": 35
+            },
+            "summary": "内幔把圣所与至圣所隔开；这里可以把25章的器物放回它们所在的空间。",
+            "details": [
+              "内幔用细麻和彩线织造，绣基路伯，挂在四根包金柱和四个银座上。",
+              "约柜与施恩座在幔内的至圣所；桌子在幔外北面，灯台在南面，两者相对。",
+              "此图只标本段给出的器物，不把第30章香坛提前列作26章已描述的内容。"
+            ],
+            "diagram": "interior",
+            "note": "示意上北下南、左西右东；空间格子的宽度不代表经文在本段明定的房间尺寸。现代模型照片可能含后续章节的香坛与服装展示。"
+          },
+          {
+            "id": "entrance",
+            "title": "帐幕门帘",
+            "reference": {
+              "bookId": "exodus",
+              "chapter": 26,
+              "verseStart": 36,
+              "verseEnd": 37
+            },
+            "summary": "帐幕门帘与里面的隔幔有不同支撑，阅读时要分开。",
+            "details": [
+              "门帘使用蓝、紫、朱红彩线与细麻，以绣花手工制作。",
+              "门帘挂在五根包金木柱上，柱下是五个铜座；内幔则是四柱、银座。"
+            ],
+            "diagram": "interior"
+          }
+        ]
+      },
+      {
+        "id": "court",
+        "title": "院子与日常照管",
+        "description": "从院门与铜坛看外院，再看祭司怎样从晚上到早晨照管灯火。",
+        "assetId": "timna-courtyard",
+        "blocks": [
+          {
+            "id": "altar",
+            "title": "院中的铜坛",
+            "reference": {
+              "bookId": "exodus",
+              "chapter": 27,
+              "verseStart": 1,
+              "verseEnd": 8
+            },
+            "summary": "坛为皂荚木制作、外包铜，四角有与坛连为一体的角。",
+            "details": [
+              "长宽各5肘，高3肘，约2.25×2.25×1.35米；坛是中空、用板做的。",
+              "铜网安在坛围腰板以下，达到坛的半腰；铜环配包铜木杠，便于抬运。",
+              "收灰的盆、铲、盘、肉锸与火鼎等器具也用铜。"
+            ],
+            "diagram": "altar",
+            "note": "铜网位置按文字作简化示意，不据此补造内部填料、火床或台阶；这段还不是献祭操作流程。"
+          },
+          {
+            "id": "courtyard",
+            "title": "院子的边界与东门",
+            "reference": {
+              "bookId": "exodus",
+              "chapter": 27,
+              "verseStart": 9,
+              "verseEnd": 19
+            },
+            "summary": "院子是100×50肘的围合空间，东面保留20肘宽的门帘。",
+            "details": [
+              "院长100肘、宽50肘、帷子高5肘，约45×22.5米、高2.25米。",
+              "南北各二十柱，西面十柱；东面门两侧各15肘、各三柱，门帘20肘、四柱。",
+              "院帷用捻的细麻；柱座为铜，柱钩与杆子用银。院门有蓝、紫、朱红彩线。"
+            ],
+            "diagram": "court",
+            "note": "图只表达院子边界、东门和帐幕的大致关系；铜坛与帐幕的精确间距并未由本章给出。洗濯盆在第30章另述，未加入本章示意。"
+          },
+          {
+            "id": "lamps",
+            "title": "灯火需要人的照管",
+            "reference": {
+              "bookId": "exodus",
+              "chapter": 27,
+              "verseStart": 20,
+              "verseEnd": 21
+            },
+            "summary": "这里从“制作什么”转到“谁负责、何时照管”：百姓供应油，亚伦和儿子整理灯。",
+            "details": [
+              "使用为点灯捣成的清橄榄油。",
+              "照管地点在会幕内、法柜前的幔外；由亚伦和儿子从晚上到早晨在耶和华面前经理。",
+              "与25章金灯台合读：一个主题下既有器物，也有持续的服事。"
+            ],
+            "diagram": "interior",
+            "assetId": "timna-menorah",
+            "note": "不把“常常点灯”自行转换成经文没有给出的每盏灯24小时操作细则。"
+          }
+        ]
+      },
+      {
+        "id": "garments",
+        "title": "祭司衣袍：肩上、胸前与额上",
+        "description": "先看整体，再看每件服饰的位置、作用与名字。",
+        "assetId": "timna-high-priest",
+        "blocks": [
+          {
+            "id": "priesthood",
+            "title": "为供祭司职分而穿戴",
+            "reference": {
+              "bookId": "exodus",
+              "chapter": 28,
+              "verseStart": 1,
+              "verseEnd": 5
+            },
+            "summary": "亚伦和四个儿子被召来供祭司职分；衣服关乎分别为圣，也为荣耀与华美。",
+            "details": [
+              "亚伦的儿子：拿答、亚比户、以利亚撒、以他玛。",
+              "本段列出胸牌、以弗得、外袍、内袍、冠冕与腰带，并吩咐有智慧的工匠制作。"
+            ],
+            "diagram": "priest",
+            "note": "全身图表示亚伦服饰的组合，不表示所有祭司都穿同一套衣服。"
+          },
+          {
+            "id": "ephod",
+            "title": "以弗得与两肩的纪念石",
+            "reference": {
+              "bookId": "exodus",
+              "chapter": 28,
+              "verseStart": 6,
+              "verseEnd": 14
+            },
+            "summary": "两块肩石各刻六名，让亚伦在肩上担着以色列儿子的名字作纪念。",
+            "details": [
+              "以弗得使用金线与蓝、紫、朱红彩线及细麻；两条肩带与巧工带相连。",
+              "两石上的名字按出生次序，六名在这边、六名在那边；石镶金槽，配精金链。"
+            ],
+            "diagram": "priest",
+            "note": "不把模型石色或现代切割形状当成宝石身份的定论。"
+          },
+          {
+            "id": "breastpiece",
+            "title": "胸牌与十二块宝石",
+            "reference": {
+              "bookId": "exodus",
+              "chapter": 28,
+              "verseStart": 15,
+              "verseEnd": 30
+            },
+            "summary": "胸牌四方、叠成两层，十二块石分四行，带着十二支派的名字在胸前作纪念。",
+            "details": [
+              "长宽各一虎口，约半肘，沿本页换算约22.5厘米。",
+              "四行各三块；用金链、金环和蓝带系到以弗得上，不可离缝。",
+              "乌陵和土明放在决断胸牌里；本段未描述其外形或操作办法。"
+            ],
+            "diagram": "breastplate",
+            "note": "图中的石色只用于区分十二块，不确定对应现代矿物；本段没有逐一列明每块石与哪一支派配对，不补造对应表。"
+          },
+          {
+            "id": "robe",
+            "title": "蓝袍、石榴与铃铛",
+            "reference": {
+              "bookId": "exodus",
+              "chapter": 28,
+              "verseStart": 31,
+              "verseEnd": 35
+            },
+            "summary": "蓝色外袍的下摆交替有石榴与金铃，供职进出时声音被听见。",
+            "details": [
+              "外袍全蓝；领口织边，防止破裂。",
+              "蓝、紫、朱红线做的石榴，与金铃交替围绕下摆；本段没有规定总数。"
+            ],
+            "diagram": "priest",
+            "note": "示意中的石榴和铃铛数量只用于表示交替关系。"
+          },
+          {
+            "id": "headplate",
+            "title": "额上的金牌与细麻衣物",
+            "reference": {
+              "bookId": "exodus",
+              "chapter": 28,
+              "verseStart": 36,
+              "verseEnd": 39
+            },
+            "summary": "金牌系在冠冕前面，刻着“归耶和华为圣”；不是普通的装饰字样。",
+            "details": [
+              "金牌以蓝带系在冠冕前、位于亚伦额上，与圣物的罪孽及蒙悦纳相关。",
+              "细麻内袍、冠冕与绣花腰带也在此吩咐制作。"
+            ],
+            "diagram": "priest"
+          },
+          {
+            "id": "sons",
+            "title": "亚伦儿子的衣服与遮体",
+            "reference": {
+              "bookId": "exodus",
+              "chapter": 28,
+              "verseStart": 40,
+              "verseEnd": 43
+            },
+            "summary": "儿子的服装另行交代，不能直接复制亚伦身上的全套装饰。",
+            "details": [
+              "儿子有内袍、腰带、裹头巾；亚伦与儿子要穿戴、受膏并分别为圣供职。",
+              "细麻裤从腰到大腿，遮掩下体，供职时须穿；这部分不在外观模型中展开。"
+            ],
+            "diagram": "priest",
+            "note": "本段是穿戴与分别为圣的指示，按立礼的具体过程见第29章。"
+          }
+        ]
+      }
+    ],
+    "processing": {
+      "status": "prototype",
+      "updated": "2026-11-27",
+      "review": "待内容审核"
+    },
+    "sources": [
+      {
+        "title": "World English Bible · Exodus 26",
+        "url": "https://ebible.org/engwebp/EXO26.htm"
+      },
+      {
+        "title": "World English Bible · Exodus 27",
+        "url": "https://ebible.org/engwebp/EXO27.htm"
+      },
+      {
+        "title": "World English Bible · Exodus 28",
+        "url": "https://ebible.org/engwebp/EXO28.htm"
+      }
+    ]
+  }
+]
